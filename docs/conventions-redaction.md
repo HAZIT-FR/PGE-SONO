@@ -43,6 +43,7 @@ Les RFC 2119 et 8174 définissent **MUST**, **SHOULD**, **MAY**, etc., pour cert
 
 - Utiliser Mermaid pour les chaînes fonctionnelles, avec une disposition **verticale** et des libellés courts pour limiter le débordement latéral.
 - Construire les cadres d'équipements sur **trois niveaux lorsque c'est utile** : **catégorie → fonction → référence**. Exemple : `Amplificateurs<br/>Médiums et aigus<br/>THE T.AMP E-1200`.
+- Préférer la **classification acoustique vérifiée** aux rôles subjectifs (« principales », « d'appoint ») : une enceinte couvrant plusieurs bandes reste une **enceinte large bande**, même lorsqu'un processeur limite les fréquences qu'elle reçoit. Préciser, si confirmé, le nombre de voies et le diamètre du haut-parleur.
 - Dans les schémas de distribution, donner **la même couleur à chaque exemplaire d'un même modèle** et indiquer la quantité correspondante dans la légende : 2 B1520 PRO, 2 A12, 2 VP1800S. Garder des couleurs distinctes pour les autres familles (commande, traitement, amplificateurs).
 - Placer le **schéma principal visible au début de la section sur le matériel** ; conserver les tableaux de raccordement et les caractéristiques secondaires dans des sections repliables.
 - **Un retour à la ligne dans un cadre marque un changement de catégorie d'information**, jamais une coupure arbitraire d'un nom de modèle ou d'un numéro de référence. Exemple : `Mixage<br/>JCB NSA 2008`, et non `Mixage · JCB NSA 2008` qui peut être coupé en `JCB NSA / 2008`.
