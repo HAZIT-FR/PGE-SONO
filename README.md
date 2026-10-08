@@ -15,14 +15,14 @@ Le dispositif existant comprend **2 amplificateurs**, **4 enceintes de diffusion
 
 ### Vue d'ensemble — matériel et câblage
 
-![Installation PGE — vue illustrée du matériel et des câbles](docs/A3.png)
+<img src="docs/A3.png" alt="Installation PGE — vue illustrée du matériel et des câbles" width="600">
 
 ### Schéma et branchements audio
 
 La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2**.
 
 ~~~mermaid
-%%{init: {"flowchart": {"useMaxWidth": true, "nodeSpacing": 16, "rankSpacing": 24, "htmlLabels": true, "wrappingWidth": 260}, "theme": "base", "themeVariables": {"fontSize": "12px", "lineColor": "#64748b"}}}%%
+%%{init: {"flowchart": {"useMaxWidth": true, "nodeSpacing": 5, "rankSpacing": 24, "padding": 6, "htmlLabels": true, "wrappingWidth": 260}, "theme": "base", "themeVariables": {"fontSize": "14px", "lineColor": "#64748b"}}}%%
 flowchart TB
   A["<b>COMMANDE</b><br/>Poste de tir<br/>COBRA 18R2"]
   B["<b>LECTURE AUDIO</b><br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
