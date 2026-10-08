@@ -208,7 +208,7 @@ Pour compléter les **3 points de diffusion existants** et mieux couvrir les ext
 
 <div align="justify">
 
-PGE conserve **sa sonorisation actuelle**. La demande porte sur le renfort ; la fourniture des câbles et des protections sera précisée avec le partenaire.
+Voici le matériel dont nous disposons déjà et celui que nous souhaiterions emprunter pour compléter notre installation.
 
 </div>
 
