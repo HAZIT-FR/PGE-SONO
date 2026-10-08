@@ -6,13 +6,13 @@ Ces conventions s'appliquent à la documentation de **PGE-SONO**. Elles visent l
 
 ## Structure et public
 
-- Le \`README.md\` répond d'abord aux questions d'un décideur : **ce que PGE apporte**, **ce qui est envisagé**, **pourquoi un renfort est souhaité** et **ce qui reste à valider**.
+- Le `README.md` répond d'abord aux questions d'un décideur : **ce que PGE apporte**, **ce qui est envisagé**, **pourquoi un renfort est souhaité** et **ce qui reste à valider**.
 - L'[annexe technique](annexe-technique.md) réunit les références, branchements, puissances, hypothèses, tableaux et estimations.
 - Une hypothèse est toujours nommée comme telle. Une donnée constructeur ne devient pas une mesure terrain.
 
 ## Typographie et hiérarchie
 
-- Un seul titre principal \`#\`, puis des sous-titres \`##\` et \`###\` sans saut de niveau.
+- Un seul titre principal `#`, puis des sous-titres `##` et `###` sans saut de niveau.
 - Titres généraux en **casse naturelle** : « Capacité de sonorisation », « Renfort souhaité ».
 - Rubriques d'inventaire en **majuscules** : « TRAITEMENT ET AMPLIFICATION », « ENCEINTES PASSIVES ».
 - **Références matérielles en majuscules dans les tableaux** : « THE T.AMP E-1200 », « BEHRINGER EUROLIVE B1520 PRO ». Il s'agit d'un choix d'identification documentaire, non de la graphie commerciale officielle.
