@@ -56,11 +56,21 @@ flowchart TB
   MG["<b>MÂT DE COUPLAGE</b>"]
   MD["<b>MÂT DE COUPLAGE</b>"]
 
+  %% Points intermédiaires invisibles : deux libellés par câble
+  JBC[" "]
+  JCD[" "]
+  JDE[" "]
+  JDF[" "]
+
   A -. "Télécommunications radio (antenne)" .-> B
-  B -. "RCA → LINE 1" .-> C
-  C -. "REC OUT → INPUT" .-> D
-  D -. "XLR" .-> E
-  D -. "XLR" .-> F
+  B -. "RCA" .- JBC
+  JBC -. "LINE 1" .-> C
+  C -. "REC OUT" .- JCD
+  JCD -. "INPUT" .-> D
+  D -. "SORTIE XLR" .- JDE
+  JDE -. "ENTRÉE XLR" .-> E
+  D -. "SORTIE XLR" .- JDF
+  JDF -. "ENTRÉE XLR" .-> F
   E -. "TOP G" .-> LG
   E -. "TOP D" .-> LD
   F -. "SUB G" .-> FG
@@ -85,6 +95,7 @@ flowchart TB
   classDef appoint fill:#ecfccb,stroke:#65a30d,color:#365314;
   classDef basses fill:#f3e8ff,stroke:#9333ea,color:#581c87;
   classDef support fill:#f8fafc,stroke:#94a3b8,color:#334155;
+  classDef junction fill:transparent,stroke:transparent,color:transparent;
   class A,B,C commande;
   class D processeur;
   class E,F amplis;
@@ -93,6 +104,7 @@ flowchart TB
   class AG,AD appoint;
   class SG,SD basses;
   class TG,TD,MG,MD support;
+  class JBC,JCD,JDE,JDF junction;
 ~~~
 
 **Puissances cumulées :** amplificateurs **3 680 W annoncés** · enceintes **1 900 W RMS**.
