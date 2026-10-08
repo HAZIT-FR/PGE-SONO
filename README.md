@@ -56,20 +56,21 @@ flowchart TB
   MG["<b>MÂT DE COUPLAGE</b>"]
   MD["<b>MÂT DE COUPLAGE</b>"]
 
-  A -- "Télécommunications radio (antenne)" --> B
-  B --> C --> D
-  D --> E
-  D --> F
-  E --> LG
-  E --> LD
-  LG --> BG
-  LG --> AG
-  LD --> BD
-  LD --> AD
-  F --> FG
-  F --> FD
-  FG --> SG
-  FD --> SD
+  A -. "Télécommunications radio (antenne)" .-> B
+  B -. "RCA → LINE 1" .-> C
+  C -. "REC OUT" .-> D
+  D -. "XLR" .-> E
+  D -. "XLR" .-> F
+  E -. "TOP G" .-> LG
+  E -. "TOP D" .-> LD
+  F -. "SUB G" .-> FG
+  F -. "SUB D" .-> FD
+  LG -.-> BG
+  LG -.-> AG
+  LD -.-> BD
+  LD -.-> AD
+  FG -.-> SG
+  FD -.-> SD
 
   BG --- TG
   BD --- TD
