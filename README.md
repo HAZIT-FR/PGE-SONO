@@ -196,21 +196,19 @@ Si le prêt est confirmé suffisamment tôt, PGE préparera et testera les racco
 
 ## 4. Conditions d'installation — sécurité et logistique
 
-**Point indispensable : l'implantation définitive doit être validée sur le plan de sécurité, quel que soit le matériel prêté.**
+**L'implantation définitive doit être validée sur le plan de sécurité**, quel que soit le matériel retenu.
 
-<details open>
-<summary><strong>Afficher les conditions à prévoir sur site</strong></summary>
+### Conditions à prévoir sur site
 
 | Point à organiser | Conditions prévues |
 |---|---|
-| **Implantation / sécurité** | Enceintes à **1 à 2 m devant la barrière**, côté tir ; hors des cercles de sécurité de **30 m** liés au petit calibre ; hauteur envisagée de **2,5 à 3 m**, sous réserve de validation. |
-| **Électricité** | Rack sur ligne dédiée **230 V / 16 A**, sans buvette ni chauffage ; **seconde ligne adaptée** en cas d'ajout d'amplificateurs. |
-| **Accès / manutention** | Déchargement au plus près ; caissons de **41 kg** et B1520 PRO de **27 kg**. |
-| **Protection météo** | Rack couvert et protections adaptées contre la pluie pour amplificateurs et enceintes. |
-| **Essais** | Environ **30 min avant la tombée de la nuit** pour les vérifications sonores. |
+| **Implantation et sécurité** | **Position :** 1 à 2 m devant la barrière, côté tir.<br/>**Distance de sécurité :** hors des cercles de 30 m liés au petit calibre.<br/>**Hauteur envisagée :** 2,5 à 3 m, sous réserve de validation. |
+| **Électricité** | **Rack :** ligne dédiée 230 V / 16 A, sans buvette ni chauffage.<br/>**Renfort :** seconde ligne électrique adaptée si des amplificateurs sont ajoutés. |
+| **Accès et manutention** | **Déchargement :** au plus près des emplacements.<br/>**Poids :** caissons de 41 kg ; B1520 PRO de 27 kg. |
+| **Protection météo** | **Rack :** couvert.<br/>**Amplificateurs et enceintes :** protections adaptées contre la pluie. |
+| **Essais sonores** | **Créneau :** environ 30 min avant la tombée de la nuit.<br/>**Objectif :** vérification de la diffusion et derniers réglages. |
 
-<details>
-<summary>🔹 Vérifications techniques avant le spectacle — PGE</summary>
+### Vérifications techniques avant le spectacle — PGE
 
 - [ ] Valider les emplacements, les distances de sécurité et la hauteur des supports.
 - [ ] Confirmer le prêt et la compatibilité du matériel.
@@ -220,9 +218,6 @@ Si le prêt est confirmé suffisamment tôt, PGE préparera et testera les racco
 - [ ] Tester les niveaux, la couverture et les éventuels retards.
 - [ ] Vérifier les niveaux sonores et la réglementation applicable.
 
-</details>
-
-</details>
 ---
 
 *Document de travail établi à partir du dossier PGE du 7 octobre 2026. Puissances et caractéristiques reprises du dossier initial ; implantations et niveaux acoustiques à confirmer sur place.*
