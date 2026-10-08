@@ -13,6 +13,10 @@ Dossier technique de l'installation PGE, des contraintes de diffusion sur le sit
 
 Le dispositif existant comprend **2 amplificateurs**, **4 enceintes de diffusion** et **2 caissons de graves**, répartis sur **3 points de diffusion**.
 
+### Vue d'ensemble — matériel et câblage
+
+![Installation PGE — vue illustrée du matériel et des câbles](docs/A3.png)
+
 ### Schéma et branchements audio
 
 La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2**.
