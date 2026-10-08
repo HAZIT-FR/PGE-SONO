@@ -27,6 +27,61 @@ Les valeurs de couverture sont **théoriques** : elles ne remplacent pas un essa
 
 ## 2. Matériel disponible chez PGE
 
+### Schéma et branchements audio
+
+La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2** par télécommunications radio (antenne).
+
+~~~mermaid
+%%{init: {"flowchart": {"nodeSpacing": 28, "rankSpacing": 36, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
+flowchart TB
+  A["Commande<br/>Poste de tir<br/>COBRA 18R2"]
+  B["Lecture audio<br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
+  C["Mixage<br/>Table principale<br/>JCB NSA 2008"]
+  D["Traitement<br/>Processeur audio<br/>FIR DSP 408"]
+  E["Amplificateurs<br/>Médiums et aigus<br/>THE T.AMP E-1200"]
+  F["Amplificateurs<br/>Graves<br/>THE T.AMP E-1500"]
+  LG["Canal gauche<br/>4 Ω"]
+  LD["Canal droit<br/>4 Ω"]
+  BG["Enceintes principales<br/>B1520 PRO<br/>Gauche"]
+  BD["Enceintes principales<br/>B1520 PRO<br/>Droite"]
+  AG["Enceintes d'appoint<br/>A12<br/>Gauche"]
+  AD["Enceintes d'appoint<br/>A12<br/>Droite"]
+  SG["Caissons de basses<br/>VP1800S<br/>Gauche"]
+  SD["Caissons de basses<br/>VP1800S<br/>Droite"]
+
+  A -. "Télécommunications radio (antenne)" .-> B
+  B --> C --> D
+  D --> E
+  D --> F
+  E --> LG
+  E --> LD
+  LG --> BG
+  LG --> AG
+  LD --> BD
+  LD --> AD
+  F --> SG
+  F --> SD
+
+  classDef commande fill:#f1f5f9,stroke:#64748b,color:#172b4d;
+  classDef processeur fill:#ffedd5,stroke:#d97706,color:#7c2d12;
+  classDef amplis fill:#dbeafe,stroke:#2563eb,color:#172b4d;
+  classDef canaux fill:#e2e8f0,stroke:#94a3b8,color:#334155;
+  classDef principales fill:#ccfbf1,stroke:#0f766e,color:#134e4a;
+  classDef appoint fill:#ecfccb,stroke:#65a30d,color:#365314;
+  classDef basses fill:#f3e8ff,stroke:#9333ea,color:#581c87;
+  class A,B,C commande;
+  class D processeur;
+  class E,F amplis;
+  class LG,LD canaux;
+  class BG,BD principales;
+  class AG,AD appoint;
+  class SG,SD basses;
+~~~
+
+**Légende des équipements :** gris — commande et lecture audio ; orange — 1 processeur DSP ; bleu — **2 amplificateurs** ; turquoise — **2 B1520 PRO** ; vert clair — **2 A12** ; violet — **2 caissons VP1800S**. Les cadres « canal » indiquent les deux voies de l'E-1200.
+
+**Liaisons :** trait plein — signal audio ; trait pointillé — télécommunications radio entre le poste de tir et la COBRA AUDIO BOX.
+
 | Matériel | Modèle | Qté |
 |---|---|---:|
 | Rack | THE BOX PRO AMPRACK MK II | 1 |
@@ -79,48 +134,7 @@ La puissance cumulée annoncée est de **3 680 W** pour les amplificateurs et 
 </details>
 
 <details>
-<summary><strong>Schéma et branchements audio</strong></summary>
-
-La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2** par télécommunications radio (antenne).
-
-~~~mermaid
-%%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 34, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
-flowchart TB
-  A["Poste de tir<br/>COBRA 18R2"]
-  B["Lecture de la bande-son<br/>COBRA AUDIO BOX"]
-  C["Mixage<br/>JCB NSA 2008"]
-  D["Traitement audio<br/>FIR DSP 408"]
-  E["Médiums et aigus<br/>THE T.AMP E-1200"]
-  F["Graves<br/>THE T.AMP E-1500"]
-  LG["Canal gauche<br/>4 Ω"]
-  LD["Canal droit<br/>4 Ω"]
-  BG["B1520 PRO<br/>Gauche"]
-  AG["A12<br/>Gauche"]
-  BD["B1520 PRO<br/>Droite"]
-  AD["A12<br/>Droite"]
-  SG["VP1800S<br/>Gauche"]
-  SD["VP1800S<br/>Droite"]
-
-  A -. "Télécommunications radio (antenne)" .-> B
-  B --> C --> D
-  D --> E
-  D --> F
-  E --> LG
-  E --> LD
-  LG --> BG
-  LG --> AG
-  LD --> BD
-  LD --> AD
-  F --> SG
-  F --> SD
-
-  classDef source fill:#f1f5f9,stroke:#64748b,color:#172b4d;
-  classDef amp fill:#dbeafe,stroke:#2563eb,color:#172b4d;
-  classDef speaker fill:#ecfdf5,stroke:#059669,color:#14532d;
-  class A,B,C source;
-  class D,E,F,LG,LD amp;
-  class BG,AG,BD,AD,SG,SD speaker;
-~~~
+<summary><strong>Raccordements par canal et sorties du processeur</strong></summary>
 
 | Circuit | Branchement |
 |---|---|
