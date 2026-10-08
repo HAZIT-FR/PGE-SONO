@@ -29,7 +29,7 @@ Les valeurs de couverture sont **théoriques** : elles ne remplacent pas un essa
 
 ### Schéma et branchements audio
 
-La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2** par télécommunications radio (antenne).
+La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2**.
 
 ~~~mermaid
 %%{init: {"flowchart": {"nodeSpacing": 28, "rankSpacing": 36, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
