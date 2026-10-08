@@ -69,8 +69,8 @@ flowchart TB
 
   BG --- TG
   BD --- TD
-  AG --- MG
-  AD --- MD
+  SG --- MG
+  SD --- MD
 
   classDef commande fill:#f1f5f9,stroke:#64748b,color:#172b4d;
   classDef processeur fill:#ffedd5,stroke:#d97706,color:#7c2d12;
