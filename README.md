@@ -101,7 +101,7 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 <details>
 <summary><strong>Fiche technique complète — matériel, puissances et raccordements</strong></summary>
 
-### COMMANDE, TRAITEMENT ET AMPLIFICATION
+### ⚪ COMMANDE ET MIXAGE
 
 | Équipement | Qté | Fonction et caractéristiques |
 |---|---:|---|
@@ -109,22 +109,32 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 | COBRA AUDIO BOX | 1 | Lecture MP3 sur clé USB ; sorties casque, RCA et jack 6,35 mm |
 | JCB NSA 2008 | 1 | Table de mixage principale ; 6 voies dont 1 micro ; volume et annonces |
 | BEHRINGER XENYX 302USB | 1 | Table de mixage de secours ; 5 voies |
+
+### 🟠 TRAITEMENT AUDIO
+
+| Équipement | Qté | Fonction et caractéristiques |
+|---|---:|---|
 | THE T.RACKS FIR DSP 408 | 1 | Processeur audio ; 4 entrées et 8 sorties XLR ; filtres FIR, égalisation, routage et limiteurs ; **sorties 5 à 8 libres** |
+
+### 🔵 AMPLIFICATION ET RACK
+
+| Équipement | Qté | Fonction et caractéristiques |
+|---|---:|---|
 | THE T.AMP E-1200 | 1 | Amplification médiums/aigus ; **2 × 990 W / 4 Ω** ou 2 × 680 W / 8 Ω ; classe H |
 | THE T.AMP E-1500 | 1 | Amplification graves ; **2 × 850 W / 8 Ω** ou 2 × 1 220 W / 4 Ω ; classe H |
 | THE BOX PRO AMPRACK MK II | 1 | Rack mobile, 230 V ; entrées et renvois XLR ; sorties Speakon System / Top / Sub |
 
-### ENCEINTES PASSIVES
+### 🟢 ENCEINTES PASSIVES
 
 | Modèle | Qté | Puissance RMS | Autres caractéristiques |
 |---|---:|---:|---|
-| BEHRINGER EUROLIVE B1520 PRO | 2 | **300 W** chacune | 8 Ω ; 2 voies ; 15″ + moteur d'aigus 1,75″ ; 1 200 W crête ; 96 dB (1 W / 1 m) ; 27 kg |
-| AUDIOPHONY A12 | 2 | **250 W** chacune | 8 Ω ; 3 voies ; 12″ ; 500 W crête ; 99 dB (1 W / 1 m) ; 14 kg |
-| BEHRINGER EUROLIVE VP1800S | 2 | **400 W** chacun | 8 Ω ; caisson 18″ ; 40–200 Hz ; 1 600 W crête ; 100 dB (1 W / 1 m) ; 41 kg |
+| 🟩 BEHRINGER EUROLIVE B1520 PRO | 2 | **300 W** chacune | 8 Ω ; 2 voies ; 15″ + moteur d'aigus 1,75″ ; 1 200 W crête ; 96 dB (1 W / 1 m) ; 27 kg |
+| 🟨 AUDIOPHONY A12 | 2 | **250 W** chacune | 8 Ω ; 3 voies ; 12″ ; 500 W crête ; 99 dB (1 W / 1 m) ; 14 kg |
+| 🟪 BEHRINGER EUROLIVE VP1800S | 2 | **400 W** chacun | 8 Ω ; caisson 18″ ; 40–200 Hz ; 1 600 W crête ; 100 dB (1 W / 1 m) ; 41 kg |
 
 Les B1520 PRO et A12 sont des **enceintes large bande** utilisées pour les médiums/aigus ; leur plage de diffusion dépend des filtres configurés dans le DSP. [B1520 PRO : constructeur](https://www.behringer.com/en/products/0313-AAM) · [A12 : fiche technique Audiofanzine](https://fr.audiofanzine.com/enceinte-sono-full-range/audiophony/A12/).
 
-### RACCORDEMENTS ET SUPPORTS
+### ⚙️ RACCORDEMENTS ET SUPPORTS
 
 | Circuit | Branchement par canal | Impédance |
 |---|---|---:|
