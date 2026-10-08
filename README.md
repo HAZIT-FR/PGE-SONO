@@ -95,6 +95,14 @@ flowchart TB
   class TG,TD,MG,MD support;
 ~~~
 
+~~~mermaid
+%%{init: {"flowchart": {"diagramPadding": 2, "htmlLabels": true}, "theme": "base", "themeVariables": {"fontSize": "13px"}}}%%
+flowchart LR
+  LIBRE["<b>CAPACITÉ DISPONIBLE · DSP 408</b><br/>4 sorties XLR libres (5 à 8)<br/>2 à 4 enceintes amplifiées<br/>ou amplificateur + enceintes passives"]
+  classDef reserve fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:6 4,color:#1e40af;
+  class LIBRE reserve;
+~~~
+
 **Puissances cumulées :** amplificateurs **3 680 W annoncés** · enceintes **1 900 W RMS**.
 
 Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
