@@ -52,7 +52,7 @@ Les RFC 2119 et 8174 définissent **MUST**, **SHOULD**, **MAY**, etc., pour cert
 - Utiliser les termes compréhensibles par un non-spécialiste : **« poste de tir »** plutôt que « pupitre », et **« télécommunications radio (antenne) »** pour préciser la liaison sans fil.
 - Regrouper les éléments techniques sous des sections HTML **`<details>`** avec un titre explicite **`<summary>`**, ouvertes à la demande par chevron GitHub.
 - Ne pas ajouter de légende lorsque les libellés des cadres suffisent à comprendre le schéma. Si une légende est nécessaire, elle doit apporter une information non indiquée dans le diagramme ; ne jamais s'appuyer seulement sur les couleurs.
-- Écrire les **catégories de la première ligne des cadres en majuscules** (ex. `LECTURE AUDIO`, `AMPLIFICATEURS`) et conserver le nom complet du fabricant et du modèle sur la ligne de référence (ex. `BEHRINGER EUROLIVE B1520 PRO`).
+- Écrire les **catégories de la première ligne des cadres en majuscules et en gras** (balise Mermaid HTML `<b>...</b>`, avec `htmlLabels: true`) (ex. `LECTURE AUDIO`, `AMPLIFICATEURS`) et conserver le nom complet du fabricant et du modèle sur la ligne de référence (ex. `BEHRINGER EUROLIVE B1520 PRO`).
 - Mentionner « schéma de principe » lorsqu'un diagramme n'est pas à l'échelle.
 - Donner au maximum trois ou quatre colonnes aux tableaux visibles dans le README ; placer les données détaillées dans une section repliable au sein du README.
 - Mettre les valeurs numériques comparables dans la même colonne et alignées à droite.
