@@ -15,6 +15,7 @@ Dossier technique de l'installation PGE, des contraintes de diffusion sur le sit
    - [Schéma et branchements audio](#schéma-et-branchements-audio)
 2. **[La problématique — sonorisation du public](#2-la-problématique--sonorisation-du-public)**
    - [Plan de l'implantation actuelle](#implantation-actuelle)
+   - [Niveaux sonores estimés](#niveau-sonore-estimé)
 3. **[La solution — renforcer la diffusion](#3-la-solution--renforcer-la-diffusion)**
    - [Répartition du matériel et du prêt](#répartition-du-matériel-et-du-prêt)
    - [Plan de l'implantation envisagée](#implantation-envisagée)
