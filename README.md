@@ -90,17 +90,7 @@ flowchart TB
   class TG,TD,MG,MD support;
 ~~~
 
-| Matériel | Modèle | Qté |
-|---|---|---:|
-| Rack | THE BOX PRO AMPRACK MK II | 1 |
-| Processeur audio | THE T.RACKS FIR DSP 408 | 1 |
-| Amplificateurs | THE T.AMP E-1200 / E-1500 | 2 |
-| Enceintes large bande · 2 voies (15″) | BEHRINGER EUROLIVE B1520 PRO | 2 |
-| Enceintes large bande · 3 voies (12″) | AUDIOPHONY A12 | 2 |
-| Caissons de basses | BEHRINGER EUROLIVE VP1800S | 2 |
-| Lecture synchronisée | COBRA AUDIO BOX | 1 |
-| Tables de mixage | JCB NSA 2008 / BEHRINGER XENYX 302USB | 2 |
-| Trépieds et mâts | Embase 35 mm | 4 |
+Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
 La puissance cumulée annoncée est de **3 680 W** pour les amplificateurs et de **1 900 W RMS** pour les enceintes. Il s'agit de caractéristiques du matériel, pas d'une mesure du niveau sonore.
 
