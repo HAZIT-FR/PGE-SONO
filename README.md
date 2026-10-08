@@ -58,7 +58,7 @@ flowchart TB
 
   A -. "Télécommunications radio (antenne)" .-> B
   B -. "RCA → LINE 1" .-> C
-  C -. "REC OUT" .-> D
+  C -. "REC OUT → INPUT" .-> D
   D -. "XLR" .-> E
   D -. "XLR" .-> F
   E -. "TOP G" .-> LG
