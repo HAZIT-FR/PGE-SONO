@@ -48,12 +48,13 @@ flowchart TB
   AD["<b>ENCEINTE LARGE BANDE</b><br/>3 voies · 12″ · droite<br/>AUDIOPHONY A12"]
   SG["<b>CAISSON DE BASSES</b><br/>18″ · gauche<br/>BEHRINGER EUROLIVE VP1800S"]
   SD["<b>CAISSON DE BASSES</b><br/>18″ · droite<br/>BEHRINGER EUROLIVE VP1800S"]
-  TB_G["<b>EMBASE AU SOL</b><br/>Trépied indépendant<br/>Pour B1520 PRO gauche"]
-  TB_D["<b>EMBASE AU SOL</b><br/>Trépied indépendant<br/>Pour B1520 PRO droite"]
-  MA_G["<b>EMBASE SUR CAISSON</b><br/>Mât de couplage 35 mm<br/>Pour A12 gauche"]
-  MA_D["<b>EMBASE SUR CAISSON</b><br/>Mât de couplage 35 mm<br/>Pour A12 droite"]
 
-  A -. "Télécommunications radio (antenne)" .-> B
+  TG["<b>TRÉPIED AU SOL</b>"]
+  TD["<b>TRÉPIED AU SOL</b>"]
+  MG["<b>MÂT DE COUPLAGE</b>"]
+  MD["<b>MÂT DE COUPLAGE</b>"]
+
+  A -- "Télécommunications radio (antenne)" --> B
   B --> C --> D
   D --> E
   D --> F
@@ -66,12 +67,10 @@ flowchart TB
   F --> SG
   F --> SD
 
-  BG -. "support mécanique" .-> TB_G
-  BD -. "support mécanique" .-> TB_D
-  AG -. "support mécanique" .-> MA_G
-  AD -. "support mécanique" .-> MA_D
-  MA_G -. "inséré dans l'embase" .-> SG
-  MA_D -. "inséré dans l'embase" .-> SD
+  BG --- TG
+  BD --- TD
+  AG --- MG
+  AD --- MD
 
   classDef commande fill:#f1f5f9,stroke:#64748b,color:#172b4d;
   classDef processeur fill:#ffedd5,stroke:#d97706,color:#7c2d12;
@@ -88,10 +87,8 @@ flowchart TB
   class BG,BD principales;
   class AG,AD appoint;
   class SG,SD basses;
-  class TB_G,TB_D,MA_G,MA_D support;
+  class TG,TD,MG,MD support;
 ~~~
-
-Dans le schéma, les liaisons en pointillés « support mécanique » et « inséré dans l'embase » décrivent le montage des enceintes ; les traits pleins représentent le signal audio.
 
 | Matériel | Modèle | Qté |
 |---|---|---:|
@@ -103,10 +100,7 @@ Dans le schéma, les liaisons en pointillés « support mécanique » et « ins�
 | Caissons de basses | BEHRINGER EUROLIVE VP1800S | 2 |
 | Lecture synchronisée | COBRA AUDIO BOX | 1 |
 | Tables de mixage | JCB NSA 2008 / BEHRINGER XENYX 302USB | 2 |
-| Trépieds au sol | Pour les 2 B1520 PRO (15″) | 2 |
-| Mâts de couplage sur caisson | Pour les 2 AUDIOPHONY A12 (12″), insérés dans les VP1800S | 2 |
-
-**Montage des enceintes :** chaque B1520 PRO est prévue sur un trépied indépendant. Chaque A12 est prévue sur un mât de couplage inséré dans l'embase 35 mm du caisson VP1800S correspondant. **Vérifier la compatibilité des mâts, leur charge admissible et la stabilité des supports avant installation.**
+| Trépieds et mâts | Embase 35 mm | 4 |
 
 La puissance cumulée annoncée est de **3 680 W** pour les amplificateurs et de **1 900 W RMS** pour les enceintes. Il s'agit de caractéristiques du matériel, pas d'une mesure du niveau sonore.
 
@@ -145,8 +139,7 @@ Les B1520 PRO et A12 sont toutes deux des **enceintes large bande**, capables de
 | COBRA AUDIO BOX | Lecture MP3 sur clé USB, synchronisation radio avec le poste de tir ; sorties casque, RCA et jack 6,35 mm |
 | JCB NSA 2008 | Table principale, 6 voies dont 1 micro ; volume et annonces |
 | BEHRINGER XENYX 302USB | Table de secours, 5 voies |
-| Trépieds au sol | 2 supports indépendants pour les B1520 PRO (15″) |
-| Mâts de couplage | 2 mâts de 35 mm placés dans les embases des VP1800S pour porter les A12 (12″) |
+| Trépieds et mâts | 4 supports ; embase de 35 mm |
 
 </details>
 
