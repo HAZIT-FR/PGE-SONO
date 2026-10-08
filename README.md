@@ -193,14 +193,34 @@ Si les amplificateurs et les enceintes passives ne sont pas disponibles, **2 à 
 
 </details>
 
-### Conditions d'installation
+</details>
 
-Quel que soit le matériel retenu, **l'implantation définitive doit être validée sur le plan de sécurité**. Les besoins opérationnels sont les suivants :
+## 4. Conditions d'installation — sécurité et logistique
 
-- **Emplacement et sécurité :** enceintes à 1 à 2 m devant la barrière, côté tir, en dehors des cercles de 30 m liés au petit calibre ; hauteur envisagée de **2,5 à 3 m**, sous réserve de validation.
-- **Électricité :** rack sur une ligne dédiée **230 V / 16 A**, sans buvette ni chauffage ; seconde ligne électrique adaptée si des amplificateurs sont ajoutés.
-- **Accès et manutention :** déchargement du véhicule au plus près ; prévoir le déplacement des caissons de **41 kg** et des B1520 PRO de **27 kg**.
-- **Essais et météo :** prévoir environ **30 min** d'essai avant la tombée de la nuit ; protéger le rack, les amplificateurs et les enceintes contre la pluie.
+<details open>
+<summary><strong>Afficher les exigences et les vérifications avant le spectacle</strong></summary>
+
+Quel que soit le renfort choisi, **l'implantation définitive doit être validée sur le plan de sécurité**. La mise en œuvre dépend notamment des distances de sécurité, de l'alimentation électrique et de l'accès au site.
+
+### Implantation et sécurité
+
+Les enceintes sont envisagées à **1 à 2 m devant la barrière**, côté tir, à une hauteur de **2,5 à 3 m**.
+
+Ces positions devront rester **en dehors des cercles de sécurité de 30 m liés au petit calibre** et être confirmées à partir du plan de tir.
+
+### Alimentation et protection météo
+
+Le rack nécessite une **ligne dédiée 230 V / 16 A**, sans buvette ni chauffage sur le même circuit.
+
+Si des amplificateurs supplémentaires sont ajoutés, prévoir **une seconde ligne électrique adaptée**.
+
+En décembre, protéger le **rack**, les **amplificateurs** et les **enceintes** contre la pluie : rack couvert, housses et protections adaptées.
+
+### Accès, manutention et essais
+
+Le véhicule doit pouvoir décharger le matériel **au plus près** des emplacements. La manutention concerne notamment les caissons de **41 kg** et les **B1520 PRO de 27 kg**.
+
+Réserver un créneau d'environ **30 minutes avant la tombée de la nuit** pour les essais sonores et les derniers réglages.
 
 <details>
 <summary>🔹 Vérifications avant le spectacle</summary>
