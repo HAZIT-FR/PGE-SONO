@@ -199,43 +199,17 @@ Dans la configuration passive complète, chaque amplificateur ajouté alimente *
 </details>
 
 <details>
-<summary>🔹 Implantation actuelle et extension envisagée</summary>
+<summary>🔹 Illustration d’implantation</summary>
 
-Les points sont présentés d'**ouest en est**, verticalement pour éviter les débordements sur les petits écrans. Les traits indiquent leur succession, pas le câblage. Schémas **non à l'échelle**.
+Le plan ci-dessous présente, en vue de dessus, **l'installation actuelle** et le **renfort envisagé** pour améliorer la diffusion sonore sur la zone de public.
 
-### Installation actuelle : 3 points
+![Plan de sonorisation — Champigneulles 2026 : installation actuelle et extension envisagée](docs/Plan%20de%20sonorisation%20Champigneulles%202026.png)
 
-~~~mermaid
-%%{init: {"flowchart": {"nodeSpacing": 25, "rankSpacing": 26, "htmlLabels": true}, "theme": "base", "themeVariables": {"fontSize": "13px"}}}%%
-flowchart TB
-  O["Ouest<br/>B1520 PRO"]
-  C["Centre<br/>2 VP1800S + 2 A12"]
-  E["Est<br/>B1520 PRO"]
-  O --- C --- E
-  classDef existing fill:#dbeafe,stroke:#2563eb,color:#172b4d;
-  class O,C,E existing;
-~~~
-
-### Avec renfort : 7 points
-
-~~~mermaid
-%%{init: {"flowchart": {"nodeSpacing": 18, "rankSpacing": 20, "htmlLabels": true}, "theme": "base", "themeVariables": {"fontSize": "13px"}}}%%
-flowchart TB
-  P1["Renfort ouest<br/>P1"]
-  O["Ouest<br/>B1520 PRO"]
-  P2["Renfort ouest<br/>P2"]
-  C["Centre<br/>2 caissons + 2 A12"]
-  P3["Renfort est<br/>P3"]
-  E["Est<br/>B1520 PRO"]
-  P4["Renfort est<br/>P4"]
-  P1 --- O --- P2 --- C --- P3 --- E --- P4
-  classDef existing fill:#dbeafe,stroke:#2563eb,color:#172b4d;
-  classDef proposed fill:#fff2db,stroke:#d97706,color:#7c2d12;
-  class O,C,E existing;
-  class P1,P2,P3,P4 proposed;
-~~~
-
-*Bleu : matériel PGE ; orange : renfort proposé.*
+**Lecture rapide :**
+- **Version actuelle :** 3 points de diffusion.
+- **Solution envisagée :** 2 amplificateurs et 4 enceintes passives supplémentaires, soit 7 points de diffusion.
+- **Repères :** zone de tir, barrière, zone de public et angles de couverture indicatifs.
+- **Dimensions :** représentations schématiques et approximatives.
 
 | Positionnement | Prévision |
 |---|---|
