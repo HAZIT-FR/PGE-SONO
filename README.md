@@ -34,20 +34,20 @@ La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste
 ~~~mermaid
 %%{init: {"flowchart": {"nodeSpacing": 28, "rankSpacing": 36, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
 flowchart TB
-  A["COMMANDE<br/>Poste de tir<br/>COBRA 18R2"]
-  B["LECTURE AUDIO<br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
-  C["MIXAGE<br/>Table principale<br/>JCB NSA 2008"]
-  D["TRAITEMENT<br/>Processeur audio<br/>THE T.RACKS FIR DSP 408"]
-  E["AMPLIFICATEURS<br/>Médiums et aigus<br/>THE T.AMP E-1200"]
-  F["AMPLIFICATEURS<br/>Graves<br/>THE T.AMP E-1500"]
-  LG["CANAL GAUCHE<br/>4 Ω"]
-  LD["CANAL DROIT<br/>4 Ω"]
-  BG["ENCEINTES PRINCIPALES<br/>BEHRINGER EUROLIVE B1520 PRO<br/>Gauche"]
-  BD["ENCEINTES PRINCIPALES<br/>BEHRINGER EUROLIVE B1520 PRO<br/>Droite"]
-  AG["ENCEINTES D'APPOINT<br/>AUDIOPHONY A12<br/>Gauche"]
-  AD["ENCEINTES D'APPOINT<br/>AUDIOPHONY A12<br/>Droite"]
-  SG["CAISSONS DE BASSES<br/>BEHRINGER EUROLIVE VP1800S<br/>Gauche"]
-  SD["CAISSONS DE BASSES<br/>BEHRINGER EUROLIVE VP1800S<br/>Droite"]
+  A["<b>COMMANDE</b><br/>Poste de tir<br/>COBRA 18R2"]
+  B["<b>LECTURE AUDIO</b><br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
+  C["<b>MIXAGE</b><br/>Table principale<br/>JCB NSA 2008"]
+  D["<b>TRAITEMENT</b><br/>Processeur audio<br/>THE T.RACKS FIR DSP 408"]
+  E["<b>AMPLIFICATEURS</b><br/>Médiums et aigus<br/>THE T.AMP E-1200"]
+  F["<b>AMPLIFICATEURS</b><br/>Graves<br/>THE T.AMP E-1500"]
+  LG["<b>CANAL GAUCHE</b><br/>4 Ω"]
+  LD["<b>CANAL DROIT</b><br/>4 Ω"]
+  BG["<b>ENCEINTES PRINCIPALES</b><br/>BEHRINGER EUROLIVE B1520 PRO<br/>Gauche"]
+  BD["<b>ENCEINTES PRINCIPALES</b><br/>BEHRINGER EUROLIVE B1520 PRO<br/>Droite"]
+  AG["<b>ENCEINTES D'APPOINT</b><br/>AUDIOPHONY A12<br/>Gauche"]
+  AD["<b>ENCEINTES D'APPOINT</b><br/>AUDIOPHONY A12<br/>Droite"]
+  SG["<b>CAISSONS DE BASSES</b><br/>BEHRINGER EUROLIVE VP1800S<br/>Gauche"]
+  SD["<b>CAISSONS DE BASSES</b><br/>BEHRINGER EUROLIVE VP1800S<br/>Droite"]
 
   A -. "Télécommunications radio (antenne)" .-> B
   B --> C --> D
