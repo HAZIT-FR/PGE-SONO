@@ -101,49 +101,35 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 <details>
 <summary><strong>Fiche technique complète — matériel, puissances et raccordements</strong></summary>
 
-### ⚪ COMMANDE ET MIXAGE
+<table>
+<thead>
+<tr><th align="left">Équipement / circuit</th><th>Qté</th><th align="left">Puissance / impédance</th><th align="left">Fonction et caractéristiques</th></tr>
+</thead>
+<tbody>
+<tr><th colspan="4" align="left">═══ ⚪ COMMANDE ET MIXAGE ═══</th></tr>
+<tr><td>COBRA 18R2</td><td align="center">1</td><td>—</td><td>Poste de tir ; synchronisation radio (antenne) avec la COBRA AUDIO BOX</td></tr>
+<tr><td>COBRA AUDIO BOX</td><td align="center">1</td><td>—</td><td>Lecture MP3 sur clé USB ; sorties casque, RCA et jack 6,35 mm</td></tr>
+<tr><td>JCB NSA 2008</td><td align="center">1</td><td>—</td><td>Mixage principal ; 6 voies dont 1 micro ; volume et annonces</td></tr>
+<tr><td>BEHRINGER XENYX 302USB</td><td align="center">1</td><td>—</td><td>Table de mixage de secours ; 5 voies</td></tr>
+<tr><th colspan="4" align="left">═══ 🟠 TRAITEMENT AUDIO ═══</th></tr>
+<tr><td>THE T.RACKS FIR DSP 408</td><td align="center">1</td><td>—</td><td>4 entrées, 8 sorties XLR ; filtres FIR, égalisation, routage, limiteurs. 4 sorties utilisées ; <strong>sorties 5 à 8 disponibles</strong> (signal non amplifié, pour amplificateur ou enceinte active)</td></tr>
+<tr><th colspan="4" align="left">═══ 🔵 AMPLIFICATION ET RACK ═══</th></tr>
+<tr><td>THE T.AMP E-1200</td><td align="center">1</td><td><strong>2 × 990 W / 4 Ω</strong> ; 2 × 680 W / 8 Ω</td><td>Amplification médiums/aigus ; classe H</td></tr>
+<tr><td>THE T.AMP E-1500</td><td align="center">1</td><td><strong>2 × 850 W / 8 Ω</strong> ; 2 × 1 220 W / 4 Ω</td><td>Amplification graves ; classe H</td></tr>
+<tr><td>THE BOX PRO AMPRACK MK II</td><td align="center">1</td><td>230 V</td><td>Rack mobile ; entrées et renvois XLR ; sorties Speakon System / Top / Sub</td></tr>
+<tr><th colspan="4" align="left">═══ 🟢 ENCEINTES PASSIVES ═══</th></tr>
+<tr><td>🟩 BEHRINGER EUROLIVE B1520 PRO</td><td align="center">2</td><td><strong>300 W RMS / 8 Ω</strong> chacune</td><td>2 voies ; 15″ + moteur d'aigus 1,75″ ; 1 200 W crête ; 96 dB (1 W / 1 m) ; 27 kg</td></tr>
+<tr><td>🟨 AUDIOPHONY A12</td><td align="center">2</td><td><strong>250 W RMS / 8 Ω</strong> chacune</td><td>3 voies ; 12″ ; 500 W crête ; 99 dB (1 W / 1 m) ; 14 kg</td></tr>
+<tr><td>🟪 BEHRINGER EUROLIVE VP1800S</td><td align="center">2</td><td><strong>400 W RMS / 8 Ω</strong> chacun</td><td>Caisson 18″ ; 40–200 Hz ; 1 600 W crête ; 100 dB (1 W / 1 m) ; 41 kg</td></tr>
+<tr><th colspan="4" align="left">═══ ⚙️ RACCORDEMENTS ET SUPPORTS ═══</th></tr>
+<tr><td>E-1200 — gauche / droit</td><td align="center">2 canaux</td><td><strong>4 Ω / canal</strong></td><td>1 B1520 PRO + 1 A12 en parallèle sur chaque canal</td></tr>
+<tr><td>E-1500 — gauche / droit</td><td align="center">2 canaux</td><td><strong>8 Ω / canal</strong></td><td>1 VP1800S sur chaque canal</td></tr>
+<tr><td>Trépied au sol</td><td align="center">2</td><td>—</td><td>Support indépendant pour les B1520 PRO (15″)</td></tr>
+<tr><td>Mât de couplage</td><td align="center">2</td><td>35 mm</td><td>Inséré dans l'embase du VP1800S ; porte l'A12 (12″)</td></tr>
+</tbody>
+</table>
 
-| Équipement | Qté | Fonction et caractéristiques |
-|---|---:|---|
-| COBRA 18R2 | 1 | Poste de tir ; synchronisation avec la COBRA AUDIO BOX par télécommunications radio (antenne) |
-| COBRA AUDIO BOX | 1 | Lecture MP3 sur clé USB ; sorties casque, RCA et jack 6,35 mm |
-| JCB NSA 2008 | 1 | Table de mixage principale ; 6 voies dont 1 micro ; volume et annonces |
-| BEHRINGER XENYX 302USB | 1 | Table de mixage de secours ; 5 voies |
-
-### 🟠 TRAITEMENT AUDIO
-
-| Équipement | Qté | Fonction et caractéristiques |
-|---|---:|---|
-| THE T.RACKS FIR DSP 408 | 1 | Processeur audio ; 4 entrées et 8 sorties XLR ; filtres FIR, égalisation, routage et limiteurs ; **sorties 5 à 8 libres** |
-
-### 🔵 AMPLIFICATION ET RACK
-
-| Équipement | Qté | Fonction et caractéristiques |
-|---|---:|---|
-| THE T.AMP E-1200 | 1 | Amplification médiums/aigus ; **2 × 990 W / 4 Ω** ou 2 × 680 W / 8 Ω ; classe H |
-| THE T.AMP E-1500 | 1 | Amplification graves ; **2 × 850 W / 8 Ω** ou 2 × 1 220 W / 4 Ω ; classe H |
-| THE BOX PRO AMPRACK MK II | 1 | Rack mobile, 230 V ; entrées et renvois XLR ; sorties Speakon System / Top / Sub |
-
-### 🟢 ENCEINTES PASSIVES
-
-| Modèle | Qté | Puissance RMS | Autres caractéristiques |
-|---|---:|---:|---|
-| 🟩 BEHRINGER EUROLIVE B1520 PRO | 2 | **300 W** chacune | 8 Ω ; 2 voies ; 15″ + moteur d'aigus 1,75″ ; 1 200 W crête ; 96 dB (1 W / 1 m) ; 27 kg |
-| 🟨 AUDIOPHONY A12 | 2 | **250 W** chacune | 8 Ω ; 3 voies ; 12″ ; 500 W crête ; 99 dB (1 W / 1 m) ; 14 kg |
-| 🟪 BEHRINGER EUROLIVE VP1800S | 2 | **400 W** chacun | 8 Ω ; caisson 18″ ; 40–200 Hz ; 1 600 W crête ; 100 dB (1 W / 1 m) ; 41 kg |
-
-Les B1520 PRO et A12 sont des **enceintes large bande** utilisées pour les médiums/aigus ; leur plage de diffusion dépend des filtres configurés dans le DSP. [B1520 PRO : constructeur](https://www.behringer.com/en/products/0313-AAM) · [A12 : fiche technique Audiofanzine](https://fr.audiofanzine.com/enceinte-sono-full-range/audiophony/A12/).
-
-### ⚙️ RACCORDEMENTS ET SUPPORTS
-
-| Circuit | Branchement par canal | Impédance |
-|---|---|---:|
-| E-1200 — gauche et droit | 1 B1520 PRO + 1 A12 en parallèle | **4 Ω** |
-| E-1500 — gauche et droit | 1 VP1800S | **8 Ω** |
-
-**Supports :** 2 trépieds indépendants pour les B1520 PRO (15″) ; 2 mâts de couplage de 35 mm insérés dans les caissons VP1800S et portant chacun une A12 (12″).
-
-**DSP :** 4 sorties utilisées ; sorties 5 à 8 disponibles. Ce sont des **sorties de signal XLR non amplifié** : elles ne peuvent pas alimenter directement des enceintes passives.
+**Précision :** les B1520 PRO et A12 sont des enceintes large bande, exploitées ici pour les médiums/aigus selon les filtres du DSP. [B1520 PRO : constructeur](https://www.behringer.com/en/products/0313-AAM) · [A12 : fiche technique Audiofanzine](https://fr.audiofanzine.com/enceinte-sono-full-range/audiophony/A12/).
 
 **Puissances cumulées :** amplificateurs **3 680 W annoncés** · enceintes **1 900 W RMS**.
 
