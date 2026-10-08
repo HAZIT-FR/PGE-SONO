@@ -61,16 +61,16 @@ flowchart TB
   C -. "REC OUT → INPUT" .-> D
   D -. "XLR" .-> E
   D -. "XLR" .-> F
-  E -. "TOP G" .-> LG
-  E -. "TOP D" .-> LD
-  F -. "SUB G" .-> FG
-  F -. "SUB D" .-> FD
-  LG -.-> BG
-  LG -.-> AG
-  LD -.-> BD
-  LD -.-> AD
-  FG -.-> SG
-  FD -.-> SD
+  E -.-> LG
+  E -.-> LD
+  F -.-> FG
+  F -.-> FD
+  LG -. "SYSTEM OUT L" .-> BG
+  LG -. "TOP OUT L" .-> AG
+  LD -. "SYSTEM OUT R" .-> BD
+  LD -. "TOP OUT R" .-> AD
+  FG -. "SUB OUT L" .-> SG
+  FD -. "SUB OUT R" .-> SD
 
   BG --- TG
   BD --- TD
@@ -123,8 +123,8 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 <tr><td nowrap="nowrap">🟨&nbsp;AUDIOPHONY&nbsp;A12</td><td align="center">2</td><td><strong>250&nbsp;W&nbsp;RMS&nbsp;/&#8288;&nbsp;8&nbsp;Ω</strong> chacune</td><td>3 voies<br/>Haut-parleur de 12″<br/>500&nbsp;W crête<br/>99&nbsp;dB&nbsp;(1&nbsp;W&nbsp;/&#8288;&nbsp;1&nbsp;m)<br/>14&nbsp;kg</td></tr>
 <tr><td nowrap="nowrap">🟪&nbsp;BEHRINGER&nbsp;EUROLIVE&nbsp;VP1800S</td><td align="center">2</td><td><strong>400&nbsp;W&nbsp;RMS&nbsp;/&#8288;&nbsp;8&nbsp;Ω</strong> chacun</td><td>Caisson 18″<br/>Bande passante : 40–200&nbsp;Hz<br/>1&nbsp;600&nbsp;W crête<br/>100&nbsp;dB&nbsp;(1&nbsp;W&nbsp;/&#8288;&nbsp;1&nbsp;m)<br/>41&nbsp;kg</td></tr>
 <tr><th colspan="4" align="left">═══ ⚙️ RACCORDEMENTS ET SUPPORTS ═══</th></tr>
-<tr><td nowrap="nowrap">E-1200&nbsp;—&nbsp;gauche&nbsp;/&nbsp;droit</td><td align="center">2 canaux</td><td><strong>4&nbsp;Ω&nbsp;/&#8288;&nbsp;canal</strong></td><td>1 B1520 PRO + 1 A12<br/>Montage en parallèle sur chaque canal</td></tr>
-<tr><td nowrap="nowrap">E-1500&nbsp;—&nbsp;gauche&nbsp;/&nbsp;droit</td><td align="center">2 canaux</td><td><strong>8&nbsp;Ω&nbsp;/&#8288;&nbsp;canal</strong></td><td>1 VP1800S par canal</td></tr>
+<tr><td nowrap="nowrap">E-1200&nbsp;—&nbsp;gauche&nbsp;/&nbsp;droit</td><td align="center">2 canaux</td><td><strong>4&nbsp;Ω&nbsp;/&#8288;&nbsp;canal</strong></td><td>SYSTEM OUT L/R → B1520 PRO (TOP)<br/>TOP OUT L/R → A12 (MID)<br/>1 de chaque en parallèle par canal</td></tr>
+<tr><td nowrap="nowrap">E-1500&nbsp;—&nbsp;gauche&nbsp;/&nbsp;droit</td><td align="center">2 canaux</td><td><strong>8&nbsp;Ω&nbsp;/&#8288;&nbsp;canal</strong></td><td>SUB OUT L/R → VP1800S (SUB)<br/>1 caisson par canal</td></tr>
 <tr><td nowrap="nowrap">Trépied&nbsp;au&nbsp;sol</td><td align="center">2</td><td>—</td><td>Support indépendant<br/>Pour B1520 PRO (15″)</td></tr>
 <tr><td nowrap="nowrap">Mât&nbsp;de&nbsp;couplage</td><td align="center">2</td><td>35 mm</td><td>Inséré dans l'embase du VP1800S<br/>Porte l'A12 (12″)</td></tr>
 </tbody>
