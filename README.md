@@ -8,23 +8,12 @@ Pour le spectacle demandé par la commune, **nous souhaitons ajouter 2 amplifica
 
 ## 1. Bilan
 
-```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 28, "rankSpacing": 32, "htmlLabels": true}, "theme": "base", "themeVariables": {"fontSize": "14px", "lineColor": "#64748b"}}}%%
-flowchart TB
-  P["DISPONIBLE CHEZ PGE<br/>2 amplificateurs · 4 enceintes<br/>2 caissons · 3 points de diffusion"]
-  R["RENFORT SOUHAITÉ<br/>+ 2 amplificateurs · + 4 enceintes<br/>+ 4 points de diffusion"]
-  T["ENSEMBLE ENVISAGÉ<br/>4 amplificateurs · 8 enceintes<br/>2 caissons · 7 points de diffusion"]
-  P -->|"complété par"| R
-  R -->|"soit au total"| T
-  classDef existing fill:#dcfce7,stroke:#15803d,color:#14532d;
-  classDef proposed fill:#ffedd5,stroke:#c2410c,color:#7c2d12;
-  classDef total fill:#dbeafe,stroke:#2563eb,color:#172b4d;
-  class P existing;
-  class R proposed;
-  class T total;
-```
-
-*Légende : **vert** — matériel disponible chez PGE ; **orange** — matériel souhaité en complément ; **bleu** — configuration totale envisagée. Les flèches indiquent la composition du système, pas le trajet du son.*
+| Matériel | 🟢 **Disponible chez PGE** | 🟠 **Renfort souhaité** |
+|---|---:|---:|
+| Amplificateurs | 2 | **+ 2** |
+| Enceintes de diffusion | 4 | **+ 4** |
+| Caissons de basses | 2 | — |
+| Points de diffusion | 3 | **+ 4** |
 
 | Donnée | Estimation |
 |---|---|
@@ -117,8 +106,6 @@ flowchart TB
   class G,H speaker;
 ~~~
 
-*Légende : **gris** — sources et mixage ; **bleu** — traitement et amplification ; **vert** — enceintes. **Flèche pleine** : trajet du signal audio ; **flèche pointillée** : synchronisation radio.*
-
 | Circuit | Branchement |
 |---|---|
 | E-1200, canal gauche | 1 B1520 PRO + 1 A12 en parallèle (4 Ω) |
@@ -155,11 +142,9 @@ flowchart TB
   C["CENTRE · 2 VP1800S + 2 A12"]
   E["EST · B1520 PRO"]
   O --- C --- E
-  classDef existing fill:#dcfce7,stroke:#15803d,color:#14532d;
+  classDef existing fill:#dbeafe,stroke:#2563eb,color:#172b4d;
   class O,C,E existing;
 ~~~
-
-*Légende : **vert** — les 3 points de diffusion disponibles chez PGE. Le trait représente leur succession d'ouest en est et non un câble.*
 
 ### Avec renfort : 7 points
 
@@ -174,13 +159,13 @@ flowchart TB
   E["B1520 PRO · est"]
   P4["P4 · renfort est"]
   P1 --- O --- P2 --- C --- P3 --- E --- P4
-  classDef existing fill:#dcfce7,stroke:#15803d,color:#14532d;
-  classDef proposed fill:#ffedd5,stroke:#c2410c,color:#7c2d12;
+  classDef existing fill:#dbeafe,stroke:#2563eb,color:#172b4d;
+  classDef proposed fill:#fff2db,stroke:#d97706,color:#7c2d12;
   class O,C,E existing;
   class P1,P2,P3,P4 proposed;
 ~~~
 
-*Légende : **vert** — points de diffusion existants ; **orange** — renforts envisagés (P1 à P4). Les traits indiquent la succession des emplacements, pas les liaisons audio. Positions indicatives, non à l'échelle.*
+*Bleu : matériel PGE ; orange : renfort proposé.*
 
 | Positionnement | Prévision |
 |---|---|
@@ -233,24 +218,6 @@ La référence réglementaire citée dans le dossier ne suffit pas à établir l
 </details>
 
 ## 4. Matériel complémentaire souhaité
-
-```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 25, "rankSpacing": 30, "htmlLabels": true}, "theme": "base", "themeVariables": {"fontSize": "14px", "lineColor": "#64748b"}}}%%
-flowchart TB
-  R["RENFORT À FOURNIR<br/>4 points supplémentaires envisagés"]
-  P["SOLUTION PRIVILÉGIÉE<br/>2 amplificateurs stéréo<br/>4 enceintes passives"]
-  A["ALTERNATIVE<br/>2 à 4 enceintes actives"]
-  R -->|"privilégiée"| P
-  R -.->|"alternative"| A
-  classDef proposed fill:#ffedd5,stroke:#c2410c,color:#7c2d12;
-  classDef preferred fill:#dbeafe,stroke:#2563eb,color:#172b4d;
-  classDef alternative fill:#f1f5f9,stroke:#64748b,color:#334155;
-  class R proposed;
-  class P preferred;
-  class A alternative;
-```
-
-*Légende : **orange** — besoin de renfort ; **bleu** — solution privilégiée ; **gris** — alternative. Trait plein : option privilégiée ; pointillé : autre possibilité. Les quantités et raccordements sont détaillés ci-dessous.*
 
 ### Solution privilégiée : enceintes passives
 
