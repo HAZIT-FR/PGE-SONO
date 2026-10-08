@@ -38,21 +38,22 @@ flowchart TB
   B["<b>LECTURE AUDIO</b><br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
   C["<b>MIXAGE</b><br/>Table principale<br/>JCB NSA 2008"]
   D["<b>TRAITEMENT</b><br/>Processeur audio<br/>THE T.RACKS FIR DSP 408"]
-  E["<b>AMPLIFICATEURS</b><br/>Médiums et aigus<br/>THE T.AMP E-1200"]
-  F["<b>AMPLIFICATEURS</b><br/>Graves<br/>THE T.AMP E-1500"]
+  E["<b>AMPLIFICATEURS</b><br/>Médiums et aigus<br/>THE T.AMP E-1200<br/>2 × 990 W / 4 Ω"]
+  F["<b>AMPLIFICATEURS</b><br/>Graves<br/>THE T.AMP E-1500<br/>2 × 850 W / 8 Ω"]
   LG["<b>CANAL GAUCHE</b><br/>4 Ω"]
   LD["<b>CANAL DROIT</b><br/>4 Ω"]
-  BG["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>2 voies · 15″ · gauche<br/>BEHRINGER EUROLIVE B1520 PRO"]
-  BD["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>2 voies · 15″ · droite<br/>BEHRINGER EUROLIVE B1520 PRO"]
-  AG["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>3 voies · 12″ · gauche<br/>AUDIOPHONY A12"]
-  AD["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>3 voies · 12″ · droite<br/>AUDIOPHONY A12"]
-  SG["<b>ENCEINTE GRAVES</b><br/>18″ · gauche<br/>BEHRINGER EUROLIVE VP1800S"]
-  SD["<b>ENCEINTE GRAVES</b><br/>18″ · droite<br/>BEHRINGER EUROLIVE VP1800S"]
+  BG["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>2 voies · 15″ · gauche<br/>BEHRINGER EUROLIVE B1520 PRO<br/>300 W RMS"]
+  BD["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>2 voies · 15″ · droite<br/>BEHRINGER EUROLIVE B1520 PRO<br/>300 W RMS"]
+  AG["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>3 voies · 12″ · gauche<br/>AUDIOPHONY A12<br/>250 W RMS"]
+  AD["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>3 voies · 12″ · droite<br/>AUDIOPHONY A12<br/>250 W RMS"]
+  SG["<b>ENCEINTE GRAVES</b><br/>18″ · gauche<br/>BEHRINGER EUROLIVE VP1800S<br/>400 W RMS"]
+  SD["<b>ENCEINTE GRAVES</b><br/>18″ · droite<br/>BEHRINGER EUROLIVE VP1800S<br/>400 W RMS"]
 
   TG["<b>TRÉPIED AU SOL</b>"]
   TD["<b>TRÉPIED AU SOL</b>"]
   MG["<b>MÂT DE COUPLAGE</b>"]
   MD["<b>MÂT DE COUPLAGE</b>"]
+  P["<b>PUISSANCES CUMULÉES</b><br/>Amplificateurs : 3 680 W annoncés<br/>Enceintes : 1 900 W RMS<br/>Caractéristiques nominales · pas un niveau sonore mesuré"]
 
   A -- "Télécommunications radio (antenne)" --> B
   B --> C --> D
@@ -72,6 +73,8 @@ flowchart TB
   SG --- MG
   SD --- MD
 
+  D ~~~ P
+
   classDef commande fill:#f1f5f9,stroke:#64748b,color:#172b4d;
   classDef processeur fill:#ffedd5,stroke:#d97706,color:#7c2d12;
   classDef amplis fill:#dbeafe,stroke:#2563eb,color:#172b4d;
@@ -80,6 +83,7 @@ flowchart TB
   classDef appoint fill:#ecfccb,stroke:#65a30d,color:#365314;
   classDef basses fill:#f3e8ff,stroke:#9333ea,color:#581c87;
   classDef support fill:#f8fafc,stroke:#94a3b8,color:#334155;
+  classDef bilan fill:#f8fafc,stroke:#64748b,color:#334155;
   class A,B,C commande;
   class D processeur;
   class E,F amplis;
@@ -88,11 +92,10 @@ flowchart TB
   class AG,AD appoint;
   class SG,SD basses;
   class TG,TD,MG,MD support;
+  class P bilan;
 ~~~
 
 Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
-
-La puissance cumulée annoncée est de **3 680 W** pour les amplificateurs et de **1 900 W RMS** pour les enceintes. Il s'agit de caractéristiques du matériel, pas d'une mesure du niveau sonore.
 
 <details>
 <summary><strong>Caractéristiques techniques du matériel</strong></summary>
