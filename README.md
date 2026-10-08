@@ -65,11 +65,11 @@ L'association possède l'ensemble de la chaîne nécessaire : lecture de la band
 | AUDIOPHONY A12 | 2 | **250 W** | 8 Ω |
 | BEHRINGER EUROLIVE VP1800S | 2 | **400 W** | 8 Ω |
 
-| Modèle | Configuration | Sensibilité | Crête | Masse |
-|---|---|---:|---:|---:|
-| B1520 PRO | 15″ + 1,75″ | 96 dB (1 W / 1 m) | 1 200 W | 27 kg |
-| A12 | 3 voies, 12″ | 99 dB (1 W / 1 m) | 500 W | 14 kg |
-| VP1800S | Caisson 18″, 40–200 Hz | 100 dB (1 W / 1 m) | 1 600 W | 41 kg |
+| Modèle | Caractéristiques complémentaires |
+|---|---|
+| B1520 PRO | 15″ + 1,75″ ; 96 dB (1 W / 1 m) ; 1 200 W crête ; 27 kg |
+| A12 | 3 voies, 12″ ; 99 dB (1 W / 1 m) ; 500 W crête ; 14 kg |
+| VP1800S | Caisson 18″, 40–200 Hz ; 100 dB (1 W / 1 m) ; 1 600 W crête ; 41 kg |
 
 ### PILOTAGE ET ACCESSOIRES
 
