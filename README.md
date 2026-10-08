@@ -132,9 +132,6 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
 ## 2. La problématique — sonorisation du public
 
-<details>
-<summary><strong>Afficher l'implantation actuelle et ses limites</strong></summary>
-
 D'après le plan de tir, la plupart des spectateurs de la zone prévue seraient à **moins de 25 m d'une enceinte**. Notre installation semble adaptée à ce périmètre, mais la diffusion pourrait être **moins régulière aux extrémités**, particulièrement à l'ouest. Le dispositif n'est pas destiné à sonoriser l'ensemble du parc.
 
 ### Implantation actuelle
@@ -142,8 +139,6 @@ D'après le plan de tir, la plupart des spectateurs de la zone prévue seraient 
 ![Plan de sonorisation — disposition actuelle des trois points de diffusion](docs/V%20ACTUELLE%20PGE.png)
 
 ![Légende de l'implantation actuelle](docs/V%20LEGENDE%20PGE.png)
-
-</details>
 
 ## 3. La solution — renforcer la diffusion
 
