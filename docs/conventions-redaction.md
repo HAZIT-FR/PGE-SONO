@@ -1,13 +1,13 @@
 # Conventions de rédaction
 
-[← Revenir à la synthèse](../README.md)
+[← Revenir au dossier de sonorisation](../README.md)
 
 Ces conventions s'appliquent à la documentation de **PGE-SONO**. Elles visent la **lisibilité**, l'**exactitude des termes** et une présentation stable sur GitHub.
 
 ## Structure et public
 
 - Le `README.md` répond d'abord aux questions d'un décideur : **ce que PGE apporte**, **ce qui est envisagé**, **pourquoi un renfort est souhaité** et **ce qui reste à valider**.
-- L'[annexe technique](annexe-technique.md) réunit les références, branchements, puissances, hypothèses, tableaux et estimations.
+- Les caractéristiques, branchements, puissances, hypothèses et estimations se trouvent dans des **sections repliables du README.md** : un seul document présente l'ensemble du projet.
 - Une hypothèse est toujours nommée comme telle. Une donnée constructeur ne devient pas une mesure terrain.
 
 ## Typographie et hiérarchie
@@ -42,9 +42,10 @@ Les RFC 2119 et 8174 définissent **MUST**, **SHOULD**, **MAY**, etc., pour cert
 ## Diagrammes et tableaux
 
 - Utiliser Mermaid pour les chaînes fonctionnelles, avec une disposition **verticale** et des libellés courts pour limiter le débordement latéral.
+- Regrouper les éléments techniques sous des sections HTML **<details>** avec un titre explicite **<summary>**, ouvertes à la demande par chevron GitHub.
 - Expliquer la légende en **texte**, sans s'appuyer seulement sur les couleurs.
 - Mentionner « schéma de principe » lorsqu'un diagramme n'est pas à l'échelle.
-- Donner au maximum trois ou quatre colonnes aux tableaux visibles dans le README ; déplacer les données trop détaillées en annexe.
+- Donner au maximum trois ou quatre colonnes aux tableaux visibles dans le README ; placer les données détaillées dans une section repliable au sein du README.
 - Mettre les valeurs numériques comparables dans la même colonne et alignées à droite.
 
 ## Références éditoriales
