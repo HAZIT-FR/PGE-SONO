@@ -162,9 +162,6 @@ Pour compléter les **3 points de diffusion existants** et mieux couvrir les ext
 
 **Un prêt partiel reste possible :** 1 amplificateur et 2 enceintes permettraient déjà d'ajouter 2 points de diffusion.
 
-<details>
-<summary>🔹 Voir le plan d'implantation et les possibilités techniques</summary>
-
 ### Implantation envisagée
 
 Le renfort complète le matériel PGE, **sans remplacer les enceintes ni les caissons existants**.
@@ -189,8 +186,6 @@ Le **THE T.RACKS FIR DSP 408** utilise actuellement **4 sorties sur 8**. Les **4
 - **Réglages :** niveaux, égalisation, filtres et retard ajustables par sortie. Une même ligne de diffusion est envisagée, **sans retard a priori**, à confirmer sur place.
 
 Si le prêt est confirmé suffisamment tôt, PGE préparera et testera les raccordements et les réglages **avant le spectacle**.
-
-</details>
 
 </details>
 
