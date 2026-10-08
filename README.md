@@ -4,7 +4,8 @@
 
 Dossier technique de l'installation PGE, des contraintes de diffusion sur le site de Champigneulles et de la solution envisagée.
 
-## 1. Notre installation — matériel PGE
+<details>
+<summary><strong>1. Notre installation — matériel PGE</strong></summary>
 
 Le dispositif existant comprend **2 amplificateurs**, **4 enceintes de diffusion** et **2 caissons de graves**, répartis sur **3 points de diffusion**.
 
@@ -125,7 +126,10 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
 </details>
 
-## 2. La problématique — sonorisation du public
+</details>
+
+<details>
+<summary><strong>2. La problématique — sonorisation du public</strong></summary>
 
 Selon les estimations tirées du plan de tir, notre installation devrait couvrir la zone de public prévue, mais la diffusion risque d'être **moins homogène aux extrémités**, particulièrement à l'ouest.
 
@@ -156,7 +160,10 @@ Ces ratios ne dispensent pas de régler correctement le filtrage, les limiteurs 
 
 </details>
 
-## 3. La solution — renforcer la diffusion
+</details>
+
+<details>
+<summary><strong>3. La solution — renforcer la diffusion</strong></summary>
 
 Pour répartir plus régulièrement la musique dans le public tout en conservant l'installation actuelle, nous souhaitons **ajouter 2 amplificateurs et 4 enceintes passives**.
 
@@ -281,6 +288,7 @@ L'implantation exacte devra être validée sur le plan de sécurité.
 
 </details>
 
+</details>
 ---
 
 *Document de travail établi à partir du dossier PGE du 7 octobre 2026. Puissances et caractéristiques reprises du dossier initial ; implantations et niveaux acoustiques à confirmer sur place.*
