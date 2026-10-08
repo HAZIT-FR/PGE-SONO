@@ -96,10 +96,10 @@ flowchart TB
 ~~~
 
 ~~~mermaid
-%%{init: {"flowchart": {"diagramPadding": 2, "htmlLabels": true}, "theme": "base", "themeVariables": {"fontSize": "13px"}}}%%
+%%{init: {"flowchart": {"diagramPadding": 0, "padding": 5, "htmlLabels": true, "wrappingWidth": 360}, "theme": "base", "themeVariables": {"fontSize": "11px"}}}%%
 flowchart LR
-  LIBRE["<b>CAPACITÉ DISPONIBLE · DSP 408</b><br/>4 sorties XLR libres (5 à 8)<br/>2 à 4 enceintes amplifiées<br/>ou amplificateur + enceintes passives"]
-  classDef reserve fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:6 4,color:#1e40af;
+  LIBRE["<b>4 SORTIES XLR LIBRES</b><br/>DSP 408 · sorties 5 à 8<br/>2 à 4 enceintes amplifiées<br/>ou ampli + enceintes passives"]
+  classDef reserve fill:#eff6ff,stroke:#3b82f6,stroke-width:1px,stroke-dasharray:4 3,color:#1e40af;
   class LIBRE reserve;
 ~~~
 
