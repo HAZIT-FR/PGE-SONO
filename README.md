@@ -34,20 +34,20 @@ La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste
 ~~~mermaid
 %%{init: {"flowchart": {"nodeSpacing": 28, "rankSpacing": 36, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
 flowchart TB
-  A["Commande<br/>Poste de tir<br/>COBRA 18R2"]
-  B["Lecture audio<br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
-  C["Mixage<br/>Table principale<br/>JCB NSA 2008"]
-  D["Traitement<br/>Processeur audio<br/>FIR DSP 408"]
-  E["Amplificateurs<br/>Médiums et aigus<br/>THE T.AMP E-1200"]
-  F["Amplificateurs<br/>Graves<br/>THE T.AMP E-1500"]
-  LG["Canal gauche<br/>4 Ω"]
-  LD["Canal droit<br/>4 Ω"]
-  BG["Enceintes principales<br/>B1520 PRO<br/>Gauche"]
-  BD["Enceintes principales<br/>B1520 PRO<br/>Droite"]
-  AG["Enceintes d'appoint<br/>A12<br/>Gauche"]
-  AD["Enceintes d'appoint<br/>A12<br/>Droite"]
-  SG["Caissons de basses<br/>VP1800S<br/>Gauche"]
-  SD["Caissons de basses<br/>VP1800S<br/>Droite"]
+  A["COMMANDE<br/>Poste de tir<br/>COBRA 18R2"]
+  B["LECTURE AUDIO<br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
+  C["MIXAGE<br/>Table principale<br/>JCB NSA 2008"]
+  D["TRAITEMENT<br/>Processeur audio<br/>THE T.RACKS FIR DSP 408"]
+  E["AMPLIFICATEURS<br/>Médiums et aigus<br/>THE T.AMP E-1200"]
+  F["AMPLIFICATEURS<br/>Graves<br/>THE T.AMP E-1500"]
+  LG["CANAL GAUCHE<br/>4 Ω"]
+  LD["CANAL DROIT<br/>4 Ω"]
+  BG["ENCEINTES PRINCIPALES<br/>BEHRINGER EUROLIVE B1520 PRO<br/>Gauche"]
+  BD["ENCEINTES PRINCIPALES<br/>BEHRINGER EUROLIVE B1520 PRO<br/>Droite"]
+  AG["ENCEINTES D'APPOINT<br/>AUDIOPHONY A12<br/>Gauche"]
+  AD["ENCEINTES D'APPOINT<br/>AUDIOPHONY A12<br/>Droite"]
+  SG["CAISSONS DE BASSES<br/>BEHRINGER EUROLIVE VP1800S<br/>Gauche"]
+  SD["CAISSONS DE BASSES<br/>BEHRINGER EUROLIVE VP1800S<br/>Droite"]
 
   A -. "Télécommunications radio (antenne)" .-> B
   B --> C --> D
@@ -77,10 +77,6 @@ flowchart TB
   class AG,AD appoint;
   class SG,SD basses;
 ~~~
-
-**Légende des équipements :** gris — commande et lecture audio ; orange — 1 processeur DSP ; bleu — **2 amplificateurs** ; turquoise — **2 B1520 PRO** ; vert clair — **2 A12** ; violet — **2 caissons VP1800S**. Les cadres « canal » indiquent les deux voies de l'E-1200.
-
-**Liaisons :** trait plein — signal audio ; trait pointillé — télécommunications radio entre le poste de tir et la COBRA AUDIO BOX.
 
 | Matériel | Modèle | Qté |
 |---|---|---:|
