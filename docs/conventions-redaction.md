@@ -53,6 +53,7 @@ Les RFC 2119 et 8174 définissent **MUST**, **SHOULD**, **MAY**, etc., pour cert
 - Préférer un **arbre hiérarchique** : source → mixage → traitement → amplificateur → canal → enceinte. Les diagrammes de localisation peuvent regrouper des matériels situés au même emplacement.
 - Utiliser les termes compréhensibles par un non-spécialiste : **« poste de tir »** plutôt que « pupitre », et **« télécommunications radio (antenne) »** pour préciser la liaison sans fil.
 - Regrouper les éléments techniques sous des sections HTML **`<details>`** avec un titre explicite **`<summary>`**, ouvertes à la demande par chevron GitHub.
+- Dans la fiche technique, utiliser quelques **repères de couleur compatibles avec GitHub** dans les titres et, si pertinent, devant les modèles (commande gris, traitement orange, amplification bleu, enceintes vert/jaune/violet). Ils complètent les noms explicites sans remplacer l’information.
 - Ne pas ajouter de légende lorsque les libellés des cadres suffisent à comprendre le schéma. Si une légende est nécessaire, elle doit apporter une information non indiquée dans le diagramme ; ne jamais s'appuyer seulement sur les couleurs.
 - Écrire les **catégories de la première ligne des cadres en majuscules et en gras** (balise Mermaid HTML `<b>...</b>`, avec `htmlLabels: true`) (ex. `LECTURE AUDIO`, `AMPLIFICATEURS`) et conserver le nom complet du fabricant et du modèle sur la ligne de référence (ex. `BEHRINGER EUROLIVE B1520 PRO`).
 - Mentionner « schéma de principe » lorsqu'un diagramme n'est pas à l'échelle.
