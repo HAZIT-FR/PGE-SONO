@@ -42,6 +42,11 @@ Les RFC 2119 et 8174 définissent **MUST**, **SHOULD**, **MAY**, etc., pour cert
 ## Diagrammes et tableaux
 
 - Utiliser Mermaid pour les chaînes fonctionnelles, avec une disposition **verticale** et des libellés courts pour limiter le débordement latéral.
+- **Un retour à la ligne dans un cadre marque un changement de catégorie d'information**, jamais une coupure arbitraire d'un nom de modèle ou d'un numéro de référence. Exemple : `Mixage<br/>JCB NSA 2008`, et non `Mixage · JCB NSA 2008` qui peut être coupé en `JCB NSA / 2008`.
+- Dans les blocs Mermaid, utiliser un saut de ligne explicite (`<br/>`) **entre la fonction et la référence** ; conserver l'intégralité du modèle sur une même ligne et prévoir assez de largeur pour éviter les retours automatiques.
+- **Un équipement physique distinct = un cadre distinct** lorsque le but est de montrer les branchements : représenter les deux B1520 PRO et les deux A12 séparément, sous leur canal gauche ou droit, plutôt que `2 B1520 PRO + 2 A12` dans un cadre.
+- Préférer un **arbre hiérarchique** : source → mixage → traitement → amplificateur → canal → enceinte. Les diagrammes de localisation peuvent regrouper des matériels situés au même emplacement.
+- Utiliser les termes compréhensibles par un non-spécialiste : **« poste de tir »** plutôt que « pupitre », et **« télécommunications radio (antenne) »** pour préciser la liaison sans fil.
 - Regrouper les éléments techniques sous des sections HTML **`<details>`** avec un titre explicite **`<summary>`**, ouvertes à la demande par chevron GitHub.
 - Expliquer la légende en **texte**, sans s'appuyer seulement sur les couleurs.
 - Mentionner « schéma de principe » lorsqu'un diagramme n'est pas à l'échelle.
