@@ -42,6 +42,8 @@ flowchart TB
   F["<b>AMPLIFICATEURS</b><br/>Graves<br/>THE T.AMP E-1500<br/>2 × 850 W / 8 Ω"]
   LG["<b>CANAL GAUCHE</b><br/>4 Ω"]
   LD["<b>CANAL DROIT</b><br/>4 Ω"]
+  FG["<b>CANAL GAUCHE</b><br/>8 Ω"]
+  FD["<b>CANAL DROIT</b><br/>8 Ω"]
   BG["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>2 voies · 15″ · gauche<br/>BEHRINGER EUROLIVE B1520 PRO<br/>300 W RMS"]
   BD["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>2 voies · 15″ · droite<br/>BEHRINGER EUROLIVE B1520 PRO<br/>300 W RMS"]
   AG["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>3 voies · 12″ · gauche<br/>AUDIOPHONY A12<br/>250 W RMS"]
@@ -64,8 +66,10 @@ flowchart TB
   LG --> AG
   LD --> BD
   LD --> AD
-  F --> SG
-  F --> SD
+  F --> FG
+  F --> FD
+  FG --> SG
+  FD --> SD
 
   BG --- TG
   BD --- TD
@@ -83,7 +87,7 @@ flowchart TB
   class A,B,C commande;
   class D processeur;
   class E,F amplis;
-  class LG,LD canaux;
+  class LG,LD,FG,FD canaux;
   class BG,BD principales;
   class AG,AD appoint;
   class SG,SD basses;
