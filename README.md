@@ -142,7 +142,7 @@ Selon les estimations tirées du plan de tir, notre installation devrait couvrir
 Ces résultats sont **théoriques** : ils ne remplacent pas un essai sur place.
 
 <details>
-<summary><strong>Estimations acoustiques et puissances</strong></summary>
+<summary><strong>Puissances nominales</strong></summary>
 
 ### Puissance nominale
 
@@ -153,29 +153,6 @@ Ces résultats sont **théoriques** : ils ne remplacent pas un essai sur place.
 | **Total** | **3 680 W** | **1 900 W** | **≈ × 1,9** |
 
 Ces ratios ne dispensent pas de régler correctement le filtrage, les limiteurs et les niveaux.
-
-### Niveau théorique d'une B1520 PRO
-
-*Estimation pour une enceinte à pleine puissance, en champ libre ; aucune mesure sur site.*
-
-| Distance | Niveau estimé | Appréciation |
-|---|---:|---|
-| 5 m | 107 dB | Très élevé pour un premier rang |
-| 10 m | 101 dB | Musique très présente |
-| 20 à 25 m | 93 à 95 dB | Musique bien présente |
-| 50 m | 87 dB | Risque de masquage par les détonations |
-| 100 m | 81 dB | Fond sonore |
-
-| Hypothèse du dossier initial | Valeur ou remarque |
-|---|---|
-| Perte avec la distance | Environ **6 dB** par doublement |
-| Incertitude annoncée | **± 3 dB** |
-| Contribution de plusieurs enceintes | Peut augmenter le niveau perçu |
-| Cible envisagée au milieu du public | Environ **95 dB** |
-| Influences extérieures | Foule, humidité, arbres, orientations |
-| Référence réglementaire citée | Décret n° 2017-1244 ; 102 dB(A) sur 15 min dans le dossier initial |
-
-La référence réglementaire citée dans le dossier ne suffit pas à établir le régime applicable à cette manifestation. Les niveaux et obligations devront être vérifiés sur place.
 
 </details>
 
