@@ -25,6 +25,7 @@ Ces conventions s'appliquent à la documentation de **PGE-SONO**. Elles visent l
 - Écrire un espace avant les symboles d'unité : **500 W**, **8 Ω**, **95 dB**, **25 m**.
 - Employer une virgule décimale en français, et une espace insécable dans les milliers lorsque possible : **3 680 W**.
 - Employer un deux-points pour expliquer une relation, des listes pour des besoins et des tableaux seulement pour comparer plusieurs caractéristiques.
+- Dans le README, **justifier uniquement les paragraphes de prose** grâce à `<div align="justify">` avec des lignes vides encadrant le texte pour conserver le rendu Markdown sur GitHub. Ne pas justifier les titres, les tableaux, les schémas ou les listes, et ne pas utiliser `style="text-align: justify"` (filtré par GitHub).
 - Préférer « **puissance d'amplification annoncée** » à « puissance délivrée » sans mesure correspondante.
 
 ## Vocabulaire de certitude
