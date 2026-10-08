@@ -1,22 +1,21 @@
 # Sonorisation du feu d'artifice de Champigneulles 2026
 
-Association Pyrotechnique du Grand Est (PGE)  
-**Spectacle pyromusical du 6 décembre 2026**
+**Association Pyrotechnique du Grand Est (PGE)**  
+Spectacle pyromusical du **6 décembre 2026**
 
 Document de travail : installation, couverture du public et besoins complémentaires.
 
-> **Objet du dossier**  
-> Présenter le matériel de sonorisation disponible, expliquer les limites de couverture et proposer un renfort adapté aux extrémités de la zone public.
+> **Objectif** — Présenter le matériel de sonorisation disponible, expliquer les limites de couverture et proposer un renfort adapté aux extrémités de la zone public.
 
 ## Vue d'ensemble
 
 | Installation actuelle | Valeur |
 |---|---:|
-| Enceintes passives | 6, dont 2 caissons de basses 18″ |
+| Enceintes passives | **6**, dont 2 caissons de basses de 18″ |
 | Amplificateurs | 2 |
-| Puissance d'amplification annoncée | 3 680 W |
-| Puissance nominale des enceintes | 1 900 W RMS |
-| Processeur | 8 sorties, dont 4 libres |
+| Puissance d'amplification annoncée | **3 680 W** |
+| Puissance nominale des enceintes | **1 900 W RMS** |
+| Processeur | 8 sorties, dont **4 disponibles** |
 | Zone public à couvrir | Environ 90–95 m × 15–23 m (suivant le schéma) |
 
 **À retenir :** l'équipement existant est dimensionné pour la zone public représentée sur le plan de tir, mais pas pour sonoriser tout le parc. Un renfort de **2 à 4 enceintes** peut améliorer la répartition sonore, notamment aux extrémités.
@@ -60,9 +59,8 @@ flowchart TB
   class G,H output;
 ```
 
-> **Extension disponible :** 4 sorties XLR libres (5 à 8) sur le DSP, pour alimenter d'autres amplificateurs ou des enceintes actives.
-
-> Les **4 sorties libres** du processeur ne sont **pas des sorties amplifiées** : elles permettent de piloter des enceintes actives ou des amplificateurs supplémentaires. Leur affectation doit être programmée et testée.
+> [!IMPORTANT]
+> Les **4 sorties disponibles** du DSP ne sont pas amplifiées. Elles doivent être configurées pour piloter des enceintes actives ou des amplificateurs supplémentaires.
 
 ## 2. Implantation sur le site
 
@@ -71,21 +69,16 @@ Les emplacements sont **indicatifs** : ils doivent être confirmés avec le plan
 ### Configuration actuelle : 3 points de diffusion
 
 ```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 20, "rankSpacing": 28, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
+%%{init: {"flowchart": {"nodeSpacing": 35, "rankSpacing": 45, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "14px", "lineColor": "#64748b"}}}%%
 flowchart TB
-  subgraph Diffusion["LIGNE DE DIFFUSION · CÔTÉ TIR"]
-    direction LR
-    O["OUEST<br/>B1520"]
-    C["CENTRE<br/>2 × VP1800S<br/>2 × A12"]
-    E["EST<br/>B1520"]
-    O ~~~ C ~~~ E
-  end
-  P["ZONE PUBLIC<br/>environ 90–95 m × 15–23 m"]
-  C --> P
-  classDef speakers fill:#dbeafe,stroke:#2563eb,color:#172b4d;
-  classDef public fill:#ecfdf5,stroke:#059669,color:#14532d;
-  class O,C,E speakers;
-  class P public;
+  accTitle: Implantation actuelle des trois points de diffusion
+  accDescr: Enceinte B1520 à l'ouest, deux caissons et deux A12 au centre, enceinte B1520 à l'est.
+  O["Ouest · B1520"]
+  C["Centre · 2 caissons + 2 A12"]
+  E["Est · B1520"]
+  O ~~~ C ~~~ E
+  classDef speaker fill:#dbeafe,stroke:#2563eb,color:#172b4d;
+  class O,C,E speaker;
 ```
 
 *Schéma de principe, non à l'échelle. Les positions exactes restent à valider.*
@@ -95,32 +88,19 @@ Les **deux caissons sont regroupés au centre** afin de renforcer les graves, pl
 ### Configuration étendue : 7 points de diffusion
 
 ```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 15, "rankSpacing": 28, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "12px", "lineColor": "#64748b"}}}%%
+%%{init: {"flowchart": {"nodeSpacing": 35, "rankSpacing": 45, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "14px", "lineColor": "#64748b"}}}%%
 flowchart TB
-  subgraph West["SECTEUR OUEST"]
-    direction TB
-    P1["P1 · renfort"]
-    O["B1520 ouest"]
-    P2["P2 · renfort"]
-  end
-  subgraph Center["CENTRE"]
-    direction TB
-    C["2 caissons + 2 A12"]
-  end
-  subgraph East["SECTEUR EST"]
-    direction TB
-    P3["P3 · renfort"]
-    E["B1520 est"]
-    P4["P4 · renfort"]
-  end
-  West ~~~ Center ~~~ East
-  classDef addition fill:#dbeafe,stroke:#2563eb,color:#172b4d;
-  classDef existing fill:#f1f5f9,stroke:#64748b,color:#172b4d;
-  class P1,P2,P3,P4 addition;
+  accTitle: Extension de la diffusion à sept points
+  accDescr: Deux points de renfort à l'ouest, un point existant ouest, un point central, un point existant est et deux points de renfort à l'est.
+  O["Ouest · B1520 et renforts P1/P2"]
+  C["Centre · 2 caissons + 2 A12"]
+  E["Est · B1520 et renforts P3/P4"]
+  O ~~~ C ~~~ E
+  classDef existing fill:#eaf2ff,stroke:#2563eb,color:#172b4d;
   class O,C,E existing;
 ```
 
-*Schéma simplifié : 4 renforts (bleu) et points existants (gris). La disposition réelle est à confirmer.*
+*Les points P1 à P4 sont les renforts envisagés. Schéma de principe, non à l'échelle.*
 
 **Principe :** deux amplificateurs stéréo supplémentaires alimenteraient chacun **deux enceintes passives de 8 Ω** ; chaque enceinte bénéficierait d'une sortie dédiée du DSP, avec niveau et égalisation propres. Le document initial prévoit une diffusion sur la même ligne, sans retard a priori. **Ce point sera à vérifier sur site** en fonction des distances et des orientations réelles.
 
@@ -134,16 +114,16 @@ flowchart TB
 |---|---:|---|---|
 | the box pro Amprack MK II | 1 | Rack mobile | Processeur + 2 amplificateurs ; 230 V |
 | the t.racks FIR DSP 408 | 1 | Filtrage, EQ, limiteurs, routage | 4 entrées / 8 sorties XLR ; 4 utilisées |
-| the t.amp E-1200 | 1 | Médiums / aigus | 2 × 990 W sous 4 Ω ; 2 × 680 W sous 8 Ω |
-| the t.amp E-1500 | 1 | Graves | 2 × 850 W sous 8 Ω ; 2 × 1 220 W sous 4 Ω |
+| the t.amp E-1200 | 1 | Médiums et aigus | **2 × 990 W sous 4 Ω** ; 2 × 680 W sous 8 Ω |
+| the t.amp E-1500 | 1 | Graves | **2 × 850 W sous 8 Ω** ; 2 × 1 220 W sous 4 Ω |
 
 ### Diffusion
 
 | Enceintes | Qté | Puissance unitaire | Impédance | Implantation |
 |---|---:|---:|---:|---|
-| Behringer Eurolive B1520 PRO (15″ + 1,75″) | 2 | 300 W RMS | 8 Ω | Trépieds, côtés |
-| Audiophony A12 (3 voies, 12″) | 2 | 250 W RMS | 8 Ω | Mâts, au centre |
-| Behringer Eurolive VP1800S (18″) | 2 | 400 W RMS | 8 Ω | Au sol, regroupés au centre |
+| Behringer Eurolive B1520 PRO (15″ + 1,75″) | 2 | **300 W RMS** | 8 Ω | Trépieds, côtés |
+| Audiophony A12 (3 voies, 12″) | 2 | **250 W RMS** | 8 Ω | Mâts, au centre |
+| Behringer Eurolive VP1800S (18″) | 2 | **400 W RMS** | 8 Ω | Au sol, regroupés au centre |
 
 ### Commande et accessoires
 
@@ -174,7 +154,7 @@ flowchart TB
 |---|---:|---:|---:|
 | Médiums / aigus (2 canaux, 4 Ω) | 1 980 W | 1 100 W RMS | × 1,8 |
 | Graves (2 canaux, 8 Ω) | 1 700 W | 800 W RMS | × 2,1 |
-| Total | 3 680 W | 1 900 W RMS | ≈ × 1,9 |
+| **Total** | **3 680 W** | **1 900 W RMS** | **≈ × 1,9** |
 
 Cette marge de puissance est celle retenue dans le dossier technique. Elle ne garantit pas, à elle seule, l'absence de dommage : **filtrage, limiteurs et réglage des niveaux restent indispensables**.
 
@@ -218,14 +198,14 @@ Les sorties **5 à 8**, accessibles à l'arrière du processeur dans le rack, n�
 
 ### Prêt recherché auprès de la commune ou d'un partenaire
 
-**Option B — prioritaire**
+#### Option B — prioritaire
 
 - [ ] **1 ou 2 amplificateurs stéréo**, au moins **2 × 500 W sous 8 Ω** chacun.
 - [ ] **2 ou 4 enceintes passives 8 Ω**.
 - [ ] **1 câble Speakon par enceinte** (25 à 50 m, selon implantation).
 - [ ] **Protection contre la pluie** pour le matériel.
 
-**Option A — alternative**
+#### Option A — alternative
 
 - [ ] **2 à 4 enceintes actives** de 12″ ou 15″, avec leurs pieds.
 - [ ] **1 câble XLR par enceinte** (25 à 50 m).
