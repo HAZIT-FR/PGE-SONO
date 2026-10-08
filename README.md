@@ -46,8 +46,8 @@ flowchart TB
   BD["<b>ENCEINTE LARGE BANDE</b><br/>2 voies · 15″ · droite<br/>BEHRINGER EUROLIVE B1520 PRO"]
   AG["<b>ENCEINTE LARGE BANDE</b><br/>3 voies · 12″ · gauche<br/>AUDIOPHONY A12"]
   AD["<b>ENCEINTE LARGE BANDE</b><br/>3 voies · 12″ · droite<br/>AUDIOPHONY A12"]
-  SG["<b>CAISSONS DE BASSES</b><br/>BEHRINGER EUROLIVE VP1800S<br/>Gauche"]
-  SD["<b>CAISSONS DE BASSES</b><br/>BEHRINGER EUROLIVE VP1800S<br/>Droite"]
+  SG["<b>CAISSON DE BASSES</b><br/>18″ · gauche<br/>BEHRINGER EUROLIVE VP1800S"]
+  SD["<b>CAISSON DE BASSES</b><br/>18″ · droite<br/>BEHRINGER EUROLIVE VP1800S"]
 
   A -. "Télécommunications radio (antenne)" .-> B
   B --> C --> D
