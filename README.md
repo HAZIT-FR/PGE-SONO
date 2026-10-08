@@ -196,6 +196,25 @@ D'après le plan de tir, la plupart des spectateurs de la zone prévue seraient 
 
 ![Légende de l'implantation actuelle](docs/V%20LEGENDE%20PGE.png)
 
+### Niveau sonore estimé
+
+Le son perd environ **6 dB chaque fois que la distance double**. D'après les calculs préparatoires, une enceinte **B1520 PRO à pleine puissance**, en champ libre, donnerait les ordres de grandeur suivants :
+
+| Distance | Niveau estimé | Lecture rapide |
+|---|---:|---|
+| **5 m** | 107 dB | Premier rang : niveau à surveiller |
+| **10 m** | 101 dB | Proche de l'enceinte |
+| **20 à 25 m** | 93 à 95 dB | Fond de la zone public prévue |
+| **50 à 100 m** | 87 à 81 dB | Au-delà de la zone à couvrir |
+
+<div align="justify">
+
+Notre objectif est d'environ **95 dB au milieu du public**. Deux enceintes audibles peuvent ajouter **2 à 3 dB** selon leur position. Ces valeurs restent **théoriques (± 3 dB selon les estimations initiales)** : la foule, les arbres et la météo peuvent modifier le résultat. Nous vérifierons les niveaux et la couverture lors des essais sur place.
+
+</div>
+
+Pour repère, la réglementation relative aux sons amplifiés prévoit notamment des limites de **102 dB(A) et 118 dB(C) sur 15 minutes** dans son champ d'application ([décret n° 2017-1244](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035388481)). Les niveaux ci-dessus, non pondérés dans l'estimation initiale, ne permettent pas à eux seuls de vérifier ces limites.
+
 ## 3. La solution — renforcer la diffusion
 
 <div align="justify">
