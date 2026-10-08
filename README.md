@@ -4,7 +4,21 @@
 
 Dossier technique de l'installation PGE, des contraintes de diffusion sur le site de Champigneulles et de la solution envisagée.
 
-**Accès rapide :** [Matériel PGE](#1-notre-installation--matériel-pge) · [Problématique](#2-la-problématique--sonorisation-du-public) · [Demande de prêt](#3-la-solution--renforcer-la-diffusion) · [Conditions d'installation](#4-conditions-dinstallation--sécurité-et-logistique)
+## Sommaire
+
+1. **[Notre installation — matériel PGE](#1-notre-installation--matériel-pge)**
+   - [Vue d'ensemble du matériel et des câbles](#vue-densemble--matériel-et-câblage)
+   - [Schéma et branchements audio](#schéma-et-branchements-audio)
+2. **[La problématique — sonorisation du public](#2-la-problématique--sonorisation-du-public)**
+   - [Plan de l'implantation actuelle](#implantation-actuelle)
+3. **[La solution — renforcer la diffusion](#3-la-solution--renforcer-la-diffusion)**
+   - [Matériel demandé à la commune ou à un partenaire](#matériel-demandé-à-la-commune-ou-à-un-partenaire)
+   - [Plan de l'implantation envisagée](#implantation-envisagée)
+4. **[Conditions d'installation — sécurité et logistique](#4-conditions-dinstallation--sécurité-et-logistique)**
+   - [Conditions à prévoir sur site](#conditions-à-prévoir-sur-site)
+   - [Vérifications techniques avant le spectacle](#vérifications-techniques-avant-le-spectacle--pge)
+
+---
 
 ## 1. Notre installation — matériel PGE
 
