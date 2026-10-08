@@ -46,8 +46,8 @@ flowchart TB
   BD["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>2 voies · 15″ · droite<br/>BEHRINGER EUROLIVE B1520 PRO"]
   AG["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>3 voies · 12″ · gauche<br/>AUDIOPHONY A12"]
   AD["<b>ENCEINTE MÉDIUMS/AIGUS</b><br/>3 voies · 12″ · droite<br/>AUDIOPHONY A12"]
-  SG["<b>CAISSON DE BASSES</b><br/>18″ · gauche<br/>BEHRINGER EUROLIVE VP1800S"]
-  SD["<b>CAISSON DE BASSES</b><br/>18″ · droite<br/>BEHRINGER EUROLIVE VP1800S"]
+  SG["<b>ENCEINTE DE GRAVES</b><br/>18″ · gauche<br/>BEHRINGER EUROLIVE VP1800S"]
+  SD["<b>ENCEINTE DE GRAVES</b><br/>18″ · droite<br/>BEHRINGER EUROLIVE VP1800S"]
 
   TG["<b>TRÉPIED AU SOL</b>"]
   TD["<b>TRÉPIED AU SOL</b>"]
