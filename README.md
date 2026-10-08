@@ -42,10 +42,10 @@ flowchart TB
   F["<b>AMPLIFICATEURS</b><br/>Graves<br/>THE T.AMP E-1500"]
   LG["<b>CANAL GAUCHE</b><br/>4 Ω"]
   LD["<b>CANAL DROIT</b><br/>4 Ω"]
-  BG["<b>ENCEINTES PRINCIPALES</b><br/>BEHRINGER EUROLIVE B1520 PRO<br/>Gauche"]
-  BD["<b>ENCEINTES PRINCIPALES</b><br/>BEHRINGER EUROLIVE B1520 PRO<br/>Droite"]
-  AG["<b>ENCEINTES D'APPOINT</b><br/>AUDIOPHONY A12<br/>Gauche"]
-  AD["<b>ENCEINTES D'APPOINT</b><br/>AUDIOPHONY A12<br/>Droite"]
+  BG["<b>ENCEINTE LARGE BANDE</b><br/>2 voies · 15″ · gauche<br/>BEHRINGER EUROLIVE B1520 PRO"]
+  BD["<b>ENCEINTE LARGE BANDE</b><br/>2 voies · 15″ · droite<br/>BEHRINGER EUROLIVE B1520 PRO"]
+  AG["<b>ENCEINTE LARGE BANDE</b><br/>3 voies · 12″ · gauche<br/>AUDIOPHONY A12"]
+  AD["<b>ENCEINTE LARGE BANDE</b><br/>3 voies · 12″ · droite<br/>AUDIOPHONY A12"]
   SG["<b>CAISSONS DE BASSES</b><br/>BEHRINGER EUROLIVE VP1800S<br/>Gauche"]
   SD["<b>CAISSONS DE BASSES</b><br/>BEHRINGER EUROLIVE VP1800S<br/>Droite"]
 
@@ -83,8 +83,8 @@ flowchart TB
 | Rack | THE BOX PRO AMPRACK MK II | 1 |
 | Processeur audio | THE T.RACKS FIR DSP 408 | 1 |
 | Amplificateurs | THE T.AMP E-1200 / E-1500 | 2 |
-| Enceintes principales | BEHRINGER EUROLIVE B1520 PRO | 2 |
-| Enceintes d'appoint | AUDIOPHONY A12 | 2 |
+| Enceintes large bande · 2 voies (15″) | BEHRINGER EUROLIVE B1520 PRO | 2 |
+| Enceintes large bande · 3 voies (12″) | AUDIOPHONY A12 | 2 |
 | Caissons de basses | BEHRINGER EUROLIVE VP1800S | 2 |
 | Lecture synchronisée | COBRA AUDIO BOX | 1 |
 | Tables de mixage | JCB NSA 2008 / BEHRINGER XENYX 302USB | 2 |
@@ -106,6 +106,8 @@ La puissance cumulée annoncée est de **3 680 W** pour les amplificateurs et 
 
 ### ENCEINTES PASSIVES
 
+Les B1520 PRO et A12 sont toutes deux des **enceintes large bande**, capables de reproduire plusieurs registres. Dans cette installation, elles sont raccordées à l'amplificateur des médiums et aigus ; la répartition effective des fréquences dépend des réglages du DSP. [B1520 PRO : constructeur](https://www.behringer.com/en/products/0313-AAM) · [A12 : fiche technique Audiofanzine](https://fr.audiofanzine.com/enceinte-sono-full-range/audiophony/A12/).
+
 | Modèle | Qté | Puissance RMS | Impédance |
 |---|---:|---:|---:|
 | BEHRINGER EUROLIVE B1520 PRO | 2 | **300 W** | 8 Ω |
@@ -114,7 +116,7 @@ La puissance cumulée annoncée est de **3 680 W** pour les amplificateurs et 
 
 | Modèle | Caractéristiques complémentaires |
 |---|---|
-| B1520 PRO | 15″ + 1,75″ ; 1 200 W crête ; 96 dB (1 W / 1 m) ; 27 kg |
+| B1520 PRO | **2 voies** ; 15″ + 1,75″ ; 1 200 W crête ; 96 dB (1 W / 1 m) ; 27 kg |
 | A12 | 3 voies, 12″ ; 500 W crête ; 99 dB (1 W / 1 m) ; 14 kg |
 | VP1800S | Caisson 18″ ; 40–200 Hz ; 1 600 W crête ; 100 dB (1 W / 1 m) ; 41 kg |
 
