@@ -150,77 +150,61 @@ Selon les estimations tirées du plan de tir, notre installation devrait couvrir
 <details>
 <summary><strong>Afficher l'implantation proposée et les besoins</strong></summary>
 
-Pour répartir plus régulièrement la musique dans le public tout en conservant l'installation actuelle, nous souhaitons **ajouter 2 amplificateurs et 4 enceintes passives**.
+Pour améliorer la répartition du son aux extrémités du public, nous proposons de **conserver toute l'installation PGE** et de compléter la diffusion avec **2 amplificateurs et 4 enceintes passives**. Le dispositif passerait ainsi de **3 à 7 points de diffusion**, sans modifier les 2 caissons de graves existants.
 
 ### Implantation envisagée
+
+Le plan ci-dessous montre où seraient placés les quatre points supplémentaires par rapport au matériel actuel.
 
 ![Plan de sonorisation — implantation avec quatre enceintes passives supplémentaires](docs/V%20PROPOSE%20PGE.png)
 
 ![Légende de l'implantation envisagée](docs/V%20LEGENDE%20PGE.png)
 
-*Implantations et angles de couverture indicatifs, à confirmer sur site.*
+*Positionnement et angles de couverture indicatifs, à confirmer sur site.*
 
-| Matériel | 🟢 **Disponible chez PGE** | 🟠 **Renfort souhaité** |
-|---|---:|---:|
-| Amplificateurs | 2 | **+ 2** |
-| Enceintes de diffusion | 4 | **+ 4** |
-| Caissons de basses | 2 | — |
-| Points de diffusion | 3 | **+ 4** |
+### Matériel à mobiliser
 
-### Renfort privilégié : enceintes passives
+La **solution privilégiée** repose sur des enceintes passives, alimentées par des amplificateurs stéréo supplémentaires. Elle permet de conserver la chaîne audio actuelle et d'utiliser les sorties encore libres du processeur.
 
-| Matériel à obtenir | Quantité | Caractéristiques |
+| Matériel | Quantité | Besoin |
 |---|---:|---|
 | Amplificateurs stéréo | **2** | Au moins 2 × 500 W sous 8 Ω chacun |
 | Enceintes passives | **4** | 8 Ω, avec supports |
 | Câbles Speakon | 4 | 1 par enceinte ; 25 à 50 m envisagés |
-| Câbles XLR | Selon implantation | DSP vers amplificateurs |
-| Protections pluie | Selon implantation | Amplificateurs et enceintes |
+| Câbles XLR | Selon implantation | Du DSP vers les amplificateurs |
+| Protections pluie | Selon implantation | Pour les amplificateurs et les enceintes |
 
-**Un prêt partiel de 1 amplificateur et 2 enceintes** reste possible.
+Un **prêt partiel d'un amplificateur et de deux enceintes** reste envisageable : il permettrait un renfort réduit à deux points supplémentaires.
 
-### Alternative : enceintes actives
+### Raccordement et réglages
 
-| Matériel à obtenir | Quantité | Caractéristiques |
-|---|---:|---|
-| Enceintes actives | 2 à 4 | 12″ ou 15″, avec pieds |
-| Câbles XLR | 1 par enceinte | 25 à 50 m envisagés |
-| Alimentation 230 V | 1 par enceinte | À chaque emplacement |
-| Protections pluie | Selon implantation | Matériel installé à l'extérieur |
+Le **THE T.RACKS FIR DSP 408** dispose de **4 sorties XLR disponibles (5 à 8)**. Elles permettront de raccorder le renfort, avec des réglages indépendants de **niveau, égalisation, filtres et retard**.
+
+Dans la configuration passive complète, **chaque amplificateur ajouté alimenterait deux enceintes de 8 Ω**, une par canal. Le projet prévoit une même ligne de diffusion, **sans retard a priori** ; ce choix et l'orientation des enceintes devront être confirmés lors des essais. La configuration du DSP sera préparée en fonction du matériel effectivement disponible.
 
 <details>
-<summary>🔹 Comparatif et configuration des renforts</summary>
+<summary>🔹 Alternative : enceintes actives</summary>
+
+Une autre possibilité serait d'utiliser **2 à 4 enceintes actives de 12″ ou 15″**, avec pieds. Leur amplification intégrée évite l'ajout d'amplificateurs externes, mais impose une **alimentation 230 V à chaque emplacement**, ainsi qu'un câble XLR par enceinte (25 à 50 m envisagés) et des protections adaptées à l'extérieur.
 
 | Point | Passives (privilégiées) | Actives |
 |---|---|---|
 | Amplification | 1 ou 2 amplis stéréo externes | Intégrée |
-| Audio depuis le DSP | XLR vers amplis | XLR vers enceintes |
-| Liaison aux enceintes | Speakon | Pas de câble haut-parleur |
-| Secteur 230 V | Près des amplificateurs | Près de chaque enceinte |
-| Diffusion possible | 2 à 4 enceintes | 2 à 4 enceintes |
-
-Le **FIR DSP 408** dispose de quatre sorties XLR libres (5 à 8). Chaque renfort peut avoir son propre niveau, son égalisation, ses filtres et un retard ajustable.
-
-Dans la configuration passive complète, chaque amplificateur ajouté alimente **deux enceintes de 8 Ω**, une par canal. Le dossier prévoit une même ligne de diffusion, sans retard a priori ; ce point sera confirmé lors des essais selon les distances et les orientations. La configuration DSP devra être préparée avant le spectacle si le matériel de prêt est disponible.
+| Signal depuis le DSP | XLR vers les amplificateurs | XLR vers chaque enceinte |
+| Câblage des enceintes | Speakon | Pas de câble haut-parleur |
+| Alimentation 230 V | Près des amplificateurs | À chaque enceinte |
+| Diffusion complémentaire | 2 à 4 enceintes | 2 à 4 enceintes |
 
 </details>
 
-
-L'implantation définitive doit être validée sur le plan de sécurité.
-
 ### Conditions d'installation
 
-| Besoin | Prévision |
-|---|---|
-| Position des enceintes | 1 à 2 m devant la barrière, côté tir ; implantation à valider |
-| Zones de sécurité | En dehors des cercles de 30 m liés au petit calibre, selon le plan de sécurité |
-| Alimentation du rack | **230 V / 16 A**, ligne dédiée sans buvette ni chauffage |
-| Si ajout d'amplificateurs | Seconde ligne électrique adaptée |
-| Accès véhicule | Déchargement au plus près |
-| Manutention | Caissons de 41 kg ; B1520 PRO de 27 kg |
-| Hauteur des enceintes | **2,5 à 3 m**, selon validation de l'implantation |
-| Essai sonore | Environ **30 min** avant la tombée de la nuit |
-| Protection météo | Rack couvert, housses et protections adaptées |
+Quel que soit le matériel retenu, **l'implantation définitive doit être validée sur le plan de sécurité**. Les besoins opérationnels sont les suivants :
+
+- **Emplacement et sécurité :** enceintes à 1 à 2 m devant la barrière, côté tir, en dehors des cercles de 30 m liés au petit calibre ; hauteur envisagée de **2,5 à 3 m**, sous réserve de validation.
+- **Électricité :** rack sur une ligne dédiée **230 V / 16 A**, sans buvette ni chauffage ; seconde ligne électrique adaptée si des amplificateurs sont ajoutés.
+- **Accès et manutention :** déchargement du véhicule au plus près ; prévoir le déplacement des caissons de **41 kg** et des B1520 PRO de **27 kg**.
+- **Essais et météo :** prévoir environ **30 min** d'essai avant la tombée de la nuit ; protéger le rack, les amplificateurs et les enceintes contre la pluie.
 
 <details>
 <summary>🔹 Vérifications avant le spectacle</summary>
