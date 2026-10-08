@@ -12,11 +12,17 @@ Dossier technique de l'installation PGE, des contraintes de diffusion sur le sit
 2. **[La problématique — sonorisation du public](#2-la-problématique--sonorisation-du-public)**
    - [Plan de l'implantation actuelle](#implantation-actuelle)
 3. **[La solution — renforcer la diffusion](#3-la-solution--renforcer-la-diffusion)**
-   - [Matériel demandé à la commune ou à un partenaire](#matériel-demandé-à-la-commune-ou-à-un-partenaire)
+   - [Répartition du matériel et du prêt](#répartition-du-matériel-et-du-prêt)
    - [Plan de l'implantation envisagée](#implantation-envisagée)
 4. **[Conditions d'installation — sécurité et logistique](#4-conditions-dinstallation--sécurité-et-logistique)**
    - [Conditions à prévoir sur site](#conditions-à-prévoir-sur-site)
    - [Vérifications techniques avant le spectacle](#vérifications-techniques-avant-le-spectacle--pge)
+
+> **Notre demande en bref**
+>
+> Pour le spectacle du **6 décembre 2026**, PGE recherche le prêt de **4 enceintes passives de 8 Ω avec supports** et de **2 amplificateurs stéréo** (au moins 2 × 500 W sous 8 Ω chacun), en complément de son installation.
+>
+> **Prêt partiel possible :** 2 enceintes et 1 amplificateur. **Câbles et protections météo :** fourniture à confirmer.
 
 ---
 
@@ -162,19 +168,20 @@ D'après le plan de tir, la plupart des spectateurs de la zone prévue seraient 
 
 Pour compléter les **3 points de diffusion existants** et mieux couvrir les extrémités du public, PGE souhaite mettre en place **4 points supplémentaires**.
 
-### Matériel demandé à la commune ou à un partenaire
+### Répartition du matériel et du prêt
 
-**Solution privilégiée : prêt d'enceintes passives et d'amplificateurs.**
+PGE conserve **sa sonorisation actuelle**. La demande porte sur le renfort ; la fourniture des câbles et des protections sera précisée avec le partenaire.
 
-| Matériel sollicité | Quantité | Caractéristiques souhaitées |
-|---|---:|---|
-| **Enceintes passives avec supports** | **4** | 8 Ω |
-| **Amplificateurs stéréo** | **2** | Au moins 2 × 500 W sous 8 Ω chacun |
-| Câbles Speakon | 4 | 1 par enceinte ; 25 à 50 m envisagés |
-| Câbles XLR | À définir | Du processeur vers les amplificateurs |
-| Protections pluie | Selon implantation | Pour le matériel installé à l'extérieur |
+| Fourniture | Matériel | Quantité et caractéristiques |
+|---|---|---|
+| **PGE — existant** | Amplificateurs, enceintes, caissons et DSP | 2 amplificateurs, 4 enceintes de diffusion, 2 caissons de graves et 1 processeur audio |
+| **Prêt sollicité** | Enceintes passives avec supports | **4**, 8 Ω |
+| **Prêt sollicité** | Amplificateurs stéréo | **2**, au moins 2 × 500 W sous 8 Ω chacun |
+| **À confirmer** | Câbles Speakon | **4**, un par enceinte ; longueurs envisagées de 25 à 50 m |
+| **À confirmer** | Câbles XLR | Selon implantation ; DSP vers amplificateurs |
+| **À confirmer** | Protections contre la pluie | Selon implantation ; matériel installé à l'extérieur |
 
-**Un prêt partiel reste possible :** 1 amplificateur et 2 enceintes permettraient déjà d'ajouter 2 points de diffusion.
+En cas de prêt limité, **1 amplificateur et 2 enceintes** permettraient déjà d'ajouter deux points de diffusion.
 
 ### Implantation envisagée
 
