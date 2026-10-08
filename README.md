@@ -84,7 +84,7 @@ La puissance cumulée annoncée est de **3 680 W** pour les amplificateurs et 
 La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2** par télécommunications radio (antenne).
 
 ~~~mermaid
-%%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 34, "htmlLabels": true, "wrappingWidth": 230}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
+%%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 34, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
 flowchart TB
   A["Poste de tir<br/>COBRA 18R2"]
   B["Lecture de la bande-son<br/>COBRA AUDIO BOX"]
