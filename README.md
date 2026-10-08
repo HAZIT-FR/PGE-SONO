@@ -71,7 +71,7 @@ La puissance cumulée annoncée est de **3 680 W** pour les amplificateurs et 
 
 | Équipement | Fonction |
 |---|---|
-| COBRA AUDIO BOX | Lecture MP3 sur clé USB, synchronisation radio avec le pupitre ; sorties casque, RCA et jack 6,35 mm |
+| COBRA AUDIO BOX | Lecture MP3 sur clé USB, synchronisation radio avec le poste de tir ; sorties casque, RCA et jack 6,35 mm |
 | JCB NSA 2008 | Table principale, 6 voies dont 1 micro ; volume et annonces |
 | BEHRINGER XENYX 302USB | Table de secours, 5 voies |
 | Trépieds et mâts | 4 supports ; embase de 35 mm |
@@ -81,29 +81,45 @@ La puissance cumulée annoncée est de **3 680 W** pour les amplificateurs et 
 <details>
 <summary><strong>Schéma et branchements audio</strong></summary>
 
-La musique est lancée par la **COBRA AUDIO BOX**, synchronisée par radio avec le pupitre de tir COBRA 18R2.
+La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2** par télécommunications radio (antenne).
 
 ~~~mermaid
-%%{init: {"flowchart": {"nodeSpacing": 22, "rankSpacing": 30, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
+%%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 34, "htmlLabels": true, "wrappingWidth": 230}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
 flowchart TB
-  A["Pupitre COBRA 18R2"]
-  B["COBRA AUDIO BOX"]
-  C["Mixage · JCB NSA 2008"]
-  D["Traitement · FIR DSP 408"]
-  E["E-1200 · médiums et aigus"]
-  F["E-1500 · graves"]
-  G["2 B1520 PRO + 2 A12"]
-  H["2 caissons VP1800S"]
-  A -. "Radio" .-> B
+  A["Poste de tir<br/>COBRA 18R2"]
+  B["Lecture de la bande-son<br/>COBRA AUDIO BOX"]
+  C["Mixage<br/>JCB NSA 2008"]
+  D["Traitement audio<br/>FIR DSP 408"]
+  E["Médiums et aigus<br/>THE T.AMP E-1200"]
+  F["Graves<br/>THE T.AMP E-1500"]
+  LG["Canal gauche<br/>4 Ω"]
+  LD["Canal droit<br/>4 Ω"]
+  BG["B1520 PRO<br/>Gauche"]
+  AG["A12<br/>Gauche"]
+  BD["B1520 PRO<br/>Droite"]
+  AD["A12<br/>Droite"]
+  SG["VP1800S<br/>Gauche"]
+  SD["VP1800S<br/>Droite"]
+
+  A -. "Télécommunications radio (antenne)" .-> B
   B --> C --> D
-  D --> E --> G
-  D --> F --> H
+  D --> E
+  D --> F
+  E --> LG
+  E --> LD
+  LG --> BG
+  LG --> AG
+  LD --> BD
+  LD --> AD
+  F --> SG
+  F --> SD
+
   classDef source fill:#f1f5f9,stroke:#64748b,color:#172b4d;
   classDef amp fill:#dbeafe,stroke:#2563eb,color:#172b4d;
   classDef speaker fill:#ecfdf5,stroke:#059669,color:#14532d;
   class A,B,C source;
-  class D,E,F amp;
-  class G,H speaker;
+  class D,E,F,LG,LD amp;
+  class BG,AG,BD,AD,SG,SD speaker;
 ~~~
 
 | Circuit | Branchement |
@@ -112,6 +128,8 @@ flowchart TB
 | E-1200, canal droit | 1 B1520 PRO + 1 A12 en parallèle (4 Ω) |
 | E-1500 | 1 VP1800S par canal (8 Ω) |
 | FIR DSP 408 | 4 sorties utilisées ; **sorties 5 à 8 disponibles** |
+
+*Lecture du schéma : chaque B1520 PRO et chaque A12 possède son propre cadre. Les deux canaux de l'E-1200 alimentent chacun une B1520 PRO et une A12 ; l'E-1500 alimente un caisson par canal.*
 
 Les sorties libres du DSP sont des **sorties de signal XLR** : elles ne peuvent pas alimenter directement des enceintes passives.
 
@@ -136,11 +154,11 @@ Les points sont présentés d'**ouest en est**, verticalement pour éviter les d
 ### Installation actuelle : 3 points
 
 ~~~mermaid
-%%{init: {"flowchart": {"nodeSpacing": 25, "rankSpacing": 26, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "13px"}}}%%
+%%{init: {"flowchart": {"nodeSpacing": 25, "rankSpacing": 26, "htmlLabels": true}, "theme": "base", "themeVariables": {"fontSize": "13px"}}}%%
 flowchart TB
-  O["OUEST · B1520 PRO"]
-  C["CENTRE · 2 VP1800S + 2 A12"]
-  E["EST · B1520 PRO"]
+  O["Ouest<br/>B1520 PRO"]
+  C["Centre<br/>2 VP1800S + 2 A12"]
+  E["Est<br/>B1520 PRO"]
   O --- C --- E
   classDef existing fill:#dbeafe,stroke:#2563eb,color:#172b4d;
   class O,C,E existing;
@@ -149,15 +167,15 @@ flowchart TB
 ### Avec renfort : 7 points
 
 ~~~mermaid
-%%{init: {"flowchart": {"nodeSpacing": 18, "rankSpacing": 20, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "13px"}}}%%
+%%{init: {"flowchart": {"nodeSpacing": 18, "rankSpacing": 20, "htmlLabels": true}, "theme": "base", "themeVariables": {"fontSize": "13px"}}}%%
 flowchart TB
-  P1["P1 · renfort ouest"]
-  O["B1520 PRO · ouest"]
-  P2["P2 · renfort ouest"]
-  C["CENTRE · 2 caissons + 2 A12"]
-  P3["P3 · renfort est"]
-  E["B1520 PRO · est"]
-  P4["P4 · renfort est"]
+  P1["Renfort ouest<br/>P1"]
+  O["Ouest<br/>B1520 PRO"]
+  P2["Renfort ouest<br/>P2"]
+  C["Centre<br/>2 caissons + 2 A12"]
+  P3["Renfort est<br/>P3"]
+  E["Est<br/>B1520 PRO"]
+  P4["Renfort est<br/>P4"]
   P1 --- O --- P2 --- C --- P3 --- E --- P4
   classDef existing fill:#dbeafe,stroke:#2563eb,color:#172b4d;
   classDef proposed fill:#fff2db,stroke:#d97706,color:#7c2d12;
