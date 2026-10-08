@@ -53,7 +53,6 @@ flowchart TB
   TD["<b>TRÉPIED AU SOL</b>"]
   MG["<b>MÂT DE COUPLAGE</b>"]
   MD["<b>MÂT DE COUPLAGE</b>"]
-  P["<b>PUISSANCES CUMULÉES</b><br/>Amplificateurs : 3 680 W annoncés<br/>Enceintes : 1 900 W RMS<br/>Caractéristiques nominales · pas un niveau sonore mesuré"]
 
   A -- "Télécommunications radio (antenne)" --> B
   B --> C --> D
@@ -73,8 +72,6 @@ flowchart TB
   SG --- MG
   SD --- MD
 
-  D ~~~ P
-
   classDef commande fill:#f1f5f9,stroke:#64748b,color:#172b4d;
   classDef processeur fill:#ffedd5,stroke:#d97706,color:#7c2d12;
   classDef amplis fill:#dbeafe,stroke:#2563eb,color:#172b4d;
@@ -83,7 +80,6 @@ flowchart TB
   classDef appoint fill:#ecfccb,stroke:#65a30d,color:#365314;
   classDef basses fill:#f3e8ff,stroke:#9333ea,color:#581c87;
   classDef support fill:#f8fafc,stroke:#94a3b8,color:#334155;
-  classDef bilan fill:#f8fafc,stroke:#64748b,color:#334155;
   class A,B,C commande;
   class D processeur;
   class E,F amplis;
@@ -92,8 +88,14 @@ flowchart TB
   class AG,AD appoint;
   class SG,SD basses;
   class TG,TD,MG,MD support;
-  class P bilan;
 ~~~
+
+| Ensemble | Puissance cumulée |
+|---|---:|
+| Amplificateurs | **3 680 W annoncés** |
+| Enceintes | **1 900 W RMS** |
+
+*Puissances théoriques du matériel, sans rapport direct avec un niveau sonore mesuré.*
 
 Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
