@@ -90,7 +90,7 @@ flowchart LR
 Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
 <details>
-<summary><strong>Fiche technique complète — matériel, puissances et raccordements</strong></summary>
+<summary>🔹 Fiche technique complète — matériel, puissances et raccordements</summary>
 
 <table>
 <thead>
@@ -146,7 +146,7 @@ Selon les estimations tirées du plan de tir, notre installation devrait couvrir
 Ces résultats sont **théoriques** : ils ne remplacent pas un essai sur place.
 
 <details>
-<summary><strong>Puissances nominales</strong></summary>
+<summary>🔹 Puissances nominales</summary>
 
 ### Puissance nominale
 
@@ -196,7 +196,7 @@ Pour répartir plus régulièrement la musique dans le public tout en conservant
 | Protections pluie | Selon implantation | Matériel installé à l'extérieur |
 
 <details>
-<summary><strong>Comparatif et configuration des renforts</strong></summary>
+<summary>🔹 Comparatif et configuration des renforts</summary>
 
 | Point | Passives (privilégiées) | Actives |
 |---|---|---|
@@ -213,7 +213,7 @@ Dans la configuration passive complète, chaque amplificateur ajouté alimente *
 </details>
 
 <details>
-<summary><strong>Implantation actuelle et extension envisagée</strong></summary>
+<summary>🔹 Implantation actuelle et extension envisagée</summary>
 
 Les points sont présentés d'**ouest en est**, verticalement pour éviter les débordements sur les petits écrans. Les traits indiquent leur succession, pas le câblage. Schémas **non à l'échelle**.
 
@@ -276,7 +276,7 @@ L'implantation exacte devra être validée sur le plan de sécurité.
 | Protection météo | Rack couvert, housses et protections adaptées |
 
 <details>
-<summary><strong>Vérifications avant le spectacle</strong></summary>
+<summary>🔹 Vérifications avant le spectacle</summary>
 
 - [ ] Confirmer les emplacements avec le plan de tir et les distances de sécurité.
 - [ ] Vérifier la disponibilité et la compatibilité du matériel prêté.
