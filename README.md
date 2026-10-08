@@ -2,7 +2,11 @@
 
 **Association Pyrotechnique du Grand Est (PGE)** · **Spectacle pyromusical du 6 décembre 2026**
 
+<div align="justify">
+
 Dossier technique de l'installation PGE, des contraintes de diffusion sur le site de Champigneulles et de la solution envisagée.
+
+</div>
 
 ## Sommaire
 
@@ -18,11 +22,15 @@ Dossier technique de l'installation PGE, des contraintes de diffusion sur le sit
    - [Conditions à prévoir sur site](#conditions-à-prévoir-sur-site)
    - [Vérifications techniques avant le spectacle](#vérifications-techniques-avant-le-spectacle--pge)
 
+<div align="justify">
+
 > **Notre demande en bref**
 >
 > Pour le spectacle du **6 décembre 2026**, PGE recherche le prêt de **4 enceintes passives de 8 Ω avec supports** et de **2 amplificateurs stéréo** (au moins 2 × 500 W sous 8 Ω chacun), en complément de son installation.
 >
 > **Prêt partiel possible :** 2 enceintes et 1 amplificateur. **Câbles et protections météo :** fourniture à confirmer.
+
+</div>
 
 ---
 
@@ -31,7 +39,11 @@ Dossier technique de l'installation PGE, des contraintes de diffusion sur le sit
 <details open>
 <summary><strong>Afficher le matériel et les branchements</strong></summary>
 
+<div align="justify">
+
 Le dispositif existant comprend **2 amplificateurs**, **4 enceintes de diffusion** et **2 caissons de graves**, répartis sur **3 points de diffusion**.
+
+</div>
 
 ### Vue d'ensemble — matériel et câblage
 
@@ -39,7 +51,11 @@ Le dispositif existant comprend **2 amplificateurs**, **4 enceintes de diffusion
 
 ### Schéma et branchements audio
 
+<div align="justify">
+
 La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2**.
+
+</div>
 
 ~~~mermaid
 %%{init: {"flowchart": {"useMaxWidth": true, "nodeSpacing": 5, "rankSpacing": 24, "padding": 6, "htmlLabels": true, "wrappingWidth": 260}, "theme": "base", "themeVariables": {"fontSize": "14px", "lineColor": "#64748b"}}}%%
@@ -113,9 +129,17 @@ flowchart LR
   class LIBRE reserve;
 ~~~
 
+<div align="justify">
+
 **Puissances cumulées :** amplificateurs **3 680 W annoncés** · enceintes **1 900 W RMS**. Cette réserve de puissance exige des réglages adaptés des filtres et limiteurs.
 
+</div>
+
+<div align="justify">
+
 Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
+
+</div>
 
 <details>
 <summary>🔹 Fiche technique complète — matériel, puissances et raccordements</summary>
@@ -148,7 +172,11 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 </tbody>
 </table>
 
+<div align="justify">
+
 **Précision :** les B1520 PRO et A12 sont des enceintes large bande, exploitées ici pour les médiums/aigus selon les filtres du DSP. [B1520 PRO : constructeur](https://www.behringer.com/en/products/0313-AAM) · [A12 : fiche technique Audiofanzine](https://fr.audiofanzine.com/enceinte-sono-full-range/audiophony/A12/).
+
+</div>
 
 </details>
 
@@ -156,7 +184,11 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
 ## 2. La problématique — sonorisation du public
 
+<div align="justify">
+
 D'après le plan de tir, la plupart des spectateurs de la zone prévue seraient à **moins de 25 m d'une enceinte**. Notre installation semble adaptée à ce périmètre, mais la diffusion pourrait être **moins régulière aux extrémités**, particulièrement à l'ouest. Le dispositif n'est pas destiné à sonoriser l'ensemble du parc.
+
+</div>
 
 ### Implantation actuelle
 
@@ -166,11 +198,19 @@ D'après le plan de tir, la plupart des spectateurs de la zone prévue seraient 
 
 ## 3. La solution — renforcer la diffusion
 
+<div align="justify">
+
 Pour compléter les **3 points de diffusion existants** et mieux couvrir les extrémités du public, PGE souhaite mettre en place **4 points supplémentaires**.
+
+</div>
 
 ### Répartition du matériel et du prêt
 
+<div align="justify">
+
 PGE conserve **sa sonorisation actuelle**. La demande porte sur le renfort ; la fourniture des câbles et des protections sera précisée avec le partenaire.
+
+</div>
 
 | Fourniture | Matériel | Quantité et caractéristiques |
 |---|---|---|
@@ -181,38 +221,66 @@ PGE conserve **sa sonorisation actuelle**. La demande porte sur le renfort ; la 
 | **À confirmer** | Câbles XLR | Selon implantation ; DSP vers amplificateurs |
 | **À confirmer** | Protections contre la pluie | Selon implantation ; matériel installé à l'extérieur |
 
+<div align="justify">
+
 En cas de prêt limité, **1 amplificateur et 2 enceintes** permettraient déjà d'ajouter deux points de diffusion.
+
+</div>
 
 ### Implantation envisagée
 
+<div align="justify">
+
 Le renfort complète le matériel PGE, **sans remplacer les enceintes ni les caissons existants**.
+
+</div>
 
 ![Plan de sonorisation — implantation avec quatre enceintes passives supplémentaires](docs/V%20PROPOSE%20PGE.png)
 
 ![Légende de l'implantation envisagée](docs/V%20LEGENDE%20PGE.png)
 
+<div align="justify">
+
 *Implantation et angles de couverture indicatifs, à confirmer sur site.*
+
+</div>
 
 ### Si du matériel actif est disponible
 
+<div align="justify">
+
 À défaut d'enceintes passives et d'amplificateurs, le prêt de **2 à 4 enceintes actives de 12″ ou 15″**, avec pieds, est également envisageable. Cette option demande un **câble XLR par enceinte** (25 à 50 m envisagés), une **alimentation 230 V à chaque emplacement** et une protection contre la pluie.
+
+</div>
 
 <details>
 <summary>🔹 Raccordement et réglages — détails PGE</summary>
 
+<div align="justify">
+
 Le **THE T.RACKS FIR DSP 408** utilise actuellement **4 sorties sur 8**. Les **4 sorties XLR libres (5 à 8)**, accessibles à l'arrière du rack, permettraient d'ajouter le renfort après configuration du routage.
+
+</div>
 
 - **Enceintes passives :** DSP → XLR → amplificateurs → Speakon → enceintes. Chaque amplificateur stéréo alimente **2 enceintes de 8 Ω**, une par canal.
 - **Enceintes actives :** DSP → XLR → enceintes, avec amplification et alimentation sur chaque point.
 - **Réglages :** niveaux, égalisation, filtres et retard ajustables par sortie. Une même ligne de diffusion est envisagée, **sans retard a priori**, à confirmer sur place.
 
+<div align="justify">
+
 Si le prêt est confirmé suffisamment tôt, PGE préparera et testera les raccordements et les réglages **avant le spectacle**.
+
+</div>
 
 </details>
 
 ## 4. Conditions d'installation — sécurité et logistique
 
+<div align="justify">
+
 **L'implantation définitive doit être validée sur le plan de sécurité**, quel que soit le matériel retenu.
+
+</div>
 
 ### Conditions à prévoir sur site
 
@@ -236,6 +304,10 @@ Si le prêt est confirmé suffisamment tôt, PGE préparera et testera les racco
 
 ---
 
+<div align="justify">
+
 *Document de travail établi à partir du dossier PGE du 7 octobre 2026. Puissances et caractéristiques reprises du dossier initial ; implantations et niveaux acoustiques à confirmer sur place.*
+
+</div>
 
 [Conventions de rédaction](docs/conventions-redaction.md)
