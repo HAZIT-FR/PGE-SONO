@@ -214,12 +214,12 @@ Voici le matériel dont nous disposons déjà et celui que nous souhaiterions em
 
 | Fourniture | Matériel | Quantité et caractéristiques |
 |---|---|---|
-| **PGE — existant** | Amplificateurs, enceintes, caissons et DSP | 2 amplificateurs, 4 enceintes de diffusion, 2 caissons de graves et 1 processeur audio |
-| **Prêt sollicité** | Enceintes passives avec supports | **4**, 8 Ω |
-| **Prêt sollicité** | Amplificateurs stéréo | **2**, au moins 2 × 500 W sous 8 Ω chacun |
-| **À confirmer** | Câbles Speakon | **4**, un par enceinte ; longueurs envisagées de 25 à 50 m |
-| **À confirmer** | Câbles XLR | Selon implantation ; DSP vers amplificateurs |
-| **À confirmer** | Protections contre la pluie | Selon implantation ; matériel installé à l'extérieur |
+| **PGE — existant** | Amplificateurs, enceintes, caissons et DSP | 2 amplificateurs<br/>4 enceintes de diffusion<br/>2 caissons de graves<br/>1 processeur audio |
+| **Prêt sollicité** | Enceintes passives avec supports | **4**<br/>8 Ω |
+| **Prêt sollicité** | Amplificateurs stéréo | **2**<br/>Au moins 2 × 500 W sous 8 Ω chacun |
+| **À confirmer** | Câbles Speakon | **4**<br/>1 par enceinte<br/>Longueurs envisagées de 25 à 50 m |
+| **À confirmer** | Câbles XLR | Selon implantation<br/>DSP vers amplificateurs |
+| **À confirmer** | Protections contre la pluie | Selon implantation<br/>Matériel installé à l'extérieur |
 
 <div align="justify">
 
