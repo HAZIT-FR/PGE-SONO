@@ -1,31 +1,12 @@
 # Sonorisation — Champigneulles 2026
 
-**Association Pyrotechnique du Grand Est (PGE)** · **Champigneulles — 6 décembre 2026**
+**Association Pyrotechnique du Grand Est (PGE)** · **Spectacle pyromusical du 6 décembre 2026**
 
-Ce document présente **notre installation de sonorisation** et ses caractéristiques techniques, ainsi que les besoins spécifiques au spectacle pyromusical de Champigneulles.
+Dossier technique de l'installation PGE, des contraintes de diffusion sur le site de Champigneulles et de la solution envisagée.
 
-Selon les estimations, l'installation actuelle devrait couvrir la zone de public, mais avec une diffusion moins homogène aux extrémités. Pour améliorer cette répartition sans remplacer le matériel existant, nous souhaitons **ajouter 2 amplificateurs et 4 enceintes passives**.
+## 1. Notre installation — matériel PGE
 
-## 1. Bilan
-
-| Matériel | 🟢 **Disponible chez PGE** | 🟠 **Renfort souhaité** |
-|---|---:|---:|
-| Amplificateurs | 2 | **+ 2** |
-| Enceintes de diffusion | 4 | **+ 4** |
-| Caissons de basses | 2 | — |
-| Points de diffusion | 3 | **+ 4** |
-
-| Donnée | Estimation |
-|---|---|
-| Zone de public | Environ **90 × 20 m** |
-| Couverture avec le matériel PGE | Adaptée en théorie à cette zone |
-| Point le moins favorable | Extrémité ouest |
-| Au-delà de 40 à 50 m des enceintes | Musique moins présente, surtout pendant les détonations |
-| Apport attendu du renfort | Répartition sonore plus homogène |
-
-Les valeurs de couverture sont **théoriques** : elles ne remplacent pas un essai sur place. Le système n'est pas dimensionné pour sonoriser l'ensemble du parc.
-
-## 2. Matériel disponible chez PGE
+Le dispositif existant comprend **2 amplificateurs**, **4 enceintes de diffusion** et **2 caissons de graves**, répartis sur **3 points de diffusion**.
 
 ### Schéma et branchements audio
 
@@ -144,16 +125,108 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
 </details>
 
-## 3. Couverture du public
+## 2. La problématique — sonorisation du public
 
-| Paramètre | Valeur retenue |
+Selon les estimations tirées du plan de tir, notre installation devrait couvrir la zone de public prévue, mais la diffusion risque d'être **moins homogène aux extrémités**, particulièrement à l'ouest.
+
+| Point étudié | Estimation |
 |---|---|
-| Zone considérée | 90 à 95 m de long ; 15 à 23 m de profondeur |
-| Implantation actuelle | **3 points de diffusion** : ouest, centre, est |
+| Zone de public | Environ **90 × 20 m** (plage étudiée : 90–95 m × 15–23 m) |
+| Installation actuelle | **3 points de diffusion** : ouest, centre et est |
 | Distance enceinte-public | Moins de 25 m pour la plupart des positions prévues |
-| Caissons de basses | 2 regroupés au centre |
-| Zone moins bien couverte | Extrémité ouest |
-| Sonorisation du parc entier | Non prévue |
+| Caissons de graves | 2 regroupés au centre |
+| Zone la moins bien couverte | Extrémité ouest |
+| Au-delà de 40 à 50 m des enceintes | Musique moins présente, surtout pendant les détonations |
+| Ensemble du parc | Sonorisation non prévue |
+
+Ces résultats sont **théoriques** : ils ne remplacent pas un essai sur place.
+
+<details>
+<summary><strong>Estimations acoustiques et puissances</strong></summary>
+
+### Puissance nominale
+
+| Circuit | Amplificateurs | Enceintes RMS | Ratio |
+|---|---:|---:|---:|
+| Médiums/aigus, 2 canaux à 4 Ω | 1 980 W | 1 100 W | × 1,8 |
+| Graves, 2 canaux à 8 Ω | 1 700 W | 800 W | × 2,1 |
+| **Total** | **3 680 W** | **1 900 W** | **≈ × 1,9** |
+
+Ces ratios ne dispensent pas de régler correctement le filtrage, les limiteurs et les niveaux.
+
+### Niveau théorique d'une B1520 PRO
+
+*Estimation pour une enceinte à pleine puissance, en champ libre ; aucune mesure sur site.*
+
+| Distance | Niveau estimé | Appréciation |
+|---|---:|---|
+| 5 m | 107 dB | Très élevé pour un premier rang |
+| 10 m | 101 dB | Musique très présente |
+| 20 à 25 m | 93 à 95 dB | Musique bien présente |
+| 50 m | 87 dB | Risque de masquage par les détonations |
+| 100 m | 81 dB | Fond sonore |
+
+| Hypothèse du dossier initial | Valeur ou remarque |
+|---|---|
+| Perte avec la distance | Environ **6 dB** par doublement |
+| Incertitude annoncée | **± 3 dB** |
+| Contribution de plusieurs enceintes | Peut augmenter le niveau perçu |
+| Cible envisagée au milieu du public | Environ **95 dB** |
+| Influences extérieures | Foule, humidité, arbres, orientations |
+| Référence réglementaire citée | Décret n° 2017-1244 ; 102 dB(A) sur 15 min dans le dossier initial |
+
+La référence réglementaire citée dans le dossier ne suffit pas à établir le régime applicable à cette manifestation. Les niveaux et obligations devront être vérifiés sur place.
+
+</details>
+
+## 3. La solution — renforcer la diffusion
+
+Pour répartir plus régulièrement la musique dans le public tout en conservant l'installation actuelle, nous souhaitons **ajouter 2 amplificateurs et 4 enceintes passives**.
+
+| Matériel | 🟢 **Disponible chez PGE** | 🟠 **Renfort souhaité** |
+|---|---:|---:|
+| Amplificateurs | 2 | **+ 2** |
+| Enceintes de diffusion | 4 | **+ 4** |
+| Caissons de basses | 2 | — |
+| Points de diffusion | 3 | **+ 4** |
+
+### Renfort privilégié : enceintes passives
+
+| Matériel à obtenir | Quantité | Caractéristiques |
+|---|---:|---|
+| Amplificateurs stéréo | **2** | Au moins 2 × 500 W sous 8 Ω chacun |
+| Enceintes passives | **4** | 8 Ω, avec supports |
+| Câbles Speakon | 4 | 1 par enceinte ; 25 à 50 m envisagés |
+| Câbles XLR | Selon implantation | DSP vers amplificateurs |
+| Protections pluie | Selon implantation | Amplificateurs et enceintes |
+
+**Un prêt partiel de 1 amplificateur et 2 enceintes** reste possible.
+
+### Alternative : enceintes actives
+
+| Matériel à obtenir | Quantité | Caractéristiques |
+|---|---:|---|
+| Enceintes actives | 2 à 4 | 12″ ou 15″, avec pieds |
+| Câbles XLR | 1 par enceinte | 25 à 50 m envisagés |
+| Alimentation 230 V | 1 par enceinte | À chaque emplacement |
+| Protections pluie | Selon implantation | Matériel installé à l'extérieur |
+
+<details>
+<summary><strong>Comparatif et configuration des renforts</strong></summary>
+
+| Point | Passives (privilégiées) | Actives |
+|---|---|---|
+| Amplification | 1 ou 2 amplis stéréo externes | Intégrée |
+| Audio depuis le DSP | XLR vers amplis | XLR vers enceintes |
+| Liaison aux enceintes | Speakon | Pas de câble haut-parleur |
+| Secteur 230 V | Près des amplificateurs | Près de chaque enceinte |
+| Diffusion possible | 2 à 4 enceintes | 2 à 4 enceintes |
+
+Le **FIR DSP 408** dispose de quatre sorties XLR libres (5 à 8). Chaque renfort peut avoir son propre niveau, son égalisation, ses filtres et un retard ajustable.
+
+Dans la configuration passive complète, chaque amplificateur ajouté alimente **deux enceintes de 8 Ω**, une par canal. Le dossier prévoit une même ligne de diffusion, sans retard a priori ; ce point sera confirmé lors des essais selon les distances et les orientations. La configuration DSP devra être préparée avant le spectacle si le matériel de prêt est disponible.
+
+</details>
 
 <details>
 <summary><strong>Implantation actuelle et extension envisagée</strong></summary>
@@ -206,85 +279,7 @@ L'implantation exacte devra être validée sur le plan de sécurité.
 
 </details>
 
-<details>
-<summary><strong>Estimations acoustiques et puissances</strong></summary>
-
-### Puissance nominale
-
-| Circuit | Amplificateurs | Enceintes RMS | Ratio |
-|---|---:|---:|---:|
-| Médiums/aigus, 2 canaux à 4 Ω | 1 980 W | 1 100 W | × 1,8 |
-| Graves, 2 canaux à 8 Ω | 1 700 W | 800 W | × 2,1 |
-| **Total** | **3 680 W** | **1 900 W** | **≈ × 1,9** |
-
-Ces ratios ne dispensent pas de régler correctement le filtrage, les limiteurs et les niveaux.
-
-### Niveau théorique d'une B1520 PRO
-
-*Estimation pour une enceinte à pleine puissance, en champ libre ; aucune mesure sur site.*
-
-| Distance | Niveau estimé | Appréciation |
-|---|---:|---|
-| 5 m | 107 dB | Très élevé pour un premier rang |
-| 10 m | 101 dB | Musique très présente |
-| 20 à 25 m | 93 à 95 dB | Musique bien présente |
-| 50 m | 87 dB | Risque de masquage par les détonations |
-| 100 m | 81 dB | Fond sonore |
-
-| Hypothèse du dossier initial | Valeur ou remarque |
-|---|---|
-| Perte avec la distance | Environ **6 dB** par doublement |
-| Incertitude annoncée | **± 3 dB** |
-| Contribution de plusieurs enceintes | Peut augmenter le niveau perçu |
-| Cible envisagée au milieu du public | Environ **95 dB** |
-| Influences extérieures | Foule, humidité, arbres, orientations |
-| Référence réglementaire citée | Décret n° 2017-1244 ; 102 dB(A) sur 15 min dans le dossier initial |
-
-La référence réglementaire citée dans le dossier ne suffit pas à établir le régime applicable à cette manifestation. Les niveaux et obligations devront être vérifiés sur place.
-
-</details>
-
-## 4. Matériel complémentaire souhaité
-
-### Solution privilégiée : enceintes passives
-
-| Matériel à obtenir | Quantité | Caractéristiques |
-|---|---:|---|
-| Amplificateurs stéréo | **2** | Au moins 2 × 500 W sous 8 Ω chacun |
-| Enceintes passives | **4** | 8 Ω, avec supports |
-| Câbles Speakon | 4 | 1 par enceinte ; 25 à 50 m envisagés |
-| Câbles XLR | Selon implantation | DSP vers amplificateurs |
-| Protections pluie | Selon implantation | Amplificateurs et enceintes |
-
-**Un prêt partiel de 1 amplificateur et 2 enceintes** reste possible.
-
-### Autre possibilité : enceintes actives
-
-| Matériel à obtenir | Quantité | Caractéristiques |
-|---|---:|---|
-| Enceintes actives | 2 à 4 | 12″ ou 15″, avec pieds |
-| Câbles XLR | 1 par enceinte | 25 à 50 m envisagés |
-| Alimentation 230 V | 1 par enceinte | À chaque emplacement |
-| Protections pluie | Selon implantation | Matériel installé à l'extérieur |
-
-<details>
-<summary><strong>Comparatif et configuration des renforts</strong></summary>
-
-| Point | Passives (privilégiées) | Actives |
-|---|---|---|
-| Amplification | 1 ou 2 amplis stéréo externes | Intégrée |
-| Audio depuis le DSP | XLR vers amplis | XLR vers enceintes |
-| Liaison aux enceintes | Speakon | Pas de câble haut-parleur |
-| Secteur 230 V | Près des amplificateurs | Près de chaque enceinte |
-| Diffusion possible | 2 à 4 enceintes | 2 à 4 enceintes |
-
-Le **FIR DSP 408** dispose de quatre sorties XLR libres (5 à 8). Chaque renfort peut avoir son propre niveau, son égalisation, ses filtres et un retard ajustable.
-
-Dans la configuration passive complète, chaque amplificateur ajouté alimente **deux enceintes de 8 Ω**, une par canal. Le dossier prévoit une même ligne de diffusion, sans retard a priori ; ce point sera confirmé lors des essais selon les distances et les orientations. La configuration DSP devra être préparée avant le spectacle si le matériel de prêt est disponible.
-
-</details>
-
-## 5. Conditions d'installation
+### Conditions d'installation
 
 | Besoin | Prévision |
 |---|---|
