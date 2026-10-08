@@ -35,11 +35,11 @@ La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste
 %%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 28, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
 flowchart TB
   A["<b>COMMANDE</b><br/>Poste de tir<br/>COBRA 18R2"]
-  B["<b>LECTURE AUDIO</b><br/>Bande-son MP3<br/>COBRA AUDIO BOX<br/>SORTIE RCA"]
-  C["<b>MIXAGE</b><br/>Table principale<br/>JCB NSA 2008<br/>ENTRÉE LINE 1<br/>SORTIE REC OUT"]
-  D["<b>TRAITEMENT</b><br/>Processeur audio<br/>THE T.RACKS FIR DSP 408<br/>ENTRÉE INPUT<br/>SORTIES XLR"]
-  E["<b>AMPLIFICATEURS</b><br/>Médiums et aigus<br/>THE T.AMP E-1200<br/>2 × 990 W / 4 Ω<br/>ENTRÉE XLR"]
-  F["<b>AMPLIFICATEURS</b><br/>Graves<br/>THE T.AMP E-1500<br/>2 × 850 W / 8 Ω<br/>ENTRÉE XLR"]
+  B["<b>LECTURE AUDIO</b><br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
+  C["<b>MIXAGE</b><br/>Table principale<br/>JCB NSA 2008"]
+  D["<b>TRAITEMENT</b><br/>Processeur audio<br/>THE T.RACKS FIR DSP 408"]
+  E["<b>AMPLIFICATEURS</b><br/>Médiums et aigus<br/>THE T.AMP E-1200<br/>2 × 990 W / 4 Ω"]
+  F["<b>AMPLIFICATEURS</b><br/>Graves<br/>THE T.AMP E-1500<br/>2 × 850 W / 8 Ω"]
   LG["<b>CANAL GAUCHE</b><br/>4 Ω"]
   LD["<b>CANAL DROIT</b><br/>4 Ω"]
   FG["<b>CANAL GAUCHE</b><br/>8 Ω"]
@@ -57,10 +57,10 @@ flowchart TB
   MD["<b>MÂT DE COUPLAGE</b>"]
 
   A -. "Télécommunications radio (antenne)" .-> B
-  B -.-> C
-  C -.-> D
-  D -.-> E
-  D -.-> F
+  B -. "RCA → LINE 1" .-> C
+  C -. "REC OUT → INPUT" .-> D
+  D -. "XLR" .-> E
+  D -. "XLR" .-> F
   E -. "TOP G" .-> LG
   E -. "TOP D" .-> LD
   F -. "SUB G" .-> FG
