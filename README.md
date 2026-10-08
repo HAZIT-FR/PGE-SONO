@@ -32,14 +32,14 @@ Les valeurs de couverture sont **théoriques** : elles ne remplacent pas un essa
 La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2**.
 
 ~~~mermaid
-%%{init: {"flowchart": {"nodeSpacing": 28, "rankSpacing": 36, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
+%%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 28, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
 flowchart TB
   A["<b>COMMANDE</b><br/>Poste de tir<br/>COBRA 18R2"]
-  B["<b>LECTURE AUDIO</b><br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
-  C["<b>MIXAGE</b><br/>Table principale<br/>JCB NSA 2008"]
-  D["<b>TRAITEMENT</b><br/>Processeur audio<br/>THE T.RACKS FIR DSP 408"]
-  E["<b>AMPLIFICATEURS</b><br/>Médiums et aigus<br/>THE T.AMP E-1200<br/>2 × 990 W / 4 Ω"]
-  F["<b>AMPLIFICATEURS</b><br/>Graves<br/>THE T.AMP E-1500<br/>2 × 850 W / 8 Ω"]
+  B["<b>LECTURE AUDIO</b><br/>Bande-son MP3<br/>COBRA AUDIO BOX<br/>SORTIE RCA"]
+  C["<b>MIXAGE</b><br/>Table principale<br/>JCB NSA 2008<br/>ENTRÉE LINE 1<br/>SORTIE REC OUT"]
+  D["<b>TRAITEMENT</b><br/>Processeur audio<br/>THE T.RACKS FIR DSP 408<br/>ENTRÉE INPUT<br/>SORTIES XLR"]
+  E["<b>AMPLIFICATEURS</b><br/>Médiums et aigus<br/>THE T.AMP E-1200<br/>2 × 990 W / 4 Ω<br/>ENTRÉE XLR"]
+  F["<b>AMPLIFICATEURS</b><br/>Graves<br/>THE T.AMP E-1500<br/>2 × 850 W / 8 Ω<br/>ENTRÉE XLR"]
   LG["<b>CANAL GAUCHE</b><br/>4 Ω"]
   LD["<b>CANAL DROIT</b><br/>4 Ω"]
   FG["<b>CANAL GAUCHE</b><br/>8 Ω"]
@@ -56,21 +56,11 @@ flowchart TB
   MG["<b>MÂT DE COUPLAGE</b>"]
   MD["<b>MÂT DE COUPLAGE</b>"]
 
-  %% Points intermédiaires invisibles : deux libellés par câble
-  JBC[" "]
-  JCD[" "]
-  JDE[" "]
-  JDF[" "]
-
   A -. "Télécommunications radio (antenne)" .-> B
-  B -. "RCA" .- JBC
-  JBC -. "LINE 1" .-> C
-  C -. "REC OUT" .- JCD
-  JCD -. "INPUT" .-> D
-  D -. "SORTIE XLR" .- JDE
-  JDE -. "ENTRÉE XLR" .-> E
-  D -. "SORTIE XLR" .- JDF
-  JDF -. "ENTRÉE XLR" .-> F
+  B -.-> C
+  C -.-> D
+  D -.-> E
+  D -.-> F
   E -. "TOP G" .-> LG
   E -. "TOP D" .-> LD
   F -. "SUB G" .-> FG
@@ -95,7 +85,6 @@ flowchart TB
   classDef appoint fill:#ecfccb,stroke:#65a30d,color:#365314;
   classDef basses fill:#f3e8ff,stroke:#9333ea,color:#581c87;
   classDef support fill:#f8fafc,stroke:#94a3b8,color:#334155;
-  classDef junction fill:transparent,stroke:transparent,color:transparent;
   class A,B,C commande;
   class D processeur;
   class E,F amplis;
@@ -104,7 +93,6 @@ flowchart TB
   class AG,AD appoint;
   class SG,SD basses;
   class TG,TD,MG,MD support;
-  class JBC,JCD,JDE,JDF junction;
 ~~~
 
 **Puissances cumulées :** amplificateurs **3 680 W annoncés** · enceintes **1 900 W RMS**.
