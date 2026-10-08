@@ -1,10 +1,10 @@
 # Sonorisation — Champigneulles 2026
 
-**Association Pyrotechnique du Grand Est (PGE)** · **Spectacle pyromusical — 6 décembre 2026**
+**Association Pyrotechnique du Grand Est (PGE)** · **Champigneulles — 6 décembre 2026**
 
-**Couverture estimée :** adaptée à la zone de public, mais moins homogène aux extrémités.
+Ce document présente **notre installation de sonorisation** et ses caractéristiques techniques, ainsi que les besoins spécifiques au spectacle pyromusical de Champigneulles.
 
-**Renfort souhaité : 2 amplificateurs et 4 enceintes passives**, en complément de l'installation existante.
+Selon les estimations, l'installation actuelle devrait couvrir la zone de public, mais avec une diffusion moins homogène aux extrémités. Pour améliorer cette répartition sans remplacer le matériel existant, nous souhaitons **ajouter 2 amplificateurs et 4 enceintes passives**.
 
 ## 1. Bilan
 
