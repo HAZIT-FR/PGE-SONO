@@ -1,239 +1,107 @@
-# Sonorisation du feu d'artifice de Champigneulles 2026
+# Sonorisation du spectacle pyromusical de Champigneulles
 
 **Association Pyrotechnique du Grand Est (PGE)**  
-Spectacle pyromusical du **6 décembre 2026**
+Spectacle du **6 décembre 2026** · Présentation des moyens disponibles et du renfort envisagé
 
-Document de travail : installation, couverture du public et besoins complémentaires.
+> [!NOTE]
+> Ce dossier présente une **évaluation théorique de couverture sonore**, établie à partir du matériel PGE et du plan de tir. Il ne s'agit ni d'une étude acoustique complète ni de mesures effectuées sur site.
 
-> **Objectif** — Présenter le matériel de sonorisation disponible, expliquer les limites de couverture et proposer un renfort adapté aux extrémités de la zone public.
+## L'essentiel
 
-## Vue d'ensemble
+Pour accompagner le spectacle demandé par la ville de Champigneulles, PGE dispose déjà d'une installation de sonorisation complète : **deux amplificateurs et six enceintes passives**, dont deux caissons de basses.
 
-| Installation actuelle | Valeur |
-|---|---:|
-| Enceintes passives | **6**, dont 2 caissons de basses de 18″ |
-| Amplificateurs | 2 |
-| Puissance d'amplification annoncée | **3 680 W** |
-| Puissance nominale des enceintes | **1 900 W RMS** |
-| Processeur | 8 sorties, dont **4 disponibles** |
-| Zone public à couvrir | Environ 90–95 m × 15–23 m (suivant le schéma) |
+**Selon les estimations du dossier initial, cette installation paraît adaptée à la zone de public prévue**, d'environ **90 m de long sur 20 m de profondeur**. Toutefois, la répartition du son sera moins homogène aux extrémités, notamment à l'ouest, et la musique peut être moins perceptible pendant les détonations.
 
-**À retenir :** l'équipement existant est dimensionné pour la zone public représentée sur le plan de tir, mais pas pour sonoriser tout le parc. Un renfort de **2 à 4 enceintes** peut améliorer la répartition sonore, notamment aux extrémités.
+**Notre proposition : conserver cette installation et, si possible, lui ajouter deux amplificateurs et quatre enceintes passives.** Ce renfort vise une meilleure couverture du public ; il n'est pas présenté comme une nécessité démontrée par des mesures.
 
-### Navigation rapide
+## Ce que PGE peut fournir
 
-1. [Installation et chaîne audio](#1-installation-et-chaîne-audio)
-2. [Implantation sur le site](#2-implantation-sur-le-site)
-3. [Matériel disponible](#3-matériel-disponible)
-4. [Puissance et couverture](#4-puissance-et-couverture)
-5. [Scénarios d’extension](#5-scénarios-dextension)
-6. [Matériel et logistique](#6-matériel-recherché-et-logistique)
-7. [Points à valider](#7-points-à-valider)
+| Matériel disponible | Quantité | Utilité |
+|---|---:|---|
+| Amplificateurs | **2** | Alimenter l'installation actuelle |
+| Enceintes passives | **4** | Diffuser la musique et les annonces |
+| Caissons de basses de 18″ | **2** | Renforcer les graves |
+| Processeur audio numérique (DSP) | **1** | Régler et répartir les signaux |
+| Lecteur COBRA AUDIO BOX et table de mixage | **1 ensemble** | Synchroniser la bande-son et gérer les annonces |
 
----
+Le système comprend donc **six enceintes au total**. Les deux caissons de basses sont regroupés au centre et les autres enceintes sont réparties sur la ligne de diffusion.
 
-## 1. Installation et chaîne audio
+Les amplificateurs représentent une **puissance nominale annoncée cumulée de 3 680 W**, pour **1 900 W RMS** d'enceintes. Ces valeurs caractérisent le matériel, **pas le niveau sonore réellement obtenu dans le public**.
 
-La **COBRA Audio Box** lit la bande-son MP3 et est synchronisée par radio avec le pupitre de tir. Le signal passe ensuite par la table de mixage, puis par le processeur numérique qui répartit les graves et les médiums/aigus vers les amplificateurs.
+[Voir l'inventaire et les puissances détaillées](docs/annexe-technique.md#matériel-de-lassociation).
 
-```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 35, "htmlLabels": false}, "theme": "base", "themeVariables": {"primaryColor": "#eaf2ff", "primaryTextColor": "#183153", "primaryBorderColor": "#4383cd", "lineColor": "#64748b", "fontSize": "13px"}}}%%
-flowchart TB
-  A["Pupitre COBRA 18R2"]
-  B["COBRA Audio Box"]
-  C["Table JCB NSA 2008"]
-  D["FIR DSP 408"]
-  E["E-1200 · médiums/aigus"]
-  F["E-1500 · graves"]
-  G["2 × B1520 + 2 × A12"]
-  H["2 × VP1800S"]
-  A -. "Radio" .-> B
-  B --> C --> D
-  D --> E --> G
-  D --> F --> H
-  classDef source fill:#f1f5f9,stroke:#64748b,color:#172b4d;
-  classDef processing fill:#dbeafe,stroke:#2563eb,color:#172b4d;
-  classDef output fill:#ecfdf5,stroke:#059669,color:#14532d;
-  class A,B,C source;
-  class D,E,F processing;
-  class G,H output;
-```
+## Ce que l'installation permet d'envisager
+
+L'étude initiale prévoit **trois points de diffusion** : un à l'ouest, un au centre et un à l'est. La majeure partie de la zone de public décrite sur le plan est estimée à moins de 25 m d'une enceinte.
+
+**Les points favorables :** l'installation existante constitue une base cohérente pour cette zone délimitée. Les enceintes et caissons sont disponibles au sein de l'association, avec leur chaîne audio et leur traitement numérique.
+
+**Les limites :** la musique peut perdre en présence à mesure que le public s'éloigne. Le dossier estime qu'à environ **40 à 50 m**, elle devient surtout un fond sonore, notamment pendant les bombes de 75 et 100 mm. L'extrémité ouest est la zone la moins favorable.
 
 > [!IMPORTANT]
-> Les **4 sorties disponibles** du DSP ne sont pas amplifiées. Elles doivent être configurées pour piloter des enceintes actives ou des amplificateurs supplémentaires.
+> **À retenir :** nous pouvons raisonnablement envisager la sonorisation de la zone de public identifiée, **sous réserve de validation sur site**. Nous ne garantissons pas la couverture de l'ensemble du parc ni des spectateurs situés hors de cette zone.
 
-## 2. Implantation sur le site
+[Consulter les implantations et estimations acoustiques](docs/annexe-technique.md#implantation-indicative).
 
-Les emplacements sont **indicatifs** : ils doivent être confirmés avec le plan de tir, les distances de sécurité, le cheminement des câbles et les contraintes réelles du terrain. Les enceintes sont prévues côté tir, environ 1 à 2 m devant la barrière, hors des cercles de 30 m liés au tir bas calibre.
+## Pourquoi proposer un renfort ?
 
-### Configuration actuelle : 3 points de diffusion
+L'objectif n'est pas de remplacer le matériel PGE, mais d'**améliorer la répartition de la musique**, en particulier aux extrémités de la zone prévue.
 
-```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 35, "rankSpacing": 45, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "14px", "lineColor": "#64748b"}}}%%
-flowchart TB
-  accTitle: Implantation actuelle des trois points de diffusion
-  accDescr: Enceinte B1520 à l'ouest, deux caissons et deux A12 au centre, enceinte B1520 à l'est.
-  O["Ouest · B1520"]
-  C["Centre · 2 caissons + 2 A12"]
-  E["Est · B1520"]
-  O ~~~ C ~~~ E
-  classDef speaker fill:#dbeafe,stroke:#2563eb,color:#172b4d;
-  class O,C,E speaker;
-```
-
-*Schéma de principe, non à l'échelle. Les positions exactes restent à valider.*
-
-Les **deux caissons sont regroupés au centre** afin de renforcer les graves, plutôt que de les disperser. Les **A12**, montées sur mâts, sont orientées l'une vers l'ouest et l'autre vers l'est. Les B1520 assurent la diffusion sur les côtés.
-
-### Configuration étendue : 7 points de diffusion
-
-```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 35, "rankSpacing": 45, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "14px", "lineColor": "#64748b"}}}%%
-flowchart TB
-  accTitle: Extension de la diffusion à sept points
-  accDescr: Deux points de renfort à l'ouest, un point existant ouest, un point central, un point existant est et deux points de renfort à l'est.
-  O["Ouest · B1520 et renforts P1/P2"]
-  C["Centre · 2 caissons + 2 A12"]
-  E["Est · B1520 et renforts P3/P4"]
-  O ~~~ C ~~~ E
-  classDef existing fill:#eaf2ff,stroke:#2563eb,color:#172b4d;
-  class O,C,E existing;
-```
-
-*Les points P1 à P4 sont les renforts envisagés. Schéma de principe, non à l'échelle.*
-
-**Principe :** deux amplificateurs stéréo supplémentaires alimenteraient chacun **deux enceintes passives de 8 Ω** ; chaque enceinte bénéficierait d'une sortie dédiée du DSP, avec niveau et égalisation propres. Le document initial prévoit une diffusion sur la même ligne, sans retard a priori. **Ce point sera à vérifier sur site** en fonction des distances et des orientations réelles.
-
----
-
-## 3. Matériel disponible
-
-### Traitement et amplification
-
-| Équipement | Qté | Fonction | Donnée principale |
-|---|---:|---|---|
-| the box pro Amprack MK II | 1 | Rack mobile | Processeur + 2 amplificateurs ; 230 V |
-| the t.racks FIR DSP 408 | 1 | Filtrage, EQ, limiteurs, routage | 4 entrées / 8 sorties XLR ; 4 utilisées |
-| the t.amp E-1200 | 1 | Médiums et aigus | **2 × 990 W sous 4 Ω** ; 2 × 680 W sous 8 Ω |
-| the t.amp E-1500 | 1 | Graves | **2 × 850 W sous 8 Ω** ; 2 × 1 220 W sous 4 Ω |
-
-### Diffusion
-
-| Enceintes | Qté | Puissance unitaire | Impédance | Implantation |
-|---|---:|---:|---:|---|
-| Behringer Eurolive B1520 PRO (15″ + 1,75″) | 2 | **300 W RMS** | 8 Ω | Trépieds, côtés |
-| Audiophony A12 (3 voies, 12″) | 2 | **250 W RMS** | 8 Ω | Mâts, au centre |
-| Behringer Eurolive VP1800S (18″) | 2 | **400 W RMS** | 8 Ω | Au sol, regroupés au centre |
-
-### Commande et accessoires
-
-| Équipement | Qté | Utilisation |
-|---|---:|---|
-| COBRA Audio Box | 1 | Lecture MP3 synchronisée avec le pupitre |
-| Table JCB NSA 2008 | 1 | Volume général et micro d'annonce (6 voies) |
-| Behringer Xenyx 302USB | 1 | Table de mixage de secours (5 voies) |
-| Trépieds et mâts | 4 | Mise en hauteur, embase 35 mm |
-
-<details>
-<summary><strong>Caractéristiques complémentaires des enceintes</strong></summary>
-
-- **B1520 PRO** : 1 200 W crête ; sensibilité 96 dB (1 W / 1 m) ; 27 kg.
-- **Audiophony A12** : 500 W crête ; sensibilité 99 dB (1 W / 1 m) ; 14 kg.
-- **VP1800S** : 1 600 W crête ; sensibilité 100 dB (1 W / 1 m) ; 40–200 Hz ; 41 kg.
-- Le rack comporte des connexions XLR et Speakon (System / Top / Sub).
-
-</details>
-
----
-
-## 4. Puissance et couverture
-
-### Répartition de la puissance
-
-| Circuit | Puissance ampli | Puissance enceintes | Ratio |
-|---|---:|---:|---:|
-| Médiums / aigus (2 canaux, 4 Ω) | 1 980 W | 1 100 W RMS | × 1,8 |
-| Graves (2 canaux, 8 Ω) | 1 700 W | 800 W RMS | × 2,1 |
-| **Total** | **3 680 W** | **1 900 W RMS** | **≈ × 1,9** |
-
-Cette marge de puissance est celle retenue dans le dossier technique. Elle ne garantit pas, à elle seule, l'absence de dommage : **filtrage, limiteurs et réglage des niveaux restent indispensables**.
-
-### Niveau sonore théorique en fonction de la distance
-
-Estimation issue du document initial pour **une B1520 à pleine puissance, en champ libre**. Ce ne sont **pas des mesures réalisées sur le site**.
-
-| Distance | Niveau max estimé | Lecture pratique |
-|---|---:|---|
-| 5 m | 107 dB | Très élevé, à éviter pour le premier rang |
-| 10 m | 101 dB | Niveau de concert |
-| 20–25 m | 93–95 dB | Musique bien présente |
-| 50 m | 87 dB | Audibilité réduite pendant les détonations |
-| 100 m | 81 dB | Fond sonore |
-
-Le dossier retient une baisse approximative de **6 dB à chaque doublement de distance** et mentionne une incertitude théorique de **± 3 dB**. En pratique, humidité, arbres, foule et configuration du terrain peuvent influer sur le résultat.
-
-**Cible indiquée dans le dossier :** environ **95 dB au milieu du public**. La vérification des niveaux sonores et des exigences réglementaires applicables devra être faite sur site.
-
----
-
-## 5. Scénarios d'extension
-
-Le processeur FIR DSP 408 dispose de **4 sorties XLR supplémentaires**. Deux voies d'extension sont envisageables :
-
-| | Option A — enceintes actives | Option B — enceintes passives (préférée) |
-|---|---|---|
-| Matériel | 2 à 4 enceintes amplifiées, 12″ ou 15″ | 2 à 4 enceintes passives 8 Ω + 1 ou 2 amplis stéréo |
-| Liaison audio | XLR depuis le DSP | XLR vers amplis, puis Speakon vers enceintes |
-| Alimentation 230 V | À proximité de chaque enceinte | Au niveau des amplificateurs |
-| Avantage | Pas d'amplificateur externe à prévoir | Centralisation de l'amplification |
-| Contrainte | Alimentation électrique distribuée | Amplis et câbles supplémentaires |
-
-**Solution privilégiée : option B**, permettant de conserver une architecture d'amplification centralisée et d'étendre la couverture aux extrémités.
-
-Les sorties **5 à 8**, accessibles à l'arrière du processeur dans le rack, nécessitent une configuration dédiée. Les nouveaux éléments devront être préparés et testés **avant le jour du spectacle**, si du matériel est prêté.
-
----
-
-## 6. Matériel recherché et logistique
-
-### Prêt recherché auprès de la commune ou d'un partenaire
-
-#### Option B — prioritaire
-
-- [ ] **1 ou 2 amplificateurs stéréo**, au moins **2 × 500 W sous 8 Ω** chacun.
-- [ ] **2 ou 4 enceintes passives 8 Ω**.
-- [ ] **1 câble Speakon par enceinte** (25 à 50 m, selon implantation).
-- [ ] **Protection contre la pluie** pour le matériel.
-
-#### Option A — alternative
-
-- [ ] **2 à 4 enceintes actives** de 12″ ou 15″, avec leurs pieds.
-- [ ] **1 câble XLR par enceinte** (25 à 50 m).
-- [ ] **230 V à chaque emplacement** d'enceinte active.
-- [ ] **Protection contre la pluie** pour le matériel.
-
-### Conditions d'installation
-
-| Besoin | Prévision |
+| Avec le matériel actuel | Avec le renfort envisagé |
 |---|---|
-| Électricité | 1 prise dédiée 230 V / 16 A pour le rack, sans buvette ni chauffage sur la même ligne ; seconde ligne si ajout d'amplis |
-| Accès véhicule | Déchargement au plus près (caissons de 41 kg, B1520 de 27 kg) |
-| Hauteur | Enceintes à 2,5–3 m, sous réserve de validation du plan de sécurité |
-| Essai sonore | Environ 30 minutes avant la tombée de la nuit |
-| Météo | Housses de pluie pour les enceintes et rack couvert |
+| **3 points de diffusion** | **7 points de diffusion** |
+| Installation complète déjà disponible | Installation conservée et complétée |
+| Couverture théoriquement adaptée à la zone prévue | Couverture potentiellement plus régulière |
+| Extrémités plus éloignées des enceintes | Diffusion rapprochée des extrémités |
+
+Le processeur actuel possède **quatre sorties audio disponibles**. Elles peuvent servir à piloter quatre enceintes supplémentaires par l'intermédiaire d'amplificateurs adaptés.
+
+~~~mermaid
+%%{init: {"flowchart": {"nodeSpacing": 22, "rankSpacing": 38, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "14px", "lineColor": "#64748b"}}}%%
+flowchart TB
+  A["Matériel PGE<br/>2 amplificateurs · 6 enceintes"]
+  B["Zone de public prévue<br/>environ 90 m × 20 m"]
+  C["Renfort proposé<br/>2 amplificateurs · 4 enceintes"]
+  A --> B
+  C -. "Meilleure répartition recherchée" .-> B
+  classDef current fill:#dbeafe,stroke:#2563eb,color:#172b4d;
+  classDef proposed fill:#fff2db,stroke:#d97706,color:#7c2d12;
+  classDef audience fill:#ecfdf5,stroke:#059669,color:#14532d;
+  class A current;
+  class B audience;
+  class C proposed;
+~~~
+
+*Bleu : matériel disponible · Orange : renfort souhaité · Vert : zone visée. Schéma de principe, non à l'échelle.*
+
+## Matériel complémentaire recherché
+
+### Solution privilégiée : amplification et enceintes passives
+
+- [ ] **2 amplificateurs stéréo**, d'au moins **2 × 500 W sous 8 Ω** chacun.
+- [ ] **4 enceintes passives de 8 Ω**, avec supports adaptés.
+- [ ] Câbles audio XLR et **1 câble Speakon par enceinte**, à dimensionner selon l'implantation (25 à 50 m envisagés).
+- [ ] Protections adaptées contre la pluie.
+
+Un prêt partiel d'**un amplificateur et deux enceintes** reste envisageable si le renfort complet n'est pas disponible.
+
+### Alternative : enceintes actives
+
+En l'absence d'amplificateurs supplémentaires, **deux à quatre enceintes actives de 12″ ou 15″** peuvent aussi être envisagées. Elles exigent alors une **alimentation 230 V à chaque emplacement**, ainsi que les câbles XLR, les pieds et les protections météo nécessaires.
+
+[Comparer les deux options et consulter les branchements](docs/annexe-technique.md#extension-proposée).
+
+## Préparation du spectacle
+
+Avant de valider l'extension, il faudra confirmer la disponibilité du matériel prêté, son implantation exacte, l'alimentation électrique, le cheminement des câbles et la protection contre la pluie.
+
+Le dossier prévoit une **prise dédiée 230 V / 16 A** pour le rack et un **essai sonore d'environ 30 minutes** avant la tombée de la nuit. Les réglages du processeur, les éventuels retards entre enceintes et les niveaux réels devront être contrôlés sur site.
+
+## Documentation
+
+- [Annexe technique](docs/annexe-technique.md) — références complètes, puissances, branchements, schémas d'implantation, hypothèses et logistique.
+- [Conventions de rédaction](docs/conventions-redaction.md) — choix éditoriaux et références linguistiques et techniques.
 
 ---
 
-## 7. Points à valider
-
-- [ ] Vérifier les emplacements exacts des points de diffusion sur le **plan de sécurité**.
-- [ ] Confirmer la disponibilité et les caractéristiques du matériel prêté.
-- [ ] Vérifier les longueurs de câbles, passages et protections mécaniques.
-- [ ] Préparer le routage DSP, les filtrages et les limiteurs.
-- [ ] Valider les délais éventuels entre enceintes lors de l'essai sur site.
-- [ ] Mesurer et ajuster les niveaux sonores dans la zone public.
-- [ ] Vérifier les exigences réglementaires applicables à cette manifestation.
-
----
-
-<sub>Source : dossier « Sonorisation – Feu d'artifice de Champigneulles 2026 », version du 7 octobre 2026. Schémas simplifiés et indicatifs ; aucune implantation définitive n'est validée dans ce README.</sub>
+<sub>Document de travail PGE · Base documentaire : « Sonorisation – Feu d'artifice de Champigneulles 2026 », version du 7 octobre 2026. Les caractéristiques des équipements sont celles consignées dans le dossier source ; les estimations acoustiques et les implantations sont à confirmer sur place.</sub>
