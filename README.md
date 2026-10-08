@@ -8,7 +8,7 @@ Pour le spectacle demandé par la commune, **nous souhaitons ajouter 2 amplifica
 
 ## 1. Bilan
 
-| Matériel | Disponible | Renfort souhaité |
+| Matériel | 🟢 **Disponible chez PGE** | 🟠 **Renfort souhaité** |
 |---|---:|---:|
 | Amplificateurs | 2 | **+ 2** |
 | Enceintes de diffusion | 4 | **+ 4** |
@@ -25,7 +25,7 @@ Pour le spectacle demandé par la commune, **nous souhaitons ajouter 2 amplifica
 
 Les valeurs de couverture sont **théoriques** : elles ne remplacent pas un essai sur place. Le système n'est pas dimensionné pour sonoriser l'ensemble du parc.
 
-## 2. Matériel de l'association
+## 2. Matériel disponible chez PGE
 
 | Matériel | Modèle | Qté |
 |---|---|---:|
@@ -217,7 +217,7 @@ La référence réglementaire citée dans le dossier ne suffit pas à établir l
 
 </details>
 
-## 4. Renfort souhaité
+## 4. Matériel complémentaire souhaité
 
 ### Solution privilégiée : enceintes passives
 
