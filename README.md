@@ -4,8 +4,10 @@
 
 Dossier technique de l'installation PGE, des contraintes de diffusion sur le site de Champigneulles et de la solution envisagée.
 
+## 1. Notre installation — matériel PGE
+
 <details>
-<summary><strong>1. Notre installation — matériel PGE</strong></summary>
+<summary><strong>Afficher le matériel et les branchements</strong></summary>
 
 Le dispositif existant comprend **2 amplificateurs**, **4 enceintes de diffusion** et **2 caissons de graves**, répartis sur **3 points de diffusion**.
 
@@ -128,17 +130,26 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
 </details>
 
+## 2. La problématique — sonorisation du public
+
 <details>
-<summary><strong>2. La problématique — sonorisation du public</strong></summary>
+<summary><strong>Afficher l'implantation actuelle et ses limites</strong></summary>
 
 Selon les estimations tirées du plan de tir, notre installation devrait couvrir la zone de public prévue, mais la diffusion risque d'être **moins homogène aux extrémités**, particulièrement à l'ouest.
+
+### Implantation actuelle
+
+![Plan de sonorisation — disposition actuelle des trois points de diffusion](docs/V%20ACTUELLE%20PGE.png)
+
+![Légende de l'implantation actuelle](docs/V%20LEGENDE%20PGE.png)
 
 | Point étudié | Estimation |
 |---|---|
 | Zone de public | Environ **90 × 20 m** (plage étudiée : 90–95 m × 15–23 m) |
 | Installation actuelle | **3 points de diffusion** : ouest, centre et est |
 | Distance enceinte-public | Moins de 25 m pour la plupart des positions prévues |
-| Caissons de graves | 2 regroupés au centre |
+| Caissons de graves | 2 regroupés au centre (couplage ; gain théorique évoqué d'environ 6 dB) |
+| Enceintes A12 | 2 au centre, orientées vers l'ouest et l'est |
 | Zone la moins bien couverte | Extrémité ouest |
 | Au-delà de 40 à 50 m des enceintes | Musique moins présente, surtout pendant les détonations |
 | Ensemble du parc | Sonorisation non prévue |
@@ -148,10 +159,20 @@ Ces résultats sont **théoriques** : ils ne remplacent pas un essai sur place.
 
 </details>
 
+## 3. La solution — renforcer la diffusion
+
 <details>
-<summary><strong>3. La solution — renforcer la diffusion</strong></summary>
+<summary><strong>Afficher l'implantation proposée et les besoins</strong></summary>
 
 Pour répartir plus régulièrement la musique dans le public tout en conservant l'installation actuelle, nous souhaitons **ajouter 2 amplificateurs et 4 enceintes passives**.
+
+### Implantation envisagée
+
+![Plan de sonorisation — implantation avec quatre enceintes passives supplémentaires](docs/V%20PROPOSE%20PGE.png)
+
+![Légende de l'implantation envisagée](docs/V%20LEGENDE%20PGE.png)
+
+*Implantations et angles de couverture indicatifs, à confirmer sur site.*
 
 | Matériel | 🟢 **Disponible chez PGE** | 🟠 **Renfort souhaité** |
 |---|---:|---:|
@@ -198,35 +219,15 @@ Dans la configuration passive complète, chaque amplificateur ajouté alimente *
 
 </details>
 
-<details>
-<summary>🔹 Illustration d’implantation</summary>
 
-Le plan ci-dessous présente, en vue de dessus, **l'installation actuelle** et le **renfort envisagé** pour améliorer la diffusion sonore sur la zone de public.
-
-![Plan de sonorisation — Champigneulles 2026 : installation actuelle et extension envisagée](docs/Plan%20de%20sonorisation%20Champigneulles%202026.png)
-
-**Lecture rapide :**
-- **Version actuelle :** 3 points de diffusion.
-- **Solution envisagée :** 2 amplificateurs et 4 enceintes passives supplémentaires, soit 7 points de diffusion.
-- **Repères :** zone de tir, barrière, zone de public et angles de couverture indicatifs.
-- **Dimensions :** représentations schématiques et approximatives.
-
-| Positionnement | Prévision |
-|---|---|
-| Enceintes | 1 à 2 m devant la barrière, côté tir |
-| Zones de sécurité | Hors des cercles de 30 m liés au tir bas calibre |
-| Hauteur | Environ 2,5 à 3 m, selon les supports |
-| Deux caissons au centre | Couplage des graves ; gain théorique évoqué d'environ 6 dB |
-| Deux A12 au centre | Orientées vers l'ouest et vers l'est |
-
-L'implantation exacte devra être validée sur le plan de sécurité.
-
-</details>
+L'implantation définitive doit être validée sur le plan de sécurité.
 
 ### Conditions d'installation
 
 | Besoin | Prévision |
 |---|---|
+| Position des enceintes | 1 à 2 m devant la barrière, côté tir ; implantation à valider |
+| Zones de sécurité | En dehors des cercles de 30 m liés au petit calibre, selon le plan de sécurité |
 | Alimentation du rack | **230 V / 16 A**, ligne dédiée sans buvette ni chauffage |
 | Si ajout d'amplificateurs | Seconde ligne électrique adaptée |
 | Accès véhicule | Déchargement au plus près |
