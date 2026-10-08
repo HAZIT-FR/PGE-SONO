@@ -94,12 +94,7 @@ flowchart TB
   class TG,TD,MG,MD support;
 ~~~
 
-| Ensemble | Puissance cumulée |
-|---|---:|
-| Amplificateurs | **3 680 W annoncés** |
-| Enceintes | **1 900 W RMS** |
-
-*Puissances théoriques du matériel, sans rapport direct avec un niveau sonore mesuré.*
+**Puissances cumulées :** amplificateurs **3 680 W annoncés** · enceintes **1 900 W RMS**.
 
 Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
