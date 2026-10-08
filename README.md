@@ -87,7 +87,7 @@ flowchart LR
   class LIBRE reserve;
 ~~~
 
-**Puissances cumulées :** amplificateurs **3 680 W annoncés** · enceintes **1 900 W RMS**.
+**Puissances cumulées :** amplificateurs **3 680 W annoncés** · enceintes **1 900 W RMS**. Cette réserve de puissance exige des réglages adaptés des filtres et limiteurs.
 
 Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
@@ -124,8 +124,6 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 
 **Précision :** les B1520 PRO et A12 sont des enceintes large bande, exploitées ici pour les médiums/aigus selon les filtres du DSP. [B1520 PRO : constructeur](https://www.behringer.com/en/products/0313-AAM) · [A12 : fiche technique Audiofanzine](https://fr.audiofanzine.com/enceinte-sono-full-range/audiophony/A12/).
 
-**Puissances cumulées :** amplificateurs **3 680 W annoncés** · enceintes **1 900 W RMS**.
-
 </details>
 
 </details>
@@ -135,7 +133,7 @@ Le matériel comprend également un rack **THE BOX PRO AMPRACK MK II**.
 <details>
 <summary><strong>Afficher l'implantation actuelle et ses limites</strong></summary>
 
-Selon les estimations tirées du plan de tir, notre installation devrait couvrir la zone de public prévue, mais la diffusion risque d'être **moins homogène aux extrémités**, particulièrement à l'ouest.
+D'après le plan de tir, la plupart des spectateurs de la zone prévue seraient à **moins de 25 m d'une enceinte**. Notre installation semble adaptée à ce périmètre, mais la diffusion pourrait être **moins régulière aux extrémités**, particulièrement à l'ouest. Le dispositif n'est pas destiné à sonoriser l'ensemble du parc.
 
 ### Implantation actuelle
 
@@ -178,22 +176,20 @@ Un **prêt partiel d'un amplificateur et de deux enceintes** reste envisageable 
 
 ### Raccordement et réglages
 
-Le **THE T.RACKS FIR DSP 408** dispose de **4 sorties XLR disponibles (5 à 8)**. Elles permettront de raccorder le renfort, avec des réglages indépendants de **niveau, égalisation, filtres et retard**.
+Le **THE T.RACKS FIR DSP 408** utilise actuellement 4 de ses 8 sorties. Les **sorties XLR 5 à 8**, situées à l'arrière du processeur dans le rack, permettent d'ajouter des points de diffusion avec des réglages propres de **niveau, égalisation, filtres et retard**. Il faudra accéder à l'arrière du rack et configurer leur affectation.
 
-Dans la configuration passive complète, **chaque amplificateur ajouté alimenterait deux enceintes de 8 Ω**, une par canal. Le projet prévoit une même ligne de diffusion, **sans retard a priori** ; ce choix et l'orientation des enceintes devront être confirmés lors des essais. La configuration du DSP sera préparée en fonction du matériel effectivement disponible.
+Avec la solution passive, le signal passe du **DSP en XLR aux amplificateurs**, puis des amplificateurs **aux enceintes en Speakon**. Chaque nouvel amplificateur stéréo alimenterait **deux enceintes de 8 Ω**, une par canal. La même ligne de diffusion est envisagée **sans retard a priori** ; les distances et orientations seront vérifiées lors des essais. Si un prêt est confirmé suffisamment tôt, le câblage et les réglages seront préparés et testés **avant le jour J**.
 
 <details>
 <summary>🔹 Alternative : enceintes actives</summary>
 
-Une autre possibilité serait d'utiliser **2 à 4 enceintes actives de 12″ ou 15″**, avec pieds. Leur amplification intégrée évite l'ajout d'amplificateurs externes, mais impose une **alimentation 230 V à chaque emplacement**, ainsi qu'un câble XLR par enceinte (25 à 50 m envisagés) et des protections adaptées à l'extérieur.
+Si les amplificateurs et les enceintes passives ne sont pas disponibles, **2 à 4 enceintes actives de 12″ ou 15″**, avec pieds, constituent une autre solution. Elles simplifient l'amplification, mais nécessitent du courant et une protection pluie à chaque emplacement.
 
 | Point | Passives (privilégiées) | Actives |
 |---|---|---|
-| Amplification | 1 ou 2 amplis stéréo externes | Intégrée |
-| Signal depuis le DSP | XLR vers les amplificateurs | XLR vers chaque enceinte |
-| Câblage des enceintes | Speakon | Pas de câble haut-parleur |
+| Amplification | 1 à 2 amplificateurs stéréo externes | Intégrée |
+| Câblage depuis le DSP | XLR vers amplis, puis Speakon | XLR par enceinte (25 à 50 m envisagés) |
 | Alimentation 230 V | Près des amplificateurs | À chaque enceinte |
-| Diffusion complémentaire | 2 à 4 enceintes | 2 à 4 enceintes |
 
 </details>
 
