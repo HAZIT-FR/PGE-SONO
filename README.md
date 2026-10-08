@@ -143,20 +143,6 @@ Selon les estimations tirées du plan de tir, notre installation devrait couvrir
 
 ![Légende de l'implantation actuelle](docs/V%20LEGENDE%20PGE.png)
 
-| Point étudié | Estimation |
-|---|---|
-| Zone de public | Environ **90 × 20 m** (plage étudiée : 90–95 m × 15–23 m) |
-| Installation actuelle | **3 points de diffusion** : ouest, centre et est |
-| Distance enceinte-public | Moins de 25 m pour la plupart des positions prévues |
-| Caissons de graves | 2 regroupés au centre (couplage ; gain théorique évoqué d'environ 6 dB) |
-| Enceintes A12 | 2 au centre, orientées vers l'ouest et l'est |
-| Zone la moins bien couverte | Extrémité ouest |
-| Au-delà de 40 à 50 m des enceintes | Musique moins présente, surtout pendant les détonations |
-| Ensemble du parc | Sonorisation non prévue |
-
-Ces résultats sont **théoriques** : ils ne remplacent pas un essai sur place.
-
-
 </details>
 
 ## 3. La solution — renforcer la diffusion
