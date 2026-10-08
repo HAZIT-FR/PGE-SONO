@@ -1,4 +1,11 @@
-# Sonorisation — Feu d'artifice de Champigneulles 2026
+# SONORISATION · CHAMPIGNEULLES 2026
+
+> **DOSSIER TECHNIQUE — SPECTACLE PYROMUSICAL**
+>
+> **Association Pyrotechnique du Grand Est (PGE)** · **6 décembre 2026**
+
+
+---
 
 **Association Pyrotechnique du Grand Est (PGE)**  
 **Spectacle pyromusical : 6 décembre 2026**  
@@ -7,7 +14,7 @@ Document de travail — installation, couverture du public et besoins complémen
 > **Objet du dossier**  
 > Présenter le matériel de sonorisation disponible, expliquer les limites de couverture et proposer un renfort adapté aux extrémités de la zone public.
 
-## En un coup d'œil
+## VUE D’ENSEMBLE
 
 | Installation actuelle | Valeur |
 |---|---:|
@@ -20,82 +27,114 @@ Document de travail — installation, couverture du public et besoins complémen
 
 **Conclusion :** l'équipement existant est dimensionné pour la zone public représentée sur le plan de tir, mais pas pour sonoriser tout le parc. Un renfort de **2 à 4 enceintes** peut améliorer la répartition sonore, notamment aux extrémités.
 
-### Sommaire
+### Navigation rapide
 
-1. [Installation et cheminement audio](#1-installation-et-cheminement-audio)
+1. [Installation et chaîne audio](#1-installation--chaîne-audio)
 2. [Implantation sur le site](#2-implantation-sur-le-site)
 3. [Matériel disponible](#3-matériel-disponible)
-4. [Puissance et couverture](#4-puissance-et-couverture)
-5. [Scénarios d'extension](#5-scénarios-dextension)
-6. [Matériel recherché et logistique](#6-matériel-recherché-et-logistique)
+4. [Puissance et couverture](#4-puissance--couverture)
+5. [Scénarios d’extension](#5-scénarios-dextension)
+6. [Matériel et logistique](#6-matériel-recherché--logistique)
 7. [Points à valider](#7-points-à-valider)
+
 
 ---
 
-## 1. Installation et cheminement audio
+## 1. INSTALLATION & CHAÎNE AUDIO
 
 La **COBRA Audio Box** lit la bande-son MP3 et est synchronisée par radio avec le pupitre de tir. Le signal passe ensuite par la table de mixage, puis par le processeur numérique qui répartit les graves et les médiums/aigus vers les amplificateurs.
 
 ```mermaid
+%%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 35, "htmlLabels": false}, "theme": "base", "themeVariables": {"primaryColor": "#eaf2ff", "primaryTextColor": "#183153", "primaryBorderColor": "#4383cd", "lineColor": "#64748b", "fontSize": "13px"}}}%%
 flowchart TB
-  A["Pupitre COBRA 18R2<br/>Lancement synchronisé"] -. Radio .-> B["COBRA Audio Box<br/>Bande-son MP3"]
-  B -->|RCA| C["Table JCB NSA 2008<br/>Volume / annonces micro"]
-  C -->|XLR| D["Processeur FIR DSP 408<br/>8 sorties / filtrage / EQ / limiteurs"]
-  D -->|"Sorties médiums/aigus G/D"| E["Amplificateur E-1200<br/>2 × 990 W sous 4 Ω"]
-  D -->|"Sorties graves G/D"| F["Amplificateur E-1500<br/>2 × 850 W sous 8 Ω"]
-  E --> G["Gauche : B1520 PRO + A12<br/>300 + 250 W RMS / 4 Ω"]
-  E --> H["Droite : B1520 PRO + A12<br/>300 + 250 W RMS / 4 Ω"]
-  F --> I["Caisson VP1800S gauche<br/>400 W RMS / 8 Ω"]
-  F --> J["Caisson VP1800S droit<br/>400 W RMS / 8 Ω"]
-  D -. "4 sorties disponibles (5 à 8)" .-> K["Renfort possible<br/>amplificateurs + enceintes passives<br/>OU enceintes actives"]
-  classDef available fill:#eaf4ff,stroke:#2563eb,color:#123057;
-  class K available;
+  A["Pupitre COBRA 18R2"]
+  B["COBRA Audio Box"]
+  C["Table JCB NSA 2008"]
+  D["FIR DSP 408"]
+  E["E-1200 · médiums/aigus"]
+  F["E-1500 · graves"]
+  G["2 × B1520 + 2 × A12"]
+  H["2 × VP1800S"]
+  A -. "Radio" .-> B
+  B --> C --> D
+  D --> E --> G
+  D --> F --> H
+  classDef source fill:#f1f5f9,stroke:#64748b,color:#172b4d;
+  classDef processing fill:#dbeafe,stroke:#2563eb,color:#172b4d;
+  classDef output fill:#ecfdf5,stroke:#059669,color:#14532d;
+  class A,B,C source;
+  class D,E,F processing;
+  class G,H output;
 ```
+
+> **Extension disponible :** 4 sorties XLR libres (5 à 8) sur le DSP, pour alimenter d'autres amplificateurs ou des enceintes actives.
 
 > Les **4 sorties libres** du processeur ne sont **pas des sorties amplifiées** : elles permettent de piloter des enceintes actives ou des amplificateurs supplémentaires. Leur affectation doit être programmée et testée.
 
-## 2. Implantation sur le site
+## 2. IMPLANTATION SUR LE SITE
 
 Les emplacements sont **indicatifs** : ils doivent être confirmés avec le plan de tir, les distances de sécurité, le cheminement des câbles et les contraintes réelles du terrain. Les enceintes sont prévues côté tir, environ 1 à 2 m devant la barrière, hors des cercles de 30 m liés au tir bas calibre.
 
-### Configuration actuelle — 3 points de diffusion
+### Configuration actuelle · **3 points de diffusion**
 
-```text
-                         ZONE DE TIR (hors public)
-
-      OUEST                                                 EST
-       [B1520]        [2 caissons + 2 × A12]             [B1520]
-          │                      │                           │
-  ────────┴──────────────────────┴───────────────────────────┴────  BARRIÈRE
-        ↘   ↘                ↙  ↓  ↘                      ↙   ↙
-
-                     ZONE PUBLIC ~ 90–95 m
-                       profondeur ~ 15–23 m
+```mermaid
+%%{init: {"flowchart": {"nodeSpacing": 20, "rankSpacing": 28, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
+flowchart TB
+  subgraph Diffusion["LIGNE DE DIFFUSION · CÔTÉ TIR"]
+    direction LR
+    O["OUEST<br/>B1520"]
+    C["CENTRE<br/>2 × VP1800S<br/>2 × A12"]
+    E["EST<br/>B1520"]
+    O ~~~ C ~~~ E
+  end
+  P["ZONE PUBLIC<br/>environ 90–95 m × 15–23 m"]
+  C --> P
+  classDef speakers fill:#dbeafe,stroke:#2563eb,color:#172b4d;
+  classDef public fill:#ecfdf5,stroke:#059669,color:#14532d;
+  class O,C,E speakers;
+  class P public;
 ```
+
+*Schéma de principe, non à l'échelle. Les positions exactes restent à valider.*
 
 Les **deux caissons sont regroupés au centre** afin de renforcer les graves, plutôt que de les disperser. Les **A12**, montées sur mâts, sont orientées l'une vers l'ouest et l'autre vers l'est. Les B1520 assurent la diffusion sur les côtés.
 
-### Configuration étendue — 7 points de diffusion
+### Configuration étendue · **7 points de diffusion**
 
-```text
-                         ZONE DE TIR (hors public)
-
- OUEST                                                              EST
- [P1]   [B1520]   [P2]   [2 subs + 2 A12]   [P3]   [B1520]   [P4]
-   │       │       │            │            │       │       │
- ──┴───────┴───────┴────────────┴────────────┴───────┴───────┴──  BARRIÈRE
-   ↘       ↘       ↘       ↙ ↓ ↘            ↙       ↙       ↙
-
-                           ZONE PUBLIC
-
- P1 à P4 : enceintes supplémentaires (positions indicatives)
+```mermaid
+%%{init: {"flowchart": {"nodeSpacing": 15, "rankSpacing": 28, "htmlLabels": false}, "theme": "base", "themeVariables": {"fontSize": "12px", "lineColor": "#64748b"}}}%%
+flowchart TB
+  subgraph West["SECTEUR OUEST"]
+    direction TB
+    P1["P1 · renfort"]
+    O["B1520 ouest"]
+    P2["P2 · renfort"]
+  end
+  subgraph Center["CENTRE"]
+    direction TB
+    C["2 caissons + 2 A12"]
+  end
+  subgraph East["SECTEUR EST"]
+    direction TB
+    P3["P3 · renfort"]
+    E["B1520 est"]
+    P4["P4 · renfort"]
+  end
+  West ~~~ Center ~~~ East
+  classDef addition fill:#dbeafe,stroke:#2563eb,color:#172b4d;
+  classDef existing fill:#f1f5f9,stroke:#64748b,color:#172b4d;
+  class P1,P2,P3,P4 addition;
+  class O,C,E existing;
 ```
+
+*Schéma simplifié : 4 renforts (bleu) et points existants (gris). La disposition réelle est à confirmer.*
 
 **Principe :** deux amplificateurs stéréo supplémentaires alimenteraient chacun **deux enceintes passives de 8 Ω** ; chaque enceinte bénéficierait d'une sortie dédiée du DSP, avec niveau et égalisation propres. Le document initial prévoit une diffusion sur la même ligne, sans retard a priori. **Ce point sera à vérifier sur site** en fonction des distances et des orientations réelles.
 
+
 ---
 
-## 3. Matériel disponible
+## 3. MATÉRIEL DISPONIBLE
 
 ### Traitement et amplification
 
@@ -133,9 +172,10 @@ Les **deux caissons sont regroupés au centre** afin de renforcer les graves, pl
 
 </details>
 
+
 ---
 
-## 4. Puissance et couverture
+## 4. PUISSANCE & COUVERTURE
 
 ### Répartition de la puissance
 
@@ -163,9 +203,10 @@ Le dossier retient une baisse approximative de **6 dB à chaque doublement de di
 
 **Cible indiquée dans le dossier :** environ **95 dB au milieu du public**. La vérification des niveaux sonores et des exigences réglementaires applicables devra être faite sur site.
 
+
 ---
 
-## 5. Scénarios d'extension
+## 5. SCÉNARIOS D’EXTENSION
 
 Le processeur FIR DSP 408 dispose de **4 sorties XLR supplémentaires**. Deux voies d'extension sont envisageables :
 
@@ -181,9 +222,10 @@ Le processeur FIR DSP 408 dispose de **4 sorties XLR supplémentaires**. Deux vo
 
 Les sorties **5 à 8**, accessibles à l'arrière du processeur dans le rack, nécessitent une configuration dédiée. Les nouveaux éléments devront être préparés et testés **avant le jour du spectacle**, si du matériel est prêté.
 
+
 ---
 
-## 6. Matériel recherché et logistique
+## 6. MATÉRIEL RECHERCHÉ & LOGISTIQUE
 
 ### Prêt recherché auprès de la commune ou d'un partenaire
 
@@ -211,9 +253,10 @@ Les sorties **5 à 8**, accessibles à l'arrière du processeur dans le rack, n�
 | **Essai sonore** | Environ **30 minutes** avant la tombée de la nuit |
 | **Météo** | Housses de pluie pour les enceintes et rack couvert |
 
+
 ---
 
-## 7. Points à valider
+## 7. POINTS À VALIDER
 
 - [ ] Vérifier les emplacements exacts des points de diffusion sur le **plan de sécurité**.
 - [ ] Confirmer la disponibilité et les caractéristiques du matériel prêté.
@@ -222,6 +265,7 @@ Les sorties **5 à 8**, accessibles à l'arrière du processeur dans le rack, n�
 - [ ] Valider les délais éventuels entre enceintes lors de l'essai sur site.
 - [ ] Mesurer et ajuster les niveaux sonores dans la zone public.
 - [ ] Vérifier les exigences réglementaires applicables à cette manifestation.
+
 
 ---
 
