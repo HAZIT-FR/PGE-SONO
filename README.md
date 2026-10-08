@@ -4,6 +4,8 @@
 
 Dossier technique de l'installation PGE, des contraintes de diffusion sur le site de Champigneulles et de la solution envisagée.
 
+**Accès rapide :** [Matériel PGE](#1-notre-installation--matériel-pge) · [Problématique](#2-la-problématique--sonorisation-du-public) · [Demande de prêt](#3-la-solution--renforcer-la-diffusion) · [Conditions d'installation](#4-conditions-dinstallation--sécurité-et-logistique)
+
 ## 1. Notre installation — matériel PGE
 
 <details open>
@@ -145,51 +147,49 @@ D'après le plan de tir, la plupart des spectateurs de la zone prévue seraient 
 
 ## 3. La solution — renforcer la diffusion
 
-<details>
-<summary><strong>Afficher l'implantation proposée et les besoins</strong></summary>
+Pour compléter les **3 points de diffusion existants** et mieux couvrir les extrémités du public, PGE souhaite mettre en place **4 points supplémentaires**.
 
-Pour améliorer la répartition du son aux extrémités du public, nous proposons de **conserver toute l'installation PGE** et de compléter la diffusion avec **2 amplificateurs et 4 enceintes passives**. Le dispositif passerait ainsi de **3 à 7 points de diffusion**, sans modifier les 2 caissons de graves existants.
+### Matériel demandé à la commune ou à un partenaire
+
+**Solution privilégiée : prêt d'enceintes passives et d'amplificateurs.**
+
+| Matériel sollicité | Quantité | Caractéristiques souhaitées |
+|---|---:|---|
+| **Enceintes passives avec supports** | **4** | 8 Ω |
+| **Amplificateurs stéréo** | **2** | Au moins 2 × 500 W sous 8 Ω chacun |
+| Câbles Speakon | 4 | 1 par enceinte ; 25 à 50 m envisagés |
+| Câbles XLR | À définir | Du processeur vers les amplificateurs |
+| Protections pluie | Selon implantation | Pour le matériel installé à l'extérieur |
+
+**Un prêt partiel reste possible :** 1 amplificateur et 2 enceintes permettraient déjà d'ajouter 2 points de diffusion.
+
+<details>
+<summary>🔹 Voir le plan d'implantation et les possibilités techniques</summary>
 
 ### Implantation envisagée
 
-Le plan ci-dessous montre où seraient placés les quatre points supplémentaires par rapport au matériel actuel.
+Le renfort complète le matériel PGE, **sans remplacer les enceintes ni les caissons existants**.
 
 ![Plan de sonorisation — implantation avec quatre enceintes passives supplémentaires](docs/V%20PROPOSE%20PGE.png)
 
 ![Légende de l'implantation envisagée](docs/V%20LEGENDE%20PGE.png)
 
-*Positionnement et angles de couverture indicatifs, à confirmer sur site.*
+*Implantation et angles de couverture indicatifs, à confirmer sur site.*
 
-### Matériel à mobiliser
+### Si du matériel actif est disponible
 
-La **solution privilégiée** repose sur des enceintes passives, alimentées par des amplificateurs stéréo supplémentaires. Elle permet de conserver la chaîne audio actuelle et d'utiliser les sorties encore libres du processeur.
-
-| Matériel | Quantité | Besoin |
-|---|---:|---|
-| Amplificateurs stéréo | **2** | Au moins 2 × 500 W sous 8 Ω chacun |
-| Enceintes passives | **4** | 8 Ω, avec supports |
-| Câbles Speakon | 4 | 1 par enceinte ; 25 à 50 m envisagés |
-| Câbles XLR | Selon implantation | Du DSP vers les amplificateurs |
-| Protections pluie | Selon implantation | Pour les amplificateurs et les enceintes |
-
-Un **prêt partiel d'un amplificateur et de deux enceintes** reste envisageable : il permettrait un renfort réduit à deux points supplémentaires.
-
-### Raccordement et réglages
-
-Le **THE T.RACKS FIR DSP 408** utilise actuellement 4 de ses 8 sorties. Les **sorties XLR 5 à 8**, situées à l'arrière du processeur dans le rack, permettent d'ajouter des points de diffusion avec des réglages propres de **niveau, égalisation, filtres et retard**. Il faudra accéder à l'arrière du rack et configurer leur affectation.
-
-Avec la solution passive, le signal passe du **DSP en XLR aux amplificateurs**, puis des amplificateurs **aux enceintes en Speakon**. Chaque nouvel amplificateur stéréo alimenterait **deux enceintes de 8 Ω**, une par canal. La même ligne de diffusion est envisagée **sans retard a priori** ; les distances et orientations seront vérifiées lors des essais. Si un prêt est confirmé suffisamment tôt, le câblage et les réglages seront préparés et testés **avant le jour J**.
+À défaut d'enceintes passives et d'amplificateurs, le prêt de **2 à 4 enceintes actives de 12″ ou 15″**, avec pieds, est également envisageable. Cette option demande un **câble XLR par enceinte** (25 à 50 m envisagés), une **alimentation 230 V à chaque emplacement** et une protection contre la pluie.
 
 <details>
-<summary>🔹 Alternative : enceintes actives</summary>
+<summary>🔹 Raccordement et réglages — détails PGE</summary>
 
-Si les amplificateurs et les enceintes passives ne sont pas disponibles, **2 à 4 enceintes actives de 12″ ou 15″**, avec pieds, constituent une autre solution. Elles simplifient l'amplification, mais nécessitent du courant et une protection pluie à chaque emplacement.
+Le **THE T.RACKS FIR DSP 408** utilise actuellement **4 sorties sur 8**. Les **4 sorties XLR libres (5 à 8)**, accessibles à l'arrière du rack, permettraient d'ajouter le renfort après configuration du routage.
 
-| Point | Passives (privilégiées) | Actives |
-|---|---|---|
-| Amplification | 1 à 2 amplificateurs stéréo externes | Intégrée |
-| Câblage depuis le DSP | XLR vers amplis, puis Speakon | XLR par enceinte (25 à 50 m envisagés) |
-| Alimentation 230 V | Près des amplificateurs | À chaque enceinte |
+- **Enceintes passives :** DSP → XLR → amplificateurs → Speakon → enceintes. Chaque amplificateur stéréo alimente **2 enceintes de 8 Ω**, une par canal.
+- **Enceintes actives :** DSP → XLR → enceintes, avec amplification et alimentation sur chaque point.
+- **Réglages :** niveaux, égalisation, filtres et retard ajustables par sortie. Une même ligne de diffusion est envisagée, **sans retard a priori**, à confirmer sur place.
+
+Si le prêt est confirmé suffisamment tôt, PGE préparera et testera les raccordements et les réglages **avant le spectacle**.
 
 </details>
 
@@ -197,40 +197,28 @@ Si les amplificateurs et les enceintes passives ne sont pas disponibles, **2 à 
 
 ## 4. Conditions d'installation — sécurité et logistique
 
+**Point indispensable : l'implantation définitive doit être validée sur le plan de sécurité, quel que soit le matériel prêté.**
+
 <details open>
-<summary><strong>Afficher les exigences et les vérifications avant le spectacle</strong></summary>
+<summary><strong>Afficher les conditions à prévoir sur site</strong></summary>
 
-Quel que soit le renfort choisi, **l'implantation définitive doit être validée sur le plan de sécurité**. La mise en œuvre dépend notamment des distances de sécurité, de l'alimentation électrique et de l'accès au site.
-
-### Implantation et sécurité
-
-Les enceintes sont envisagées à **1 à 2 m devant la barrière**, côté tir, à une hauteur de **2,5 à 3 m**.
-
-Ces positions devront rester **en dehors des cercles de sécurité de 30 m liés au petit calibre** et être confirmées à partir du plan de tir.
-
-### Alimentation et protection météo
-
-Le rack nécessite une **ligne dédiée 230 V / 16 A**, sans buvette ni chauffage sur le même circuit.
-
-Si des amplificateurs supplémentaires sont ajoutés, prévoir **une seconde ligne électrique adaptée**.
-
-En décembre, protéger le **rack**, les **amplificateurs** et les **enceintes** contre la pluie : rack couvert, housses et protections adaptées.
-
-### Accès, manutention et essais
-
-Le véhicule doit pouvoir décharger le matériel **au plus près** des emplacements. La manutention concerne notamment les caissons de **41 kg** et les **B1520 PRO de 27 kg**.
-
-Réserver un créneau d'environ **30 minutes avant la tombée de la nuit** pour les essais sonores et les derniers réglages.
+| Point à organiser | Conditions prévues |
+|---|---|
+| **Implantation / sécurité** | Enceintes à **1 à 2 m devant la barrière**, côté tir ; hors des cercles de sécurité de **30 m** liés au petit calibre ; hauteur envisagée de **2,5 à 3 m**, sous réserve de validation. |
+| **Électricité** | Rack sur ligne dédiée **230 V / 16 A**, sans buvette ni chauffage ; **seconde ligne adaptée** en cas d'ajout d'amplificateurs. |
+| **Accès / manutention** | Déchargement au plus près ; caissons de **41 kg** et B1520 PRO de **27 kg**. |
+| **Protection météo** | Rack couvert et protections adaptées contre la pluie pour amplificateurs et enceintes. |
+| **Essais** | Environ **30 min avant la tombée de la nuit** pour les vérifications sonores. |
 
 <details>
-<summary>🔹 Vérifications avant le spectacle</summary>
+<summary>🔹 Vérifications techniques avant le spectacle — PGE</summary>
 
-- [ ] Confirmer les emplacements avec le plan de tir et les distances de sécurité.
-- [ ] Vérifier la disponibilité et la compatibilité du matériel prêté.
-- [ ] Prévoir la longueur, le passage et la protection des câbles.
+- [ ] Valider les emplacements, les distances de sécurité et la hauteur des supports.
+- [ ] Confirmer le prêt et la compatibilité du matériel.
+- [ ] Prévoir les longueurs, le passage et la protection des câbles.
 - [ ] Vérifier les alimentations et les protections contre la pluie.
-- [ ] Régler les sorties du DSP, les filtres et les limiteurs.
-- [ ] Ajuster les niveaux, la couverture et les éventuels retards sur place.
+- [ ] Préparer les sorties DSP, les filtres et les limiteurs.
+- [ ] Tester les niveaux, la couverture et les éventuels retards.
 - [ ] Vérifier les niveaux sonores et la réglementation applicable.
 
 </details>
