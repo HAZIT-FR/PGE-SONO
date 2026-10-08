@@ -6,7 +6,7 @@ Dossier technique de l'installation PGE, des contraintes de diffusion sur le sit
 
 ## 1. Notre installation — matériel PGE
 
-<details>
+<details open>
 <summary><strong>Afficher le matériel et les branchements</strong></summary>
 
 Le dispositif existant comprend **2 amplificateurs**, **4 enceintes de diffusion** et **2 caissons de graves**, répartis sur **3 points de diffusion**.
@@ -16,7 +16,7 @@ Le dispositif existant comprend **2 amplificateurs**, **4 enceintes de diffusion
 La musique est lancée par la **COBRA AUDIO BOX**, synchronisée avec le **poste de tir COBRA 18R2**.
 
 ~~~mermaid
-%%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 28, "htmlLabels": true, "wrappingWidth": 320}, "theme": "base", "themeVariables": {"fontSize": "13px", "lineColor": "#64748b"}}}%%
+%%{init: {"flowchart": {"useMaxWidth": true, "nodeSpacing": 16, "rankSpacing": 24, "htmlLabels": true, "wrappingWidth": 260}, "theme": "base", "themeVariables": {"fontSize": "12px", "lineColor": "#64748b"}}}%%
 flowchart TB
   A["<b>COMMANDE</b><br/>Poste de tir<br/>COBRA 18R2"]
   B["<b>LECTURE AUDIO</b><br/>Bande-son MP3<br/>COBRA AUDIO BOX"]
