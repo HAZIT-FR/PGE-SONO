@@ -145,20 +145,6 @@ Selon les estimations tirées du plan de tir, notre installation devrait couvrir
 
 Ces résultats sont **théoriques** : ils ne remplacent pas un essai sur place.
 
-<details>
-<summary>🔹 Puissances nominales</summary>
-
-### Puissance nominale
-
-| Circuit | Amplificateurs | Enceintes RMS | Ratio |
-|---|---:|---:|---:|
-| Médiums/aigus, 2 canaux à 4 Ω | 1 980 W | 1 100 W | × 1,8 |
-| Graves, 2 canaux à 8 Ω | 1 700 W | 800 W | × 2,1 |
-| **Total** | **3 680 W** | **1 900 W** | **≈ × 1,9** |
-
-Ces ratios ne dispensent pas de régler correctement le filtrage, les limiteurs et les niveaux.
-
-</details>
 
 </details>
 
