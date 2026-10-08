@@ -42,7 +42,7 @@ Les RFC 2119 et 8174 définissent **MUST**, **SHOULD**, **MAY**, etc., pour cert
 ## Diagrammes et tableaux
 
 - Utiliser Mermaid pour les chaînes fonctionnelles, avec une disposition **verticale** et des libellés courts pour limiter le débordement latéral.
-- Regrouper les éléments techniques sous des sections HTML **<details>** avec un titre explicite **<summary>**, ouvertes à la demande par chevron GitHub.
+- Regrouper les éléments techniques sous des sections HTML **`<details>`** avec un titre explicite **`<summary>`**, ouvertes à la demande par chevron GitHub.
 - Expliquer la légende en **texte**, sans s'appuyer seulement sur les couleurs.
 - Mentionner « schéma de principe » lorsqu'un diagramme n'est pas à l'échelle.
 - Donner au maximum trois ou quatre colonnes aux tableaux visibles dans le README ; placer les données détaillées dans une section repliable au sein du README.
